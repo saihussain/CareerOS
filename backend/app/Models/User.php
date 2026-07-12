@@ -51,4 +51,8 @@ public function learnings()
 {
     return $this->hasMany(Learning::class);
 }
+public function achievements()
+{
+    return $this->hasMany(Achievement::class);
+}
 }
