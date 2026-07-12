@@ -5,6 +5,7 @@ use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\ProfileController;
 use App\Http\Controllers\Api\ExperienceController;
 use App\Http\Controllers\Api\SkillController;
+use App\Http\Controllers\Api\ProjectController;
 
 
 Route::post('/register', [AuthController::class, 'register']);
@@ -32,6 +33,11 @@ Route::post('/skills', [SkillController::class, 'store']);
 Route::get('/skills', [SkillController::class, 'index']);
 Route::put('/skills/{skill}', [SkillController::class, 'update']);
 Route::delete('/skills/{skill}', [SkillController::class, 'destroy']);
+
+Route::post('/projects', [ProjectController::class, 'store']);
+Route::get('/projects', [ProjectController::class, 'index']);
+Route::put('/projects/{project}', [ProjectController::class, 'update']);
+Route::delete('/projects/{project}', [ProjectController::class, 'destroy']);
 
 
 });
