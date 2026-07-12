@@ -47,4 +47,8 @@ public function projects()
 {
     return $this->hasMany(Project::class);
 }
+public function learnings()
+{
+    return $this->hasMany(Learning::class);
+}
 }

@@ -13,6 +13,18 @@ return new class extends Migration
     {
         Schema::create('learnings', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')
+             ->constrained()
+             ->cascadeOnDelete();
+            $table->string('title');
+            $table->string('platform');
+            $table->string('domain');
+            $table->enum('status', [
+                'In Progress',
+                'Completed'
+            ])->default('In Progress');
+            $table->date('started_on')->nullable();
+            $table->date('completed_on')->nullable();
             $table->timestamps();
         });
     }
