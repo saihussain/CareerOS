@@ -5,6 +5,7 @@ namespace App\Models;
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Laravel\Sanctum\HasApiTokens;
 use Database\Factories\UserFactory;
+use App\Models\Education;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -34,4 +35,8 @@ class User extends Authenticatable
     {
      return $this->hasOne(Profile::class);
     }
+    public function educations()
+{
+    return $this->hasMany(Education::class);
+}
 }
