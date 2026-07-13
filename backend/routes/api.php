@@ -52,4 +52,6 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::delete('/achievements/{achievement}', [AchievementController::class, 'destroy']);
 
     Route::get('/resume', [ResumeController::class, 'generate']);
+    Route::get('/resume/pdf', [ResumeController::class, 'download']);
+    
 });

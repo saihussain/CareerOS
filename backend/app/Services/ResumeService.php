@@ -19,6 +19,11 @@ class ResumeService
                 'name' => $user->profile?->full_name,
                 'email' => $user->email,
                 'phone' => $user->profile?->mobile_number,
+                'location' => collect([
+                    $user->profile?->city,
+                    $user->profile?->state,
+                    $user->profile?->country,
+                ])->filter()->implode(', '),
                 'linkedin' => $user->profile?->linkedin_url,
                 'github' => $user->profile?->github_url,
             ],
