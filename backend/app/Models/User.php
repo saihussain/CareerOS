@@ -55,4 +55,8 @@ public function achievements()
 {
     return $this->hasMany(Achievement::class);
 }
+public function skills()
+{
+    return $this->hasMany(Skill::class);
+}
 }
