@@ -11,7 +11,7 @@ use App\Http\Controllers\Api\AchievementController;
 use App\Http\Controllers\Api\ResumeController;
 use App\Http\Controllers\Api\CoreController;
 use App\Http\Controllers\Api\InterviewController;
-use App\Http\Controllers\Api\LearningController;
+
 
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
