@@ -4,13 +4,13 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Services\LearningService;
+use App\Services\InterviewService;
 use App\Services\ResumeParserService;
 
-class LearningController extends Controller
+class InterviewController extends Controller
 {
     public function __construct(
-        protected LearningService $learningService,
+        protected InterviewService $interviewService,
         protected ResumeParserService $parser
     ) {}
 
@@ -25,14 +25,14 @@ class LearningController extends Controller
             $request->file('resume')->getRealPath()
         );
 
-        $recommendations = $this->learningService->generate(
+        $questions = $this->interviewService->generate(
             $resumeText,
             $request->target_role
         );
 
         return response()->json([
             'success' => true,
-            'data' => $recommendations
+            'data' => $questions
         ]);
     }
 }

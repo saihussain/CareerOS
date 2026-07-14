@@ -10,7 +10,8 @@ use App\Http\Controllers\Api\LearningController;
 use App\Http\Controllers\Api\AchievementController;
 use App\Http\Controllers\Api\ResumeController;
 use App\Http\Controllers\Api\CoreController;
-
+use App\Http\Controllers\Api\InterviewController;
+use App\Http\Controllers\Api\LearningController;
 
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
@@ -57,5 +58,14 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/resume/pdf', [ResumeController::class, 'download']);
     
     Route::post('/core/analyze', [CoreController::class, 'analyze']);
+    
+    Route::post('/interview/generate', [InterviewController::class, 'generate']);
+
+    Route::post(
+        '/learning/recommendations',
+        [LearningController::class, 'generate']
+    );
+
+
     
 });

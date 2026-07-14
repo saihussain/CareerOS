@@ -10,7 +10,7 @@ use App\Core\Scoring\GradeCalculator;
 use App\Core\Diagnostics\ATSAnalyzer;
 use App\Core\Diagnostics\RoleMatchEngine;
 use App\Core\Diagnostics\HiringProbabilityEngine;
-
+use App\Core\Diagnostics\SkillGapEngine;
 
 class CoreEngine
 {
@@ -38,6 +38,8 @@ class CoreEngine
 
         // Step 3: Get AI analysis
         $analysis = $this->ai->analyze($prompt);
+
+        $skillGap = SkillGapEngine::analyze($analysis);
 
         // Step 4: Career Readiness Index (CRI)
         $careerReadinessIndex = ScoreCalculator::calculate(
@@ -79,6 +81,7 @@ class CoreEngine
             'strengths' => $analysis['strengths'],
 
             'weaknesses' => $analysis['weaknesses'],
+            'skill_gap' => $skillGap,
 
             'missing_skills' => $analysis['missing_skills'],
 

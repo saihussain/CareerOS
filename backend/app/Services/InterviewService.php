@@ -4,7 +4,7 @@ namespace App\Services;
 
 use App\Core\AI\AIService;
 
-class LearningService
+class InterviewService
 {
     public function __construct(
         protected AIService $ai
@@ -17,26 +17,24 @@ class LearningService
 
         $prompt = <<<PROMPT
 
-You are a senior career mentor.
+You are an expert technical interviewer.
 
-Based on the resume and target role, recommend:
+Generate interview questions for the following candidate.
+
+Target Role:
+{$targetRole}
+
+Resume:
+{$resumeText}
 
 Return ONLY JSON.
 
 {
-    "skills_to_learn":[],
-    "courses":[],
+    "technical":[],
+    "hr":[],
     "projects":[],
-    "certifications":[]
+    "missing_skills":[]
 }
-
-Target Role:
-
-{$targetRole}
-
-Resume:
-
-{$resumeText}
 
 PROMPT;
 

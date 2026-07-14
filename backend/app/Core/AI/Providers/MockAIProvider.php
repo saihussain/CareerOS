@@ -8,95 +8,228 @@ class MockAIProvider implements AIProviderInterface
 {
     public function generate(string $prompt): array
     {
-        return [
+        $prompt = strtolower($prompt);
 
-            'evaluation' => [
+        /*
+        |--------------------------------------------------------------------------
+        | Interview Preparation
+        |--------------------------------------------------------------------------
+        */
 
-                'summary' => [
-                    'rating' => 'GOOD',
-                    'reason' => 'Professional summary is clear and relevant.'
+        if (str_contains($prompt, 'expert technical interviewer')) {
+
+            return [
+
+                'technical' => [
+
+                    'Explain Dependency Injection in Laravel.',
+                    'What are Laravel Service Providers?',
+                    'Difference between PUT and PATCH?',
+                    'Explain REST API Authentication.',
+                    'How does Eloquent ORM work?'
+
                 ],
 
-                'skills' => [
-                    'rating' => 'GOOD',
-                    'reason' => 'Technical skills match the target role.'
+                'hr' => [
+
+                    'Tell me about yourself.',
+                    'Why should we hire you?',
+                    'Describe a challenge you faced during your internship.',
+                    'Where do you see yourself in five years?'
+
                 ],
 
                 'projects' => [
-                    'rating' => 'EXCELLENT',
-                    'reason' => 'Projects demonstrate practical experience.'
+
+                    'Explain the architecture of CareerOS.',
+                    'Why did you choose Laravel?',
+                    'How did you implement Resume Parsing?',
+                    'How would you scale CareerOS to one million users?'
+
                 ],
 
-                'experience' => [
-                    'rating' => 'AVERAGE',
-                    'reason' => 'Relevant internship experience.'
+                'missing_skills' => [
+
+                    'What is Docker?',
+                    'Explain AWS EC2.',
+                    'How does Redis improve performance?'
+
+                ]
+
+            ];
+        }
+
+        /*
+        |--------------------------------------------------------------------------
+        | Learning Recommendations
+        |--------------------------------------------------------------------------
+        */
+
+        if (str_contains($prompt, 'senior career mentor')) {
+
+            return [
+
+                'skills_to_learn' => [
+
+                    'Docker',
+                    'AWS',
+                    'Redis',
+                    'CI/CD'
+
                 ],
 
-                'education' => [
-                    'rating' => 'GOOD',
-                    'reason' => 'Education aligns with career goals.'
+                'courses' => [
+
+                    'Docker Mastery',
+                    'AWS Cloud Practitioner',
+                    'Redis Essentials',
+                    'CI/CD for Beginners'
+
                 ],
 
-                'ats' => [
-                    'rating' => 'GOOD',
-                    'reason' => 'Resume structure is ATS compatible.'
+                'projects' => [
+
+                    'Deploy CareerOS on AWS',
+                    'Build a Microservices REST API',
+                    'Realtime Chat Application using WebSockets'
+
                 ],
 
-                'role_match' => [
-                    'rating' => 'GOOD',
-                    'reason' => 'Resume matches target role reasonably well.'
+                'certifications' => [
+
+                    'AWS Cloud Practitioner',
+                    'Docker Certified Associate'
+
+                ]
+
+            ];
+        }
+
+        /*
+        |--------------------------------------------------------------------------
+        | Resume Analysis (CORE™)
+        |--------------------------------------------------------------------------
+        */
+
+        return [
+
+            "candidate" => [
+
+                "name" => "Sai Hussain",
+
+                "current_role" => "Backend Developer Intern",
+
+                "experience_years" => 2,
+
+                "education" => [
+
+                    [
+
+                        "degree" => "B.Tech",
+
+                        "field" => "Computer Science",
+
+                        "institution" => "ABC Engineering College"
+
+                    ]
+
+                ],
+
+                "skills" => [
+
+                    "Laravel",
+                    "PHP",
+                    "Flutter",
+                    "PostgreSQL",
+                    "REST API",
+                    "Git"
+
+                ],
+
+                "soft_skills" => [
+
+                    "Communication",
+                    "Leadership",
+                    "Problem Solving"
+
+                ],
+
+                "projects" => [
+
+                    "CareerOS",
+                    "Student Management System"
+
                 ]
 
             ],
 
-            'strengths' => [
-                'Strong Laravel experience',
-                'Good project portfolio',
-                'Clear resume structure'
+            "target_role" => [
+
+                "title" => "Backend Developer",
+
+                "required_skills" => [
+
+                    "Laravel",
+                    "PHP",
+                    "REST API",
+                    "Docker",
+                    "AWS",
+                    "Redis",
+                    "Git"
+
+                ],
+
+                "preferred_skills" => [
+
+                    "CI/CD",
+                    "Microservices",
+                    "System Design"
+
+                ]
+
             ],
 
-            'weaknesses' => [
-                'Limited cloud exposure',
-                'Missing DevOps skills'
-            ],
+            "analysis" => [
 
-            'missing_skills' => [
-                'Docker',
-                'AWS',
-                'Redis'
-            ],
+                "strengths" => [
 
-            'recommended_skills' => [
-                'Docker',
-                'AWS',
-                'CI/CD',
-                'System Design'
-            ],
+                    "Strong Laravel knowledge",
+                    "Good backend architecture",
+                    "Solid project portfolio"
 
-            'recommended_projects' => [
-                'Deploy CareerOS on AWS',
-                'Microservices REST API',
-                'Realtime Chat Application'
-            ],
+                ],
 
-            'learning_roadmap' => [
-                'Docker Fundamentals',
-                'AWS EC2',
-                'Redis',
-                'CI/CD Pipeline'
-            ],
+                "weaknesses" => [
 
-            'interview_topics' => [
-                'Laravel',
-                'REST APIs',
-                'Authentication',
-                'Database Optimization'
-            ],
+                    "Limited cloud experience",
+                    "No DevOps exposure"
 
-            'priority_actions' => [
-                'Learn Docker',
-                'Deploy one cloud project',
-                'Improve ATS keywords'
+                ],
+
+                "missing_skills" => [
+
+                    "Docker",
+                    "AWS",
+                    "Redis"
+
+                ],
+
+                "ats_issues" => [
+
+                    "Add more role-specific keywords"
+
+                ],
+
+                "grammar_issues" => [
+
+                ],
+
+                "format_issues" => [
+
+                ],
+
+                "summary" => "Strong backend developer profile with good project experience. Improving cloud and DevOps skills will significantly increase placement opportunities."
+
             ]
 
         ];
