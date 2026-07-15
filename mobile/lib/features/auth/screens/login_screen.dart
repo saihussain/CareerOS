@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+import '../repositories/auth_repository.dart';
+import '../models/login_request.dart';
+import '../../../core/storage/secure_storage.dart';
+import '../../dashboard/screens/dashboard_screen.dart';
+
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
@@ -11,7 +16,67 @@ class _LoginScreenState extends State<LoginScreen> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
 
+  final AuthRepository repository = AuthRepository();
+  final SecureStorage storage = SecureStorage();
+
+  bool loading = false;
   bool obscurePassword = true;
+
+  Future<void> login() async {
+    if (emailController.text.isEmpty ||
+        passwordController.text.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text("Please fill all fields."),
+        ),
+      );
+      return;
+    }
+
+    setState(() {
+      loading = true;
+    });
+
+    try {
+      final response = await repository.login(
+        LoginRequest(
+          email: emailController.text.trim(),
+          password: passwordController.text,
+        ),
+      );
+
+      await storage.saveToken(response.token);
+      final savedToken = await storage.getToken();
+      debugPrint("Saved Token: $savedToken");
+
+      if (!mounted) return;
+
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (_) => DashboardScreen(
+            email: response.user['email'],
+          ),
+        ),
+      );
+    } catch (e) {
+      if (!mounted) return;
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            e.toString().replaceFirst("Exception: ", ""),
+          ),
+        ),
+      );
+    }
+
+    if (mounted) {
+      setState(() {
+        loading = false;
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -25,8 +90,6 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-
-                  const SizedBox(height: 40),
 
                   const Icon(
                     Icons.school,
@@ -51,11 +114,10 @@ class _LoginScreenState extends State<LoginScreen> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.grey,
-                      fontSize: 16,
                     ),
                   ),
 
-                  const SizedBox(height: 50),
+                  const SizedBox(height: 40),
 
                   TextField(
                     controller: emailController,
@@ -95,11 +157,15 @@ class _LoginScreenState extends State<LoginScreen> {
                   SizedBox(
                     height: 55,
                     child: ElevatedButton(
-                      onPressed: () {},
-                      child: const Text(
-                        "Login",
-                        style: TextStyle(fontSize: 18),
-                      ),
+                      onPressed: loading ? null : login,
+                      child: loading
+                          ? const CircularProgressIndicator(
+                              color: Colors.white,
+                            )
+                          : const Text(
+                              "Login",
+                              style: TextStyle(fontSize: 18),
+                            ),
                     ),
                   ),
 
@@ -107,9 +173,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
                   TextButton(
                     onPressed: () {},
-                    child: const Text(
-                      "Create Account",
-                    ),
+                    child: const Text("Create Account"),
                   ),
 
                 ],
