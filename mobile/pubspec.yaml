@@ -30,9 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+ 
   cupertino_icons: ^1.0.8
-
+  file_picker: ^10.3.2
   flutter_riverpod: ^3.0.3
   go_router: ^16.2.1
   dio: ^5.9.0

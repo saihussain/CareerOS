@@ -2,42 +2,62 @@
 
 namespace App\Services;
 
-use App\Core\AI\AIService;
-
 class InterviewService
 {
-    public function __construct(
-        protected AIService $ai
-    ) {}
+    public function firstQuestion(
+        string $role,
+        string $type,
+        string $difficulty
+    ): string {
 
-    public function generate(
-        string $resumeText,
-        string $targetRole
+        return "Tell me about yourself and why you want to become a {$role}.";
+    }
+
+    public function nextQuestion(
+        int $questionNumber
+    ): string {
+
+        $questions = [
+
+            2 => "Explain one project you have worked on.",
+
+            3 => "What are your biggest strengths?",
+
+            4 => "How would you solve a difficult technical problem?",
+
+            5 => "Why should we hire you?",
+
+        ];
+
+        return $questions[$questionNumber]
+            ?? "Thank you.";
+    }
+
+    public function evaluate(
+        string $answer
     ): array {
 
-        $prompt = <<<PROMPT
+        $length = strlen(trim($answer));
 
-You are an expert technical interviewer.
+        $score = min(
+            100,
+            max(
+                20,
+                intval($length / 3)
+            )
+        );
 
-Generate interview questions for the following candidate.
+        return [
 
-Target Role:
-{$targetRole}
+            "score" => $score,
 
-Resume:
-{$resumeText}
+            "feedback" =>
+                $score >= 80
+                    ? "Excellent answer."
+                    : ($score >= 60
+                        ? "Good answer. Add more technical details."
+                        : "Answer is too short. Try explaining with examples."),
 
-Return ONLY JSON.
-
-{
-    "technical":[],
-    "hr":[],
-    "projects":[],
-    "missing_skills":[]
-}
-
-PROMPT;
-
-        return $this->ai->analyze($prompt);
+        ];
     }
 }

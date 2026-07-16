@@ -5,7 +5,6 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use App\Core\AI\Contracts\AIProviderInterface;
 use App\Core\AI\Providers\GeminiProvider;
-use App\Core\AI\Providers\MockAIProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -15,8 +14,8 @@ class AppServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->bind(
-         AIProviderInterface::class,
-         MockAIProvider::class
+            AIProviderInterface::class,
+            GeminiProvider::class
         );
     }
 

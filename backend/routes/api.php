@@ -59,7 +59,10 @@ Route::middleware('auth:sanctum')->group(function () {
     
     Route::post('/core/analyze', [CoreController::class, 'analyze']);
     
-    Route::post('/interview/generate', [InterviewController::class, 'generate']);
+    Route::post('/interview/start', [InterviewController::class, 'start']);
+    
+   Route::post('/interview/answer', [InterviewController::class, 'answer']);
+   Route::get('/interview/end/{session}', [InterviewController::class, 'end']);
 
     Route::post(
         '/learning/recommendations',
