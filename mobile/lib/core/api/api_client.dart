@@ -8,7 +8,7 @@ class ApiClient {
   ApiClient() {
     dio = Dio(
       BaseOptions(
-        baseUrl: 'https://clamor-unwomanly-mantra.ngrok-free.dev/api',
+        baseUrl: 'http://127.0.0.1:8000/api',
         connectTimeout: const Duration(seconds: 30),
         receiveTimeout: const Duration(seconds: 30),
         headers: {
@@ -26,8 +26,19 @@ class ApiClient {
             options.headers['Authorization'] = 'Bearer $token';
           }
 
-          return handler.next(options);
+          handler.next(options);
         },
+      ),
+    );
+
+    dio.interceptors.add(
+      LogInterceptor(
+        request: true,
+        requestHeader: true,
+        requestBody: true,
+        responseBody: true,
+        responseHeader: false,
+        error: true,
       ),
     );
   }

@@ -10,7 +10,7 @@ class ProfileRepository {
     final response = await dio.get('/profile');
 
     return ProfileModel.fromJson(
-      response.data['profile'],
+      response.data['data'],
     );
   }
 

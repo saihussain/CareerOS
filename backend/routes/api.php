@@ -11,6 +11,7 @@ use App\Http\Controllers\Api\AchievementController;
 use App\Http\Controllers\Api\ResumeController;
 use App\Http\Controllers\Api\CoreController;
 use App\Http\Controllers\Api\InterviewController;
+use App\Http\Controllers\Api\AnalyticsController;
 
 
 Route::post('/register', [AuthController::class, 'register']);
@@ -68,7 +69,12 @@ Route::middleware('auth:sanctum')->group(function () {
         '/learning/recommendations',
         [LearningController::class, 'generate']
     );
-
+    
+    Route::get('/analytics', [AnalyticsController::class, 'index']);
+    Route::get(
+        '/analytics',
+        [AnalyticsController::class, 'index']
+    );
 
     
 });

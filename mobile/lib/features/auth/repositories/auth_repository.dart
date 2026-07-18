@@ -17,14 +17,26 @@ class AuthRepository {
       return LoginResponse.fromJson(response.data);
     } on DioException catch (e) {
       if (e.response != null) {
-        throw Exception(
-          e.response!.data["message"],
-        );
+        final data = e.response!.data;
+
+        if (data is Map<String, dynamic> &&
+            data.containsKey("message")) {
+          throw Exception(data["message"]);
+        }
+
+        throw Exception("Login failed.");
       }
 
-      throw Exception(
-        "Unable to connect to server.",
-      );
+      throw Exception("Unable to connect to server.");
+    }
+  }
+
+  Future<void> logout() async {
+    try {
+      await _api.dio.post("/logout");
+    } on DioException catch (_) {
+      // Even if the backend logout fails,
+      // we'll still clear the local session.
     }
   }
 }

@@ -27,6 +27,10 @@ class _ExperienceScreenState
   }
 
   Future<void> loadExperiences() async {
+    setState(() {
+      loading = true;
+    });
+
     try {
       experiences =
           await repository.getExperiences();
@@ -35,7 +39,9 @@ class _ExperienceScreenState
         ScaffoldMessenger.of(context)
             .showSnackBar(
           SnackBar(
-            content: Text(e.toString()),
+            content: Text(
+              e.toString(),
+            ),
           ),
         );
       }
@@ -49,44 +55,69 @@ class _ExperienceScreenState
   }
 
   Future<void> deleteExperience(
-      int id) async {
+    int id,
+  ) async {
     await repository.deleteExperience(id);
 
     await loadExperiences();
   }
 
-  void addExperienceDialog() {
+  void showExperienceDialog({
+    ExperienceModel? experience,
+  }) {
     final company =
-        TextEditingController();
+        TextEditingController(
+      text: experience?.companyName ?? "",
+    );
 
     final title =
-        TextEditingController();
+        TextEditingController(
+      text: experience?.jobTitle ?? "",
+    );
 
     final employment =
-        TextEditingController();
+        TextEditingController(
+      text:
+          experience?.employmentType ??
+              "",
+    );
 
     final location =
-        TextEditingController();
+        TextEditingController(
+      text: experience?.location ?? "",
+    );
 
     final start =
-        TextEditingController();
+        TextEditingController(
+      text: experience?.startDate ?? "",
+    );
 
     final end =
-        TextEditingController();
+        TextEditingController(
+      text: experience?.endDate ?? "",
+    );
 
     final description =
-        TextEditingController();
+        TextEditingController(
+      text:
+          experience?.description ?? "",
+    );
 
-    bool current = false;
+    bool currentlyWorking =
+        experience?.currentlyWorking ??
+            false;
 
     showDialog(
       context: context,
       builder: (_) {
         return StatefulBuilder(
-          builder: (context, setDialog) {
+          builder:
+              (context, setDialogState) {
             return AlertDialog(
-              title: const Text(
-                "Add Experience",
+              title: Text(
+                experience == null
+                    ? "Add Experience"
+                    : "Edit Experience",
               ),
               content:
                   SingleChildScrollView(
@@ -132,8 +163,7 @@ class _ExperienceScreenState
                     ),
 
                     TextField(
-                      controller:
-                          start,
+                      controller: start,
                       decoration:
                           const InputDecoration(
                         labelText:
@@ -142,8 +172,7 @@ class _ExperienceScreenState
                     ),
 
                     TextField(
-                      controller:
-                          end,
+                      controller: end,
                       decoration:
                           const InputDecoration(
                         labelText:
@@ -163,14 +192,16 @@ class _ExperienceScreenState
                     ),
 
                     CheckboxListTile(
-                      value: current,
+                      value:
+                          currentlyWorking,
                       title: const Text(
                         "Currently Working",
                       ),
-                      onChanged: (v) {
-                        setDialog(() {
-                          current =
-                              v ?? false;
+                      onChanged: (value) {
+                        setDialogState(() {
+                          currentlyWorking =
+                              value ??
+                                  false;
                         });
                       },
                     ),
@@ -190,39 +221,73 @@ class _ExperienceScreenState
 
                 ElevatedButton(
                   onPressed: () async {
-                    await repository
-                        .addExperience(
-                      companyName:
-                          company.text,
-                      jobTitle:
-                          title.text,
-                      employmentType:
-                          employment.text,
-                      location:
-                          location.text,
-                      startDate:
-                          start.text,
-                      endDate: end
-                              .text
-                              .isEmpty
-                          ? null
-                          : end.text,
-                      currentlyWorking:
-                          current,
-                      description:
-                          description.text,
-                    );
 
-                    if (!mounted)
-                      return;
+                    if (experience ==
+                        null) {
+
+                      await repository
+                          .addExperience(
+                        companyName:
+                            company.text,
+                        jobTitle:
+                            title.text,
+                        employmentType:
+                            employment.text,
+                        location:
+                            location.text,
+                        startDate:
+                            start.text,
+                        endDate:
+                            end.text.isEmpty
+                                ? null
+                                : end.text,
+                        currentlyWorking:
+                            currentlyWorking,
+                        description:
+                            description
+                                .text,
+                      );
+
+                    } else {
+
+                      await repository
+                          .updateExperience(
+                        id: experience.id,
+                        companyName:
+                            company.text,
+                        jobTitle:
+                            title.text,
+                        employmentType:
+                            employment.text,
+                        location:
+                            location.text,
+                        startDate:
+                            start.text,
+                        endDate:
+                            end.text.isEmpty
+                                ? null
+                                : end.text,
+                        currentlyWorking:
+                            currentlyWorking,
+                        description:
+                            description
+                                .text,
+                      );
+
+                    }
+
+                    if (!mounted) return;
 
                     Navigator.pop(
                         context);
 
                     loadExperiences();
                   },
-                  child:
-                      const Text("Save"),
+                  child: Text(
+                    experience == null
+                        ? "Save"
+                        : "Update",
+                  ),
                 ),
               ],
             );
@@ -231,39 +296,95 @@ class _ExperienceScreenState
       },
     );
   }
-
-  Widget experienceCard(
-      ExperienceModel item) {
+    Widget experienceCard(
+    ExperienceModel experience,
+  ) {
     return Card(
+      margin: const EdgeInsets.only(
+        bottom: 12,
+      ),
       child: ListTile(
-        title: Text(item.jobTitle),
+        title: Text(
+          experience.jobTitle,
+          style: const TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         subtitle: Text(
-          "${item.companyName}\n${item.startDate} - ${item.currentlyWorking ? "Present" : item.endDate ?? ""}",
+          "${experience.companyName}\n"
+          "${experience.employmentType}\n"
+          "${experience.startDate} - "
+          "${experience.currentlyWorking ? "Present" : (experience.endDate ?? "")}",
         ),
         isThreeLine: true,
-        trailing: IconButton(
-          icon: const Icon(
-            Icons.delete,
-            color: Colors.red,
-          ),
-          onPressed: () {
-            deleteExperience(item.id);
+        trailing: PopupMenuButton<String>(
+          onSelected: (value) {
+            if (value == "edit") {
+              showExperienceDialog(
+                experience: experience,
+              );
+            }
+
+            if (value == "delete") {
+              deleteExperience(
+                experience.id,
+              );
+            }
           },
+          itemBuilder: (_) => const [
+
+            PopupMenuItem(
+              value: "edit",
+              child: Row(
+                children: [
+                  Icon(Icons.edit),
+                  SizedBox(width: 10),
+                  Text("Edit"),
+                ],
+              ),
+            ),
+
+            PopupMenuItem(
+              value: "delete",
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.delete,
+                    color: Colors.red,
+                  ),
+                  SizedBox(width: 10),
+                  Text("Delete"),
+                ],
+              ),
+            ),
+
+          ],
         ),
       ),
     );
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(
+    BuildContext context,
+  ) {
     return Scaffold(
-      appBar:
-          AppBar(title: const Text("Experience")),
+      appBar: AppBar(
+        title: const Text(
+          "Experience",
+        ),
+      ),
+
       floatingActionButton:
           FloatingActionButton(
-        onPressed: addExperienceDialog,
-        child: const Icon(Icons.add),
+        onPressed: () {
+          showExperienceDialog();
+        },
+        child: const Icon(
+          Icons.add,
+        ),
       ),
+
       body: loading
           ? const Center(
               child:
@@ -272,7 +393,7 @@ class _ExperienceScreenState
           : experiences.isEmpty
               ? const Center(
                   child: Text(
-                    "No Experience Added",
+                    "No experience added.",
                   ),
                 )
               : RefreshIndicator(
@@ -285,10 +406,11 @@ class _ExperienceScreenState
                     itemCount:
                         experiences.length,
                     itemBuilder:
-                        (_, index) =>
-                            experienceCard(
-                      experiences[index],
-                    ),
+                        (context, index) {
+                      return experienceCard(
+                        experiences[index],
+                      );
+                    },
                   ),
                 ),
     );

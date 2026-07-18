@@ -4,7 +4,7 @@ import '../../resume/screens/resume_screen.dart';
 
 import '../../learning/pages/learning_page.dart';
 
-import '../../profile/pages/profile_screen.dart';
+import '../../profile/screens/profile_screen.dart';
 
 class DashboardScreen extends StatelessWidget {
   final String email;
@@ -36,7 +36,7 @@ class DashboardScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) => const ProfilePage(),
+                    builder: (_) => const ProfileScreen(),
                   ),
                 );
               },
@@ -128,7 +128,7 @@ class DashboardScreen extends StatelessWidget {
               crossAxisCount: 2,
               crossAxisSpacing: 15,
               mainAxisSpacing: 15,
-              childAspectRatio: 1.15,
+              childAspectRatio: 0.92,
               children: [
                 _featureCard(
                   context,
@@ -266,7 +266,7 @@ class DashboardScreen extends StatelessWidget {
         borderRadius: BorderRadius.circular(18),
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.all(18),
+          padding: const EdgeInsets.all(14),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -279,7 +279,7 @@ class DashboardScreen extends StatelessWidget {
                   size: 30,
                 ),
               ),
-              const SizedBox(height: 15),
+              const SizedBox(height: 10),
               Text(
                 title,
                 textAlign: TextAlign.center,

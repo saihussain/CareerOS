@@ -26,7 +26,7 @@ class InterviewRepository {
     );
   }
 
-  Future<InterviewResultModel> submitAnswer({
+  Future<InterviewResult> submitAnswer({
     required int sessionId,
     required int questionNumber,
     required String answer,
@@ -40,7 +40,7 @@ class InterviewRepository {
       },
     );
 
-    return InterviewResultModel.fromJson(
+    return InterviewResult.fromJson(
       response.data,
     );
   }

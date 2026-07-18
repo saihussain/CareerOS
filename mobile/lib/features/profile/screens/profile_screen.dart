@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/storage/secure_storage.dart';
+import '../../auth/repositories/auth_repository.dart';
+import '../../auth/screens/login_screen.dart';
+
 import 'edit_profile_screen.dart';
 import '../../education/screens/education_screen.dart';
 import '../../experience/screens/experience_screen.dart';
@@ -32,7 +36,9 @@ class ProfileScreen extends StatelessWidget {
             fontWeight: FontWeight.w600,
           ),
         ),
-        trailing: const Icon(Icons.arrow_forward_ios_rounded),
+        trailing: const Icon(
+          Icons.arrow_forward_ios_rounded,
+        ),
         onTap: onTap,
       ),
     );
@@ -48,7 +54,6 @@ class ProfileScreen extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-
             const CircleAvatar(
               radius: 50,
               child: Icon(
@@ -80,7 +85,6 @@ class ProfileScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(20),
                 child: Column(
                   children: [
-
                     const Text(
                       "Profile Completion",
                       style: TextStyle(
@@ -92,8 +96,7 @@ class ProfileScreen extends StatelessWidget {
 
                     LinearProgressIndicator(
                       value: 0.80,
-                      borderRadius:
-                          BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(20),
                     ),
 
                     const SizedBox(height: 10),
@@ -119,8 +122,7 @@ class ProfileScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) =>
-                        const EditProfileScreen(),
+                    builder: (_) => const EditProfileScreen(),
                   ),
                 );
               },
@@ -134,8 +136,7 @@ class ProfileScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) =>
-                        const EducationScreen(),
+                    builder: (_) => const EducationScreen(),
                   ),
                 );
               },
@@ -149,14 +150,12 @@ class ProfileScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) =>
-                        const ExperienceScreen(),
+                    builder: (_) => const ExperienceScreen(),
                   ),
                 );
               },
             ),
-
-            menuCard(
+                        menuCard(
               context: context,
               icon: Icons.code,
               title: "Skills",
@@ -164,8 +163,7 @@ class ProfileScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) =>
-                        const SkillsScreen(),
+                    builder: (_) => const SkillsScreen(),
                   ),
                 );
               },
@@ -179,8 +177,7 @@ class ProfileScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) =>
-                        const ProjectsScreen(),
+                    builder: (_) => const ProjectsScreen(),
                   ),
                 );
               },
@@ -194,8 +191,7 @@ class ProfileScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) =>
-                        const AchievementsScreen(),
+                    builder: (_) => const AchievementsScreen(),
                   ),
                 );
               },
@@ -211,12 +207,38 @@ class ProfileScreen extends StatelessWidget {
                 label: const Text(
                   "Logout",
                 ),
-                onPressed: () {
-                  Navigator.pop(context);
+                onPressed: () async {
+                  try {
+                    await AuthRepository().logout();
+
+                    await SecureStorage().clear();
+
+                    if (!context.mounted) return;
+
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const LoginScreen(),
+                      ),
+                      (route) => false,
+                    );
+                  } catch (e) {
+                    if (!context.mounted) return;
+
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(
+                          e.toString().replaceFirst(
+                            "Exception: ",
+                            "",
+                          ),
+                        ),
+                      ),
+                    );
+                  }
                 },
               ),
             ),
-
           ],
         ),
       ),
