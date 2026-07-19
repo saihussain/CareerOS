@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 
+import '../../profile/screens/profile_screen.dart';
 import '../../resume/screens/resume_screen.dart';
 
-import '../../learning/pages/learning_page.dart';
-
-import '../../profile/screens/profile_screen.dart';
-
-class DashboardScreen extends StatelessWidget {
+class DashboardScreen extends StatefulWidget {
   final String email;
 
   const DashboardScreen({
@@ -15,22 +12,32 @@ class DashboardScreen extends StatelessWidget {
   });
 
   @override
+  State<DashboardScreen> createState() => _DashboardScreenState();
+}
+
+class _DashboardScreenState extends State<DashboardScreen> {
+  int currentIndex = 0;
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.shade100,
+      backgroundColor: const Color(0xffF6F8FC),
+
       appBar: AppBar(
         elevation: 0,
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
         title: const Text(
-          'CareerOS',
+          "CareerOS",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         actions: [
           IconButton(
             onPressed: () {},
-            icon: const Icon(Icons.notifications_none_rounded),
+            icon: const Icon(Icons.notifications_none),
           ),
           Padding(
-            padding: const EdgeInsets.only(right: 12),
+            padding: const EdgeInsets.only(right: 14),
             child: GestureDetector(
               onTap: () {
                 Navigator.push(
@@ -47,61 +54,87 @@ class DashboardScreen extends StatelessWidget {
           ),
         ],
       ),
+
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+
             Text(
               "Welcome Back 👋",
-              style: Theme.of(context).textTheme.titleLarge,
+              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
             ),
+
             const SizedBox(height: 6),
+
             Text(
-              email,
+              widget.email,
               style: const TextStyle(
-                fontSize: 17,
                 color: Colors.grey,
+                fontSize: 16,
               ),
             ),
+
             const SizedBox(height: 25),
 
-            // Career Score Card
             Container(
               width: double.infinity,
               padding: const EdgeInsets.all(22),
               decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  colors: [
+                    Color(0xff2563EB),
+                    Color(0xff4F46E5),
+                  ],
+                ),
                 borderRadius: BorderRadius.circular(20),
-                color: Colors.blue,
               ),
               child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+
+                  Text(
+                    "Career Goal",
+                    style: TextStyle(
+                      color: Colors.white70,
+                    ),
+                  ),
+
+                  SizedBox(height: 8),
+
+                  Text(
+                    "AI Engineer",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 28,
+                    ),
+                  ),
+
+                  SizedBox(height: 22),
+
                   Text(
                     "Career Readiness",
                     style: TextStyle(
                       color: Colors.white70,
-                      fontSize: 16,
                     ),
                   ),
+
                   SizedBox(height: 10),
-                  Text(
-                    "82%",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 42,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  SizedBox(height: 15),
+
                   LinearProgressIndicator(
                     value: 0.82,
                     minHeight: 8,
                     backgroundColor: Colors.white24,
                   ),
-                  SizedBox(height: 12),
+
+                  SizedBox(height: 10),
+
                   Text(
-                    "You're progressing well. Keep learning!",
+                    "82% Ready for Placements",
                     style: TextStyle(
                       color: Colors.white,
                     ),
@@ -113,7 +146,7 @@ class DashboardScreen extends StatelessWidget {
             const SizedBox(height: 30),
 
             const Text(
-              "Features",
+              "Today's Tasks",
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
@@ -122,20 +155,174 @@ class DashboardScreen extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            GridView.count(
-              shrinkWrap: true,
-              physics: const NeverScrollableScrollPhysics(),
-              crossAxisCount: 2,
-              crossAxisSpacing: 15,
-              mainAxisSpacing: 15,
-              childAspectRatio: 0.92,
-              children: [
-                _featureCard(
-                  context,
-                  Icons.description_outlined,
-                  "Resume",
-                  Colors.blue,
-                  () {
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: const ListTile(
+                leading: Icon(
+                  Icons.check_circle_outline,
+                  color: Colors.orange,
+                ),
+                title: Text("Complete Resume"),
+                subtitle: Text("Generate your ATS Resume"),
+              ),
+            ),
+
+            const SizedBox(height: 10),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: const ListTile(
+                leading: Icon(
+                  Icons.check_circle_outline,
+                  color: Colors.green,
+                ),
+                title: Text("Complete Profile"),
+                subtitle: Text("Keep profile 100% complete"),
+              ),
+            ),
+
+            const SizedBox(height: 10),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: const ListTile(
+                leading: Icon(
+                  Icons.check_circle_outline,
+                  color: Colors.red,
+                ),
+                title: Text("Take Aptitude Test"),
+                subtitle: Text("Improve placement readiness"),
+              ),
+            ),
+
+            const SizedBox(height: 30),
+
+            const Text(
+              "Recommended Skills",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 22,
+              ),
+            ),
+
+            const SizedBox(height: 15),
+
+            Wrap(
+              spacing: 10,
+              runSpacing: 10,
+              children: const [
+                Chip(label: Text("Flutter")),
+                Chip(label: Text("Dart")),
+                Chip(label: Text("REST API")),
+                Chip(label: Text("Git")),
+                Chip(label: Text("Firebase")),
+                Chip(label: Text("SQL")),
+                Chip(label: Text("Python")),
+              ],
+            ),
+
+            const SizedBox(height: 30),
+
+            const Text(
+              "Recommended Courses",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 22,
+              ),
+            ),
+
+            const SizedBox(height: 15),
+                        Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: const ListTile(
+                leading: CircleAvatar(
+                  backgroundColor: Color(0xffE3F2FD),
+                  child: Icon(
+                    Icons.play_circle_fill,
+                    color: Colors.blue,
+                  ),
+                ),
+                title: Text("Flutter Complete Bootcamp"),
+                subtitle: Text("Recommended based on your career goal"),
+              ),
+            ),
+
+            const SizedBox(height: 10),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: const ListTile(
+                leading: CircleAvatar(
+                  backgroundColor: Color(0xffE8F5E9),
+                  child: Icon(
+                    Icons.school,
+                    color: Colors.green,
+                  ),
+                ),
+                title: Text("Git & GitHub"),
+                subtitle: Text("Essential for every software engineer"),
+              ),
+            ),
+
+            const SizedBox(height: 10),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: const ListTile(
+                leading: CircleAvatar(
+                  backgroundColor: Color(0xffFFF3E0),
+                  child: Icon(
+                    Icons.code,
+                    color: Colors.orange,
+                  ),
+                ),
+                title: Text("Data Structures & Algorithms"),
+                subtitle: Text("Highly recommended for placements"),
+              ),
+            ),
+
+            const SizedBox(height: 30),
+
+            const Text(
+              "Resume Status",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 22,
+              ),
+            ),
+
+            const SizedBox(height: 15),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(18),
+              ),
+              child: ListTile(
+                leading: const CircleAvatar(
+                  backgroundColor: Colors.green,
+                  child: Icon(
+                    Icons.description,
+                    color: Colors.white,
+                  ),
+                ),
+                title: const Text("Resume Generator"),
+                subtitle: const Text(
+                  "Generate your professional ATS resume.",
+                ),
+                trailing: ElevatedButton(
+                  onPressed: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -143,103 +330,39 @@ class DashboardScreen extends StatelessWidget {
                       ),
                     );
                   },
+                  child: const Text("Open"),
                 ),
-                _featureCard(
-                  context,
-                  Icons.record_voice_over_outlined,
-                  "Interview",
-                  Colors.orange,
-                  () {},
-                ),
-                _featureCard(
-                  context,
-                  Icons.school_outlined,
-                  "Learning",
-                  Colors.green,
-                  () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => const LearningPage(),
-                      )
-                    );
-                  },
-                ),
-                _featureCard(
-                  context,
-                  Icons.business_center_outlined,
-                  "Companies",
-                  Colors.purple,
-                  () {},
-                ),
-                _featureCard(
-                  context,
-                  Icons.code,
-                  "Coding",
-                  Colors.teal,
-                  () {},
-                ),
-                _featureCard(
-                  context,
-                  Icons.calculate_outlined,
-                  "Aptitude",
-                  Colors.red,
-                  () {},
-                ),
-                _featureCard(
-                  context,
-                  Icons.analytics_outlined,
-                  "Analytics",
-                  Colors.indigo,
-                  () {},
-                ),
-                _featureCard(
-                  context,
-                  Icons.work_outline,
-                  "Jobs",
-                  Colors.brown,
-                  () {},
-                ),
-              ],
+              ),
             ),
 
             const SizedBox(height: 30),
 
-            const Text(
-              "Recent Activity",
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-
-            const SizedBox(height: 15),
-
-            Card(
-              shape: RoundedRectangleBorder(
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                color: Colors.indigo,
                 borderRadius: BorderRadius.circular(18),
               ),
-              child: const ListTile(
-                leading: CircleAvatar(
-                  child: Icon(Icons.description),
-                ),
-                title: Text("Resume uploaded"),
-                subtitle: Text("AI analysis will appear here."),
-              ),
-            ),
-
-            const SizedBox(height: 12),
-
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(18),
-              ),
-              child: const ListTile(
-                leading: CircleAvatar(
-                  child: Icon(Icons.record_voice_over),
-                ),
-                title: Text("Interview module"),
-                subtitle: Text("Ready to start your first mock interview."),
+              child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Keep Learning 🚀",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Text(
+                    "Complete today's tasks to improve your placement readiness.",
+                    style: TextStyle(
+                      color: Colors.white70,
+                    ),
+                  ),
+                ],
               ),
             ),
 
@@ -247,50 +370,68 @@ class DashboardScreen extends StatelessWidget {
           ],
         ),
       ),
-    );
-  }
 
-  Widget _featureCard(
-    BuildContext context,
-    IconData icon,
-    String title,
-    Color color,
-    VoidCallback onTap,
-  ) {
-    return Card(
-      elevation: 3,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(18),
-      ),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(18),
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.all(14),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              CircleAvatar(
-                radius: 28,
-                backgroundColor: color.withOpacity(0.12),
-                child: Icon(
-                  icon,
-                  color: color,
-                  size: 30,
-                ),
+      bottomNavigationBar: NavigationBar(
+        selectedIndex: currentIndex,
+        onDestinationSelected: (index) {
+          setState(() {
+            currentIndex = index;
+          });
+
+          if (index == 1) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (_) => const ResumeScreen(),
               ),
-              const SizedBox(height: 10),
-              Text(
-                title,
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
-                ),
+            );
+          } else if (index == 2) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text("Analytics module coming soon"),
               ),
-            ],
+            );
+          } else if (index == 3) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text("Interview module coming soon"),
+              ),
+            );
+          } else if (index == 4) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text("Test module coming soon"),
+              ),
+            );
+          }
+        },
+        destinations: const [
+          NavigationDestination(
+            icon: Icon(Icons.home_outlined),
+            selectedIcon: Icon(Icons.home),
+            label: "Home",
           ),
-        ),
+          NavigationDestination(
+            icon: Icon(Icons.description_outlined),
+            selectedIcon: Icon(Icons.description),
+            label: "Resume",
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.analytics_outlined),
+            selectedIcon: Icon(Icons.analytics),
+            label: "Analytics",
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.record_voice_over_outlined),
+            selectedIcon: Icon(Icons.record_voice_over),
+            label: "Interview",
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.quiz_outlined),
+            selectedIcon: Icon(Icons.quiz),
+            label: "Test",
+          ),
+        ],
       ),
     );
   }
