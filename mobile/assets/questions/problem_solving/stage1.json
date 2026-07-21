@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "topic": "Logical Reasoning",
+    "difficulty": "Easy",
+    "question": "If all Roses are Flowers and some Flowers are Red, which statement is definitely true?",
+    "options": [
+      "All Roses are Red",
+      "Some Roses are Red",
+      "All Roses are Flowers",
+      "No Roses are Red"
+    ],
+    "correct_answer": 2,
+    "explanation": "The only guaranteed conclusion is that all Roses are Flowers."
+  },
+  {
+    "id": 2,
+    "topic": "Pattern Recognition",
+    "difficulty": "Easy",
+    "question": "Find the next number in the series: 2, 4, 8, 16, ?",
+    "options": [
+      "24",
+      "30",
+      "32",
+      "36"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each number is multiplied by 2."
+  },
+  {
+    "id": 3,
+    "topic": "Coding-Decoding",
+    "difficulty": "Easy",
+    "question": "If CAT is coded as DBU, then DOG is coded as:",
+    "options": [
+      "EPH",
+      "EPG",
+      "FQI",
+      "EOH"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward: D→E, O→P, G→H."
+  },
+  {
+    "id": 4,
+    "topic": "Blood Relations",
+    "difficulty": "Easy",
+    "question": "A is the father of B. B is the sister of C. C is the mother of D. How is A related to D?",
+    "options": [
+      "Grandfather",
+      "Father",
+      "Uncle",
+      "Brother"
+    ],
+    "correct_answer": 0,
+    "explanation": "A is C's father, making A the grandfather of D."
+  },
+  {
+    "id": 5,
+    "topic": "Direction Sense",
+    "difficulty": "Easy",
+    "question": "A person walks 10 m North, then 10 m East. In which direction is he from the starting point?",
+    "options": [
+      "North-East",
+      "South-East",
+      "North-West",
+      "West"
+    ],
+    "correct_answer": 0,
+    "explanation": "The final position is to the North-East of the starting point."
+  },
+  {
+    "id": 6,
+    "topic": "Analogy",
+    "difficulty": "Easy",
+    "question": "Book : Reading :: Fork : ?",
+    "options": [
+      "Writing",
+      "Eating",
+      "Cooking",
+      "Drawing"
+    ],
+    "correct_answer": 1,
+    "explanation": "A fork is primarily used for eating."
+  },
+  {
+    "id": 7,
+    "topic": "Classification",
+    "difficulty": "Easy",
+    "question": "Which one is different from the others?",
+    "options": [
+      "Apple",
+      "Banana",
+      "Carrot",
+      "Mango"
+    ],
+    "correct_answer": 2,
+    "explanation": "Carrot is a vegetable; the others are fruits."
+  },
+  {
+    "id": 8,
+    "topic": "Series",
+    "difficulty": "Easy",
+    "question": "Find the missing term: A, C, E, G, ?",
+    "options": [
+      "H",
+      "I",
+      "J",
+      "K"
+    ],
+    "correct_answer": 1,
+    "explanation": "Letters increase by skipping one alphabet each time."
+  },
+  {
+    "id": 9,
+    "topic": "Logical Reasoning",
+    "difficulty": "Easy",
+    "question": "Which number does not belong? 3, 5, 7, 9, 11",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "correct_answer": 3,
+    "explanation": "9 is not a prime number."
+  },
+  {
+    "id": 10,
+    "topic": "Clock",
+    "difficulty": "Easy",
+    "question": "How many degrees are there between the hour and minute hands at 3:00?",
+    "options": [
+      "60°",
+      "75°",
+      "90°",
+      "120°"
+    ],
+    "correct_answer": 2,
+    "explanation": "At 3:00, the hands are perpendicular, forming a 90° angle."
+  },
+  {
+    "id": 11,
+    "topic": "Calendar",
+    "difficulty": "Easy",
+    "question": "If today is Monday, what day will it be after 10 days?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "correct_answer": 1,
+    "explanation": "10 mod 7 = 3 days ahead. Monday + 3 = Thursday."
+  },
+  {
+    "id": 12,
+    "topic": "Puzzle",
+    "difficulty": "Easy",
+    "question": "If 5 machines make 5 products in 5 minutes, how many minutes will 100 machines take to make 100 products?",
+    "options": [
+      "5",
+      "20",
+      "50",
+      "100"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each machine makes one product in 5 minutes."
+  },
+  {
+    "id": 13,
+    "topic": "Decision Making",
+    "difficulty": "Easy",
+    "question": "A project deadline is tomorrow, but you discover a critical bug. What should you do first?",
+    "options": [
+      "Ignore it",
+      "Report it immediately and start fixing it",
+      "Release anyway",
+      "Delete the code"
+    ],
+    "correct_answer": 1,
+    "explanation": "Critical issues should be reported immediately and addressed."
+  },
+  {
+    "id": 14,
+    "topic": "Critical Thinking",
+    "difficulty": "Easy",
+    "question": "Which action demonstrates good problem-solving?",
+    "options": [
+      "Guessing",
+      "Analyzing the problem before acting",
+      "Ignoring constraints",
+      "Copying others blindly"
+    ],
+    "correct_answer": 1,
+    "explanation": "Effective problem-solving starts with understanding the problem."
+  },
+  {
+    "id": 15,
+    "topic": "Sequence",
+    "difficulty": "Easy",
+    "question": "Find the next number: 1, 1, 2, 3, 5, ?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_answer": 2,
+    "explanation": "This is the Fibonacci sequence."
+  },
+  {
+    "id": 16,
+    "topic": "Coding-Decoding",
+    "difficulty": "Easy",
+    "question": "If PEN is coded as QFO, then INK is coded as:",
+    "options": [
+      "JOL",
+      "JML",
+      "JNK",
+      "KOL"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 17,
+    "topic": "Logical Puzzle",
+    "difficulty": "Easy",
+    "question": "Three friends—A, B, and C—are standing in a line. A is not at either end. C is to the right of A. Who is in the middle?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "Cannot be determined"
+    ],
+    "correct_answer": 0,
+    "explanation": "A cannot be at either end, so A must stand in the middle. C is on the right, and B is on the left."
+  },
+    {
+    "id": 18,
+    "topic": "Logical Reasoning",
+    "difficulty": "Easy",
+    "question": "Which number should come next in the series: 5, 10, 20, 40, ?",
+    "options": [
+      "60",
+      "70",
+      "80",
+      "90"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each number is doubled: 5×2=10, 10×2=20, 20×2=40, 40×2=80."
+  },
+  {
+    "id": 19,
+    "topic": "Analogy",
+    "difficulty": "Easy",
+    "question": "Bird : Nest :: Bee : ?",
+    "options": [
+      "Honey",
+      "Hive",
+      "Flower",
+      "Tree"
+    ],
+    "correct_answer": 1,
+    "explanation": "A bird lives in a nest, while bees live in a hive."
+  },
+  {
+    "id": 20,
+    "topic": "Classification",
+    "difficulty": "Easy",
+    "question": "Which word is different from the others?",
+    "options": [
+      "Square",
+      "Triangle",
+      "Rectangle",
+      "Circle"
+    ],
+    "correct_answer": 3,
+    "explanation": "Circle has no sides, while the others are polygons."
+  },
+  {
+    "id": 21,
+    "topic": "Coding-Decoding",
+    "difficulty": "Easy",
+    "question": "If APPLE is coded as BQQMF, then GRAPE is coded as:",
+    "options": [
+      "HSBQF",
+      "HSBQG",
+      "HRBQF",
+      "HSCRF"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 22,
+    "topic": "Direction Sense",
+    "difficulty": "Easy",
+    "question": "A person walks 5 km South, then 5 km West. In which direction is he from the starting point?",
+    "options": [
+      "North-East",
+      "South-West",
+      "North-West",
+      "South-East"
+    ],
+    "correct_answer": 1,
+    "explanation": "Moving South and then West places the person in the South-West direction."
+  },
+  {
+    "id": 23,
+    "topic": "Blood Relations",
+    "difficulty": "Easy",
+    "question": "P is the mother of Q. Q is the brother of R. How is P related to R?",
+    "options": [
+      "Grandmother",
+      "Mother",
+      "Sister",
+      "Aunt"
+    ],
+    "correct_answer": 1,
+    "explanation": "If Q and R are siblings, then P is also the mother of R."
+  },
+  {
+    "id": 24,
+    "topic": "Series",
+    "difficulty": "Easy",
+    "question": "Find the next letter: Z, X, V, T, ?",
+    "options": [
+      "S",
+      "R",
+      "Q",
+      "P"
+    ],
+    "correct_answer": 1,
+    "explanation": "Letters move backward by two positions: Z, X, V, T, R."
+  },
+  {
+    "id": 25,
+    "topic": "Clock",
+    "difficulty": "Easy",
+    "question": "At 6:00, what is the angle between the hour and minute hands?",
+    "options": [
+      "90°",
+      "180°",
+      "120°",
+      "150°"
+    ],
+    "correct_answer": 1,
+    "explanation": "At 6:00, the hands are opposite each other, forming 180°."
+  },
+  {
+    "id": 26,
+    "topic": "Calendar",
+    "difficulty": "Easy",
+    "question": "If today is Friday, what day will it be after 15 days?",
+    "options": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Tuesday"
+    ],
+    "correct_answer": 0,
+    "explanation": "15 mod 7 = 1. One day after Friday is Saturday."
+  },
+  {
+    "id": 27,
+    "topic": "Logical Puzzle",
+    "difficulty": "Easy",
+    "question": "There are 12 eggs. You take away 4. How many eggs do you have?",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "correct_answer": 0,
+    "explanation": "You have the 4 eggs that you took away."
+  },
+  {
+    "id": 28,
+    "topic": "Critical Thinking",
+    "difficulty": "Easy",
+    "question": "Before solving a complex problem, what is the best first step?",
+    "options": [
+      "Guess the answer",
+      "Understand the problem requirements",
+      "Start coding immediately",
+      "Ask someone else to solve it"
+    ],
+    "correct_answer": 1,
+    "explanation": "Understanding the problem is the first step in effective problem-solving."
+  },
+  {
+    "id": 29,
+    "topic": "Decision Making",
+    "difficulty": "Easy",
+    "question": "Your team has two possible solutions. What is the best approach?",
+    "options": [
+      "Choose randomly",
+      "Evaluate the pros and cons of each",
+      "Ignore both",
+      "Delay the decision forever"
+    ],
+    "correct_answer": 1,
+    "explanation": "Comparing alternatives leads to better decision-making."
+  },
+  {
+    "id": 30,
+    "topic": "Pattern Recognition",
+    "difficulty": "Easy",
+    "question": "Find the missing number: 1, 4, 9, 16, ?, 36",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "30"
+    ],
+    "correct_answer": 2,
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5², 6²."
+  },
+  {
+    "id": 31,
+    "topic": "Logical Reasoning",
+    "difficulty": "Easy",
+    "question": "Which number does not belong? 2, 4, 8, 15, 16",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "15"
+    ],
+    "correct_answer": 3,
+    "explanation": "15 is the only number that is not a power of 2."
+  },
+  {
+    "id": 32,
+    "topic": "Puzzle",
+    "difficulty": "Easy",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep remain?",
+    "options": [
+      "8",
+      "9",
+      "17",
+      "0"
+    ],
+    "correct_answer": 1,
+    "explanation": "'All but 9 die' means 9 sheep remain alive."
+  },
+  {
+    "id": 33,
+    "topic": "Sequence",
+    "difficulty": "Easy",
+    "question": "Find the next number: 3, 6, 12, 24, ?",
+    "options": [
+      "36",
+      "42",
+      "48",
+      "60"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each number is multiplied by 2."
+  },
+  {
+    "id": 34,
+    "topic": "Logical Puzzle",
+    "difficulty": "Easy",
+    "question": "Which month has 28 days?",
+    "options": [
+      "February",
+      "Only leap-year February",
+      "All months",
+      "January"
+    ],
+    "correct_answer": 2,
+    "explanation": "Every month has at least 28 days."
+  },
+    {
+    "id": 35,
+    "topic": "Logical Reasoning",
+    "difficulty": "Easy",
+    "question": "Find the next number in the series: 7, 14, 21, 28, ?",
+    "options": [
+      "32",
+      "35",
+      "36",
+      "42"
+    ],
+    "correct_answer": 1,
+    "explanation": "The series increases by 7 each time."
+  },
+  {
+    "id": 36,
+    "topic": "Pattern Recognition",
+    "difficulty": "Easy",
+    "question": "Complete the pattern: AB, DE, GH, ?",
+    "options": [
+      "IJ",
+      "JK",
+      "KL",
+      "MN"
+    ],
+    "correct_answer": 1,
+    "explanation": "The pairs begin at every third alphabet: A,D,G,J."
+  },
+  {
+    "id": 37,
+    "topic": "Analogy",
+    "difficulty": "Easy",
+    "question": "Doctor : Hospital :: Teacher : ?",
+    "options": [
+      "Library",
+      "School",
+      "Office",
+      "Laboratory"
+    ],
+    "correct_answer": 1,
+    "explanation": "A teacher primarily works in a school."
+  },
+  {
+    "id": 38,
+    "topic": "Classification",
+    "difficulty": "Easy",
+    "question": "Which one is different?",
+    "options": [
+      "Lion",
+      "Tiger",
+      "Elephant",
+      "Eagle"
+    ],
+    "correct_answer": 3,
+    "explanation": "Eagle is a bird, while the others are mammals."
+  },
+  {
+    "id": 39,
+    "topic": "Direction Sense",
+    "difficulty": "Easy",
+    "question": "A person walks 8 m East, then 6 m North. In which direction is the person from the starting point?",
+    "options": [
+      "North-East",
+      "South-East",
+      "North-West",
+      "West"
+    ],
+    "correct_answer": 0,
+    "explanation": "The final position lies to the North-East of the starting point."
+  },
+  {
+    "id": 40,
+    "topic": "Blood Relations",
+    "difficulty": "Easy",
+    "question": "A is the brother of B. B is the mother of C. How is A related to C?",
+    "options": [
+      "Father",
+      "Uncle",
+      "Brother",
+      "Grandfather"
+    ],
+    "correct_answer": 1,
+    "explanation": "A is the brother of C's mother, making A the uncle."
+  },
+  {
+    "id": 41,
+    "topic": "Coding-Decoding",
+    "difficulty": "Easy",
+    "question": "If MOON is coded as NPPO, then STAR is coded as:",
+    "options": [
+      "TUBS",
+      "TUBR",
+      "SUAR",
+      "TVAS"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 42,
+    "topic": "Series",
+    "difficulty": "Easy",
+    "question": "Find the next number: 100, 90, 80, 70, ?",
+    "options": [
+      "65",
+      "60",
+      "55",
+      "50"
+    ],
+    "correct_answer": 1,
+    "explanation": "Each term decreases by 10."
+  },
+  {
+    "id": 43,
+    "topic": "Critical Thinking",
+    "difficulty": "Easy",
+    "question": "When solving a problem with multiple possible solutions, you should:",
+    "options": [
+      "Select the first idea immediately",
+      "Evaluate each option before deciding",
+      "Ignore all alternatives",
+      "Choose the most difficult solution"
+    ],
+    "correct_answer": 1,
+    "explanation": "Comparing alternatives leads to better decision-making."
+  },
+  {
+    "id": 44,
+    "topic": "Decision Making",
+    "difficulty": "Easy",
+    "question": "A software feature is causing minor issues for a few users. What should the team do?",
+    "options": [
+      "Ignore user feedback",
+      "Investigate, prioritize, and fix the issue",
+      "Remove the entire application",
+      "Blame the users"
+    ],
+    "correct_answer": 1,
+    "explanation": "Understanding and resolving user issues is a good engineering practice."
+  },
+  {
+    "id": 45,
+    "topic": "Puzzle",
+    "difficulty": "Easy",
+    "question": "If you have one match and enter a dark room containing a candle, a lamp, and a stove, what should you light first?",
+    "options": [
+      "Candle",
+      "Lamp",
+      "Stove",
+      "The Match"
+    ],
+    "correct_answer": 3,
+    "explanation": "You must light the match before lighting anything else."
+  },
+  {
+    "id": 46,
+    "topic": "Calendar",
+    "difficulty": "Easy",
+    "question": "If today is Wednesday, what day will it be after 21 days?",
+    "options": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "correct_answer": 1,
+    "explanation": "21 days equals exactly 3 weeks, so the day remains Wednesday."
+  },
+  {
+    "id": 47,
+    "topic": "Clock",
+    "difficulty": "Easy",
+    "question": "At 9:00, what is the angle between the hour and minute hands?",
+    "options": [
+      "45°",
+      "90°",
+      "180°",
+      "270°"
+    ],
+    "correct_answer": 1,
+    "explanation": "At 9:00, the hands are perpendicular, forming a 90° angle."
+  },
+  {
+    "id": 48,
+    "topic": "Logical Reasoning",
+    "difficulty": "Easy",
+    "question": "Which number comes next? 11, 22, 33, 44, ?",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "66"
+    ],
+    "correct_answer": 1,
+    "explanation": "The sequence increases by 11 each time."
+  },
+  {
+    "id": 49,
+    "topic": "Sequence",
+    "difficulty": "Easy",
+    "question": "Find the next term: B, D, F, H, ?",
+    "options": [
+      "I",
+      "J",
+      "K",
+      "L"
+    ],
+    "correct_answer": 1,
+    "explanation": "Letters increase by two positions: B, D, F, H, J."
+  },
+  {
+    "id": 50,
+    "topic": "Problem Solving",
+    "difficulty": "Easy",
+    "question": "What is the most effective way to solve a complex problem?",
+    "options": [
+      "Ignore the details",
+      "Break it into smaller manageable parts",
+      "Always choose the quickest solution",
+      "Guess and verify repeatedly"
+    ],
+    "correct_answer": 1,
+    "explanation": "Breaking a complex problem into smaller parts is a fundamental problem-solving strategy used in engineering and algorithm design."
+  }
+]

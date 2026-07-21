@@ -74,7 +74,7 @@ class _InterviewSetupScreenState
     required Function(String) onChanged,
   }) {
     return DropdownButtonFormField<String>(
-      value: value,
+      initialValue: value,
       decoration: InputDecoration(
         labelText: title,
         border: OutlineInputBorder(

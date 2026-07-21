@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is NOT a programming language?",
+    "options": [
+      "Python",
+      "Java",
+      "HTML",
+      "C++"
+    ],
+    "correct_answer": 2,
+    "explanation": "HTML is a markup language, not a programming language."
+  },
+  {
+    "id": 2,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which data type is used to store whole numbers in C?",
+    "options": [
+      "float",
+      "double",
+      "int",
+      "char"
+    ],
+    "correct_answer": 2,
+    "explanation": "The int data type stores integer values."
+  },
+  {
+    "id": 3,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What is the correct extension of a C source file?",
+    "options": [
+      ".cpp",
+      ".java",
+      ".c",
+      ".py"
+    ],
+    "correct_answer": 2,
+    "explanation": "C source files use the .c extension."
+  },
+  {
+    "id": 4,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which symbol is used to terminate a statement in C, C++ and Java?",
+    "options": [
+      ":",
+      ";",
+      ",",
+      "."
+    ],
+    "correct_answer": 1,
+    "explanation": "Statements are terminated using a semicolon (;)."
+  },
+  {
+    "id": 5,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "define",
+      "def",
+      "function"
+    ],
+    "correct_answer": 2,
+    "explanation": "Python uses the 'def' keyword to define functions."
+  },
+  {
+    "id": 6,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is a loop in Java?",
+    "options": [
+      "repeat",
+      "foreach",
+      "for",
+      "iterate"
+    ],
+    "correct_answer": 2,
+    "explanation": "The 'for' loop is a standard looping construct in Java."
+  },
+  {
+    "id": 7,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which operator is used for equality comparison in Java and C++?",
+    "options": [
+      "=",
+      "==",
+      "===",
+      ":="
+    ],
+    "correct_answer": 1,
+    "explanation": "'==' compares two values for equality."
+  },
+  {
+    "id": 8,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What will be the output?\n\nint x = 10;\nSystem.out.print(x++);",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "Compilation Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Post-increment returns the current value before incrementing."
+  },
+  {
+    "id": 9,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is NOT a valid variable name in Python?",
+    "options": [
+      "_count",
+      "student1",
+      "2value",
+      "total_marks"
+    ],
+    "correct_answer": 2,
+    "explanation": "Variable names cannot begin with a digit."
+  },
+  {
+    "id": 10,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to exit a loop immediately?",
+    "options": [
+      "continue",
+      "exit",
+      "break",
+      "stop"
+    ],
+    "correct_answer": 2,
+    "explanation": "The break statement immediately terminates the loop."
+  },
+  {
+    "id": 11,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following stores a sequence of characters in C?",
+    "options": [
+      "int",
+      "char[]",
+      "float",
+      "bool"
+    ],
+    "correct_answer": 1,
+    "explanation": "Strings in C are stored as character arrays."
+  },
+  {
+    "id": 12,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What is the output?\n\nprint(5 // 2)",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "2.0"
+    ],
+    "correct_answer": 0,
+    "explanation": "'//' performs integer (floor) division in Python."
+  },
+  {
+    "id": 13,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to define a class in Java?",
+    "options": [
+      "Class",
+      "struct",
+      "class",
+      "object"
+    ],
+    "correct_answer": 2,
+    "explanation": "Java uses the keyword 'class'."
+  },
+  {
+    "id": 14,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is a logical operator?",
+    "options": [
+      "%",
+      "&&",
+      "<<",
+      "&"
+    ],
+    "correct_answer": 1,
+    "explanation": "&& represents the logical AND operator."
+  },
+  {
+    "id": 15,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which function is commonly used to display output in C?",
+    "options": [
+      "cout",
+      "System.out.print()",
+      "printf()",
+      "echo"
+    ],
+    "correct_answer": 2,
+    "explanation": "printf() prints formatted output in C."
+  },
+  {
+    "id": 16,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which language is primarily used for Android app development?",
+    "options": [
+      "Swift",
+      "Java",
+      "PHP",
+      "Ruby"
+    ],
+    "correct_answer": 1,
+    "explanation": "Java has traditionally been the primary language for Android development (along with Kotlin today)."
+  },
+  {
+    "id": 17,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What is the output?\n\nint a = 4;\nint b = 3;\nSystem.out.print(a % b);",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "4"
+    ],
+    "correct_answer": 1,
+    "explanation": "The modulus operator (%) returns the remainder. 4 % 3 = 1."
+  },
+    {
+    "id": 18,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is a valid declaration of an integer variable in Java?",
+    "options": [
+      "int num;",
+      "integer num;",
+      "num int;",
+      "Int num;"
+    ],
+    "correct_answer": 0,
+    "explanation": "The correct syntax is 'int num;'."
+  },
+  {
+    "id": 19,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which loop executes at least once regardless of the condition?",
+    "options": [
+      "for",
+      "while",
+      "do-while",
+      "foreach"
+    ],
+    "correct_answer": 2,
+    "explanation": "The do-while loop checks the condition after executing the loop body once."
+  },
+  {
+    "id": 20,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What will be the output?\n\nprint(len(\"Career\"))",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"Career\" contains 7 characters."
+  },
+  {
+    "id": 21,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which operator is used for logical OR in C, C++ and Java?",
+    "options": [
+      "|",
+      "||",
+      "&",
+      "&&"
+    ],
+    "correct_answer": 1,
+    "explanation": "'||' is the logical OR operator."
+  },
+  {
+    "id": 22,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to return a value from a function?",
+    "options": [
+      "exit",
+      "break",
+      "return",
+      "yield"
+    ],
+    "correct_answer": 2,
+    "explanation": "The return keyword sends a value back to the caller."
+  },
+  {
+    "id": 23,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is mutable in Python?",
+    "options": [
+      "tuple",
+      "string",
+      "list",
+      "int"
+    ],
+    "correct_answer": 2,
+    "explanation": "Lists are mutable, meaning their contents can be modified."
+  },
+  {
+    "id": 24,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which data structure stores elements in contiguous memory locations?",
+    "options": [
+      "Array",
+      "Linked List",
+      "Tree",
+      "Graph"
+    ],
+    "correct_answer": 0,
+    "explanation": "Arrays store elements in contiguous memory."
+  },
+  {
+    "id": 25,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What is the output?\n\nint x = 5;\nSystem.out.print(++x);",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "Compilation Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Pre-increment increments first, then prints the value."
+  },
+  {
+    "id": 26,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is used to make decisions in programming?",
+    "options": [
+      "switch",
+      "loop",
+      "array",
+      "function"
+    ],
+    "correct_answer": 0,
+    "explanation": "switch is a decision-making statement."
+  },
+  {
+    "id": 27,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which symbol is used for single-line comments in Java and C++?",
+    "options": [
+      "#",
+      "//",
+      "<!-- -->",
+      "/*/"
+    ],
+    "correct_answer": 1,
+    "explanation": "// is used for single-line comments."
+  },
+  {
+    "id": 28,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which function reads formatted input in C?",
+    "options": [
+      "gets()",
+      "cin",
+      "scanf()",
+      "input()"
+    ],
+    "correct_answer": 2,
+    "explanation": "scanf() is used to read formatted input in C."
+  },
+  {
+    "id": 29,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What will be the output?\n\nprint(3 ** 3)",
+    "options": [
+      "6",
+      "9",
+      "27",
+      "81"
+    ],
+    "correct_answer": 2,
+    "explanation": "** is the exponentiation operator in Python. 3³ = 27."
+  },
+  {
+    "id": 30,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which keyword creates an object in Java?",
+    "options": [
+      "class",
+      "create",
+      "new",
+      "object"
+    ],
+    "correct_answer": 2,
+    "explanation": "Objects are instantiated using the new keyword."
+  },
+  {
+    "id": 31,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is NOT a primitive data type in Java?",
+    "options": [
+      "int",
+      "char",
+      "String",
+      "boolean"
+    ],
+    "correct_answer": 2,
+    "explanation": "String is a class, not a primitive data type."
+  },
+  {
+    "id": 32,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "How many times will the following loop execute?\n\nfor(int i=1; i<=5; i++)",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "Infinite"
+    ],
+    "correct_answer": 1,
+    "explanation": "The loop runs for i = 1, 2, 3, 4 and 5."
+  },
+  {
+    "id": 33,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of compiled language?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "C++",
+      "HTML"
+    ],
+    "correct_answer": 2,
+    "explanation": "C++ is traditionally a compiled programming language."
+  },
+  {
+    "id": 34,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What is the output?\n\nString s = \"AI\";\nSystem.out.print(s + \" CareerOS\");",
+    "options": [
+      "AICareerOS",
+      "AI CareerOS",
+      "CareerOS AI",
+      "Compilation Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "The + operator concatenates strings, preserving the space in the second string."
+  },
+    {
+    "id": 35,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "implements",
+      "inherits",
+      "extends",
+      "super"
+    ],
+    "correct_answer": 2,
+    "explanation": "The 'extends' keyword is used for class inheritance in Java."
+  },
+  {
+    "id": 36,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which data structure follows the Last In, First Out (LIFO) principle?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Array",
+      "Linked List"
+    ],
+    "correct_answer": 1,
+    "explanation": "A stack follows the Last In, First Out (LIFO) principle."
+  },
+  {
+    "id": 37,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What will be the output?\n\nprint(\"Hello\".lower())",
+    "options": [
+      "HELLO",
+      "hello",
+      "Hello",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "The lower() method converts all characters to lowercase."
+  },
+  {
+    "id": 38,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to handle exceptions in Java?",
+    "options": [
+      "catch",
+      "error",
+      "handle",
+      "except"
+    ],
+    "correct_answer": 0,
+    "explanation": "Exceptions are handled using try-catch blocks."
+  },
+  {
+    "id": 39,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which function is used to find the length of a string in C?",
+    "options": [
+      "size()",
+      "length()",
+      "strlen()",
+      "count()"
+    ],
+    "correct_answer": 2,
+    "explanation": "The strlen() function from <string.h> returns the length of a string."
+  },
+  {
+    "id": 40,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What is the output?\n\nint[] arr = {2, 4, 6};\nSystem.out.print(arr[1]);",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "Compilation Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Array indexing starts from 0. arr[1] is 4."
+  },
+  {
+    "id": 41,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is NOT an OOP principle?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Compilation",
+      "Polymorphism"
+    ],
+    "correct_answer": 2,
+    "explanation": "Compilation is a language process, not an OOP principle."
+  },
+  {
+    "id": 42,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which access modifier allows members to be accessed from anywhere in Java?",
+    "options": [
+      "private",
+      "protected",
+      "default",
+      "public"
+    ],
+    "correct_answer": 3,
+    "explanation": "public members are accessible from any class."
+  },
+  {
+    "id": 43,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which symbol is used to access members of an object in Java?",
+    "options": [
+      "->",
+      ".",
+      "::",
+      "#"
+    ],
+    "correct_answer": 1,
+    "explanation": "The dot (.) operator accesses object members."
+  },
+  {
+    "id": 44,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What is the output?\n\nprint(len([1, 2, 3, 4]))",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "The list contains four elements."
+  },
+  {
+    "id": 45,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to skip the current iteration of a loop?",
+    "options": [
+      "break",
+      "exit",
+      "continue",
+      "return"
+    ],
+    "correct_answer": 2,
+    "explanation": "continue skips the current iteration and proceeds with the next one."
+  },
+  {
+    "id": 46,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following best describes a function?",
+    "options": [
+      "A variable that stores data",
+      "A reusable block of code that performs a task",
+      "A loop structure",
+      "A compiler directive"
+    ],
+    "correct_answer": 1,
+    "explanation": "A function is a reusable block of code designed to perform a specific task."
+  },
+  {
+    "id": 47,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which data structure follows the First In, First Out (FIFO) principle?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Tree",
+      "Graph"
+    ],
+    "correct_answer": 1,
+    "explanation": "A queue processes elements in First In, First Out (FIFO) order."
+  },
+  {
+    "id": 48,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "What is the output?\n\nprint(type(10).__name__)",
+    "options": [
+      "integer",
+      "number",
+      "int",
+      "Integer"
+    ],
+    "correct_answer": 2,
+    "explanation": "In Python, the type name of 10 is 'int'."
+  },
+  {
+    "id": 49,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following is a valid Boolean value in Python?",
+    "options": [
+      "TRUE",
+      "true",
+      "True",
+      "1"
+    ],
+    "correct_answer": 2,
+    "explanation": "Python Boolean literals are True and False (capitalized)."
+  },
+  {
+    "id": 50,
+    "topic": "Programming Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which of the following best describes recursion?",
+    "options": [
+      "A loop inside another loop",
+      "A function calling itself",
+      "A class inheriting another class",
+      "A variable referencing another variable"
+    ],
+    "correct_answer": 1,
+    "explanation": "Recursion is a technique where a function calls itself until a base condition is met."
+  }
+]

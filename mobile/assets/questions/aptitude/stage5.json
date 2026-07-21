@@ -1,0 +1,702 @@
+[
+  {
+    "id": 201,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A train 180 m long is running at 54 km/h. How long will it take to cross a platform 120 m long?",
+    "options": [
+      "18 sec",
+      "20 sec",
+      "22 sec",
+      "24 sec"
+    ],
+    "correct_answer": 1,
+    "explanation": "Speed = 54 km/h = 15 m/s. Total distance = 180 + 120 = 300 m. Time = 300/15 = 20 sec."
+  },
+  {
+    "id": 202,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The average of 12 numbers is 48. If one number is removed, the average becomes 46. The removed number is:",
+    "options": [
+      "60",
+      "68",
+      "70",
+      "72"
+    ],
+    "correct_answer": 2,
+    "explanation": "Original sum = 12×48 = 576. New sum = 11×46 = 506. Removed number = 576−506 = 70."
+  },
+  {
+    "id": 203,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A shopkeeper allows a discount of 20% on the marked price and still gains 20% on the cost price. If the cost price is ₹800, the marked price is:",
+    "options": [
+      "₹1100",
+      "₹1150",
+      "₹1200",
+      "₹1250"
+    ],
+    "correct_answer": 2,
+    "explanation": "Selling Price = 800×1.20 = ₹960. Marked Price = 960/0.8 = ₹1200."
+  },
+  {
+    "id": 204,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "If 25% of a number is 45, then 40% of the same number is:",
+    "options": [
+      "68",
+      "70",
+      "72",
+      "74"
+    ],
+    "correct_answer": 2,
+    "explanation": "Number = 45/0.25 = 180. 40% of 180 = 72."
+  },
+  {
+    "id": 205,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Choose the next term: 3, 7, 15, 31, 63, ?",
+    "options": [
+      "95",
+      "111",
+      "127",
+      "129"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term = Previous ×2 +1."
+  },
+  {
+    "id": 206,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Statements: All laptops are computers. Some computers are tablets. Which conclusion definitely follows?",
+    "options": [
+      "Some laptops are tablets",
+      "All laptops are computers",
+      "All computers are laptops",
+      "Some tablets are laptops"
+    ],
+    "correct_answer": 1,
+    "explanation": "This is directly given in the statement."
+  },
+  {
+    "id": 207,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A can complete a work in 24 days and B in 36 days. Working together, the work will be completed in:",
+    "options": [
+      "12.4 days",
+      "14.4 days",
+      "15 days",
+      "16 days"
+    ],
+    "correct_answer": 1,
+    "explanation": "Combined rate = 1/24 + 1/36 = 5/72. Time = 72/5 = 14.4 days."
+  },
+  {
+    "id": 208,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The probability of getting an even number on a fair die is:",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "correct_answer": 2,
+    "explanation": "Even numbers are 2, 4 and 6. Probability = 3/6 = 1/2."
+  },
+  {
+    "id": 209,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "If SOUTH is coded as TPVUI (each letter shifted one position forward), then how is NORTH coded?",
+    "options": [
+        "OPSUI",
+        "OPSUG",
+        "OPSUJ",
+        "NPSUI"
+    ],
+    "correct_answer": 0,
+    "explanation": "Shift each letter one position forward: N→O, O→P, R→S, T→U, H→I. Therefore, NORTH → OPSUI."
+  },
+  {
+    "id": 210,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A person walks 8 km east, then 6 km north. What is the shortest distance from the starting point?",
+    "options": [
+      "8 km",
+      "10 km",
+      "12 km",
+      "14 km"
+    ],
+    "correct_answer": 1,
+    "explanation": "Distance = √(8²+6²) = √100 = 10 km."
+  },
+  {
+    "id": 211,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A sum amounts to ₹12,100 in 2 years at 10% compound interest. Find the principal.",
+    "options": [
+      "₹9,000",
+      "₹9,500",
+      "₹10,000",
+      "₹11,000"
+    ],
+    "correct_answer": 2,
+    "explanation": "Principal = 12100/(1.1²) = ₹10,000."
+  },
+  {
+    "id": 212,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Find the missing number: 5, 11, 23, 47, ?, 191",
+    "options": [
+      "93",
+      "95",
+      "97",
+      "99"
+    ],
+    "correct_answer": 1,
+    "explanation": "Pattern = ×2 +1. 47×2+1 = 95."
+  },
+  {
+    "id": 213,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The ratio of boys to girls in a class is 7:5. If there are 48 students, how many are girls?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correct_answer": 1,
+    "explanation": "Total parts = 12. Girls = (5/12)×48 = 20."
+  },
+  {
+    "id": 214,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A card is drawn from a deck of 52 cards. What is the probability of drawing a king?",
+    "options": [
+      "1/13",
+      "1/26",
+      "1/52",
+      "4/13"
+    ],
+    "correct_answer": 0,
+    "explanation": "There are 4 kings. Probability = 4/52 = 1/13."
+  },
+  {
+    "id": 215,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Which number replaces the question mark? 4, 9, 19, 39, ?, 159",
+    "options": [
+      "79",
+      "80",
+      "81",
+      "82"
+    ],
+    "correct_answer": 0,
+    "explanation": "Pattern = ×2 +1."
+  },
+  {
+    "id": 216,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The present ages of A and B are in the ratio 5:7. After 4 years, the ratio becomes 3:4. Find A's present age.",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "correct_answer": 1,
+    "explanation": "Let ages be 5x and 7x. (5x+4)/(7x+4)=3/4 ⇒ x=4. A = 20."
+  },
+  {
+    "id": 217,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Which of the following numbers is divisible by both 6 and 9?",
+    "options": [
+      "72",
+      "84",
+      "90",
+      "96"
+    ],
+    "correct_answer": 0,
+    "explanation": "LCM(6,9)=18. Only 72 is divisible by 18."
+  },
+    {
+    "id": 218,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A boat travels 36 km downstream in 2 hours. If the speed of the stream is 3 km/h, what is the speed of the boat in still water?",
+    "options": [
+      "15 km/h",
+      "18 km/h",
+      "21 km/h",
+      "24 km/h"
+    ],
+    "correct_answer": 0,
+    "explanation": "Downstream speed = 36/2 = 18 km/h. Boat speed = 18 − 3 = 15 km/h."
+  },
+  {
+    "id": 219,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The average of the first 20 natural numbers is:",
+    "options": [
+      "10",
+      "10.5",
+      "11",
+      "11.5"
+    ],
+    "correct_answer": 1,
+    "explanation": "Average of first n natural numbers = (n + 1)/2 = 21/2 = 10.5."
+  },
+  {
+    "id": 220,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "If the selling price of an article is ₹960 after a 20% discount, what was the marked price?",
+    "options": [
+      "₹1100",
+      "₹1150",
+      "₹1200",
+      "₹1250"
+    ],
+    "correct_answer": 2,
+    "explanation": "Marked Price = 960 ÷ 0.80 = ₹1200."
+  },
+  {
+    "id": 221,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Find the next number: 2, 6, 18, 54, ?",
+    "options": [
+      "108",
+      "144",
+      "162",
+      "216"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is multiplied by 3. 54 × 3 = 162."
+  },
+  {
+    "id": 222,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Statements: All managers are employees. Some employees are engineers. Which conclusion definitely follows?",
+    "options": [
+      "Some managers are engineers",
+      "All managers are employees",
+      "All engineers are managers",
+      "No engineer is a manager"
+    ],
+    "correct_answer": 1,
+    "explanation": "The first statement directly states that all managers are employees."
+  },
+  {
+    "id": 223,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A can complete a task in 18 days and B in 12 days. Working together, they complete the task in:",
+    "options": [
+      "7.2 days",
+      "7.5 days",
+      "8 days",
+      "9 days"
+    ],
+    "correct_answer": 0,
+    "explanation": "Combined rate = 1/18 + 1/12 = 5/36. Time = 36/5 = 7.2 days."
+  },
+  {
+    "id": 224,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Two fair coins are tossed. What is the probability of getting exactly one head?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "2/3"
+    ],
+    "correct_answer": 1,
+    "explanation": "Possible outcomes: HH, HT, TH, TT. Favorable = HT, TH. Probability = 2/4 = 1/2."
+  },
+  {
+    "id": 225,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "If CODE is written as DPEF, then JAVA is written as:",
+    "options": [
+      "KBWB",
+      "KBVA",
+      "JBWB",
+      "LBWB"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward: J→K, A→B, V→W, A→B."
+  },
+  {
+    "id": 226,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A person walks 9 km west and then 12 km north. What is the shortest distance from the starting point?",
+    "options": [
+      "12 km",
+      "15 km",
+      "18 km",
+      "21 km"
+    ],
+    "correct_answer": 1,
+    "explanation": "Distance = √(9² + 12²) = √225 = 15 km."
+  },
+  {
+    "id": 227,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The compound amount on ₹20,000 at 10% per annum for 2 years is:",
+    "options": [
+      "₹23,100",
+      "₹24,000",
+      "₹24,200",
+      "₹24,400"
+    ],
+    "correct_answer": 2,
+    "explanation": "Amount = 20000 × (1.1)² = ₹24,200."
+  },
+  {
+    "id": 228,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Find the missing number: 6, 13, 27, 55, ?, 223",
+    "options": [
+      "109",
+      "110",
+      "111",
+      "112"
+    ],
+    "correct_answer": 2,
+    "explanation": "Pattern = ×2 +1. 55 × 2 + 1 = 111."
+  },
+  {
+    "id": 229,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The ratio of men to women in an office is 9:7. If there are 144 employees, how many are women?",
+    "options": [
+      "56",
+      "63",
+      "72",
+      "81"
+    ],
+    "correct_answer": 1,
+    "explanation": "Total parts = 16. Women = (7/16) × 144 = 63."
+  },
+  {
+    "id": 230,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A bag contains 5 red, 3 blue and 2 green balls. One ball is drawn at random. What is the probability that it is blue?",
+    "options": [
+      "1/10",
+      "3/10",
+      "2/5",
+      "1/2"
+    ],
+    "correct_answer": 1,
+    "explanation": "Total balls = 10. Blue balls = 3. Probability = 3/10."
+  },
+  {
+    "id": 231,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Find the next term: Z, X, U, Q, L, ?",
+    "options": [
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
+    "correct_answer": 0,
+    "explanation": "Alphabet positions: 26,24,21,17,12 (−2,−3,−4,−5). Next −6 = 6 = F."
+  },
+  {
+    "id": 232,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The present ages of X and Y are in the ratio 4:5. After 8 years, the ratio becomes 6:7. Find X's present age.",
+    "options": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "correct_answer": 2,
+    "explanation": "Let ages be 4k and 5k. (4k+8)/(5k+8)=6/7 ⇒ k=8. X = 32."
+  },
+  {
+    "id": 233,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Which of the following is divisible by 11?",
+    "options": [
+      "528",
+      "539",
+      "561",
+      "572"
+    ],
+    "correct_answer": 2,
+    "explanation": "561 = 11 × 51."
+  },
+  {
+    "id": 234,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "If the letters of the word 'PROGRAM' are arranged alphabetically, which letter will be fourth from the left?",
+    "options": [
+      "G",
+      "M",
+      "O",
+      "P"
+    ],
+    "correct_answer": 2,
+    "explanation": "Alphabetical order: A, G, M, O, P, R, R. The fourth letter is O."
+  },
+    {
+    "id": 235,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A train travels 360 km in 6 hours. What is its speed?",
+    "options": [
+      "50 km/h",
+      "55 km/h",
+      "60 km/h",
+      "65 km/h"
+    ],
+    "correct_answer": 2,
+    "explanation": "Speed = Distance ÷ Time = 360 ÷ 6 = 60 km/h."
+  },
+  {
+    "id": 236,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The average of 15 numbers is 42. If one number 60 is replaced by 75, what is the new average?",
+    "options": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "correct_answer": 1,
+    "explanation": "Increase in sum = 15. Increase in average = 15/15 = 1. New average = 43."
+  },
+  {
+    "id": 237,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A product is sold for ₹1,360 after a 15% discount. Find its marked price.",
+    "options": [
+      "₹1,500",
+      "₹1,600",
+      "₹1,700",
+      "₹1,800"
+    ],
+    "correct_answer": 1,
+    "explanation": "Marked Price = 1360 ÷ 0.85 ≈ ₹1,623."
+  },
+  {
+    "id": 238,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Find the next number: 1, 4, 9, 16, 25, ?",
+    "options": [
+      "30", 
+      "35",
+      "36",
+      "49"
+    ],
+    "correct_answer": 2,
+    "explanation": "Perfect squares: 1², 2², 3², 4², 5², 6²."
+  },
+  {
+    "id": 239,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Statements: All smartphones are electronic devices. Some electronic devices are cameras. Which conclusion definitely follows?",
+    "options": [
+      "Some smartphones are cameras",
+      "All smartphones are electronic devices",
+      "All cameras are smartphones",
+      "Some cameras are smartphones"
+    ],
+    "correct_answer": 1,
+    "explanation": "This is directly stated."
+  },
+  {
+    "id": 240,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A alone completes a job in 30 days and B alone in 20 days. If they work together, in how many days will the work be completed?",
+    "options": [
+      "10 days",
+      "12 days",
+      "15 days",
+      "18 days"
+    ],
+    "correct_answer": 1,
+    "explanation": "Combined rate = 1/30 + 1/20 = 1/12. Time = 12 days."
+  },
+  {
+    "id": 241,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Three fair coins are tossed. What is the probability of getting exactly two heads?",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correct_answer": 1,
+    "explanation": "Favorable outcomes = 3. Total outcomes = 8. Probability = 3/8."
+  },
+  {
+    "id": 242,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "If BOOK is coded as CPPL, then NOTE is coded as:",
+    "options": [
+      "OPUF",
+      "OPVE",
+      "NQTF",
+      "OQVF"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 243,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A person walks 5 km south and then 12 km east. What is the shortest distance from the starting point?",
+    "options": [
+      "12 km",
+      "13 km",
+      "15 km",
+      "17 km"
+    ],
+    "correct_answer": 1,
+    "explanation": "Distance = √(5² + 12²) = 13 km."
+  },
+  {
+    "id": 244,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Find the compound amount on ₹5,000 at 20% per annum for 2 years.",
+    "options": [
+      "₹7,000",
+      "₹7,100",
+      "₹7,200",
+      "₹7,500"
+    ],
+    "correct_answer": 2,
+    "explanation": "Amount = 5000 × (1.2)² = ₹7,200."
+  },
+  {
+    "id": 245,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Find the missing number: 8, 17, 35, 71, ?, 287",
+    "options": [
+      "141",
+      "142",
+      "143",
+      "144"
+    ],
+    "correct_answer": 2,
+    "explanation": "Pattern = ×2 +1."
+  },
+  {
+    "id": 246,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The ratio of teachers to students is 1:24. If there are 600 students, how many teachers are there?",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "30"
+    ],
+    "correct_answer": 2,
+    "explanation": "Teachers = 600 ÷ 24 = 25."
+  },
+  {
+    "id": 247,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "A box contains 6 red, 5 blue and 4 green balls. One ball is drawn randomly. What is the probability of drawing a green ball?",
+    "options": [
+      "2/5",
+      "4/15",
+      "1/5",
+      "1/3"
+    ],
+    "correct_answer": 1,
+    "explanation": "Total balls = 15. Green balls = 4. Probability = 4/15."
+  },
+  {
+    "id": 248,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Find the next term: C, F, J, O, U, ?",
+    "options": [
+      "Z",
+      "A",
+      "B",
+      "C"
+    ],
+    "correct_answer": 2,
+    "explanation": "Positions: 3,6,10,15,21 (+3,+4,+5,+6). Next +7 = 28 → wraps to 2 = B."
+  },
+  {
+    "id": 249,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "The present ages of A and B are in the ratio 3:5. After 10 years, the ratio becomes 5:7. Find A's present age.",
+    "options": [
+      "15 years",
+      "18 years",
+      "21 years",
+      "24 years"
+    ],
+    "correct_answer": 0,
+    "explanation": "Let ages be 3x and 5x. (3x+10)/(5x+10)=5/7 ⇒ x=5. A = 15 years."
+  },
+  {
+    "id": 250,
+    "topic": "Placement Mock",
+    "difficulty": "Hard",
+    "question": "Which of the following numbers is divisible by both 8 and 9?",
+    "options": [
+      "64",
+      "72",
+      "144",
+      "216"
+    ],
+    "correct_answer": 2,
+    "explanation": "LCM(8,9)=72. 144 is divisible by 72."
+  }
+]

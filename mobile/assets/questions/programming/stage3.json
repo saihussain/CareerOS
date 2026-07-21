@@ -1,0 +1,702 @@
+[
+  {
+    "id": 101,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "Medium",
+    "question": "Which OOP principle allows a class to acquire properties and methods of another class?",
+    "options": [
+      "Encapsulation",
+      "Polymorphism",
+      "Inheritance",
+      "Abstraction"
+    ],
+    "correct_answer": 2,
+    "explanation": "Inheritance enables a class to reuse properties and methods of another class."
+  },
+  {
+    "id": 102,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "Medium",
+    "question": "Which OOP concept allows the same method name to perform different tasks based on parameters or objects?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "Abstraction"
+    ],
+    "correct_answer": 2,
+    "explanation": "Polymorphism allows one interface to have multiple implementations."
+  },
+  {
+    "id": 103,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "Medium",
+    "question": "Which access modifier restricts access to members within the same class only?",
+    "options": [
+      "public",
+      "protected",
+      "private",
+      "default"
+    ],
+    "correct_answer": 2,
+    "explanation": "Private members are accessible only within their own class."
+  },
+  {
+    "id": 104,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "Medium",
+    "question": "Which keyword refers to the current object in Java?",
+    "options": [
+      "self",
+      "this",
+      "current",
+      "super"
+    ],
+    "correct_answer": 1,
+    "explanation": "The 'this' keyword refers to the current object."
+  },
+  {
+    "id": 105,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "Medium",
+    "question": "Which keyword is used to call the parent class constructor in Java?",
+    "options": [
+      "base",
+      "parent",
+      "this",
+      "super"
+    ],
+    "correct_answer": 3,
+    "explanation": "The super keyword invokes the parent class constructor."
+  },
+  {
+    "id": 106,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which SQL command is used to retrieve data from a table?",
+    "options": [
+      "GET",
+      "SELECT",
+      "FETCH",
+      "SHOW"
+    ],
+    "correct_answer": 1,
+    "explanation": "SELECT retrieves records from database tables."
+  },
+  {
+    "id": 107,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which SQL clause is used to filter records?",
+    "options": [
+      "ORDER BY",
+      "GROUP BY",
+      "WHERE",
+      "HAVING"
+    ],
+    "correct_answer": 2,
+    "explanation": "WHERE filters rows before grouping."
+  },
+  {
+    "id": 108,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which SQL statement is used to insert new records into a table?",
+    "options": [
+      "INSERT INTO",
+      "ADD",
+      "CREATE",
+      "UPDATE"
+    ],
+    "correct_answer": 0,
+    "explanation": "INSERT INTO adds new rows to a table."
+  },
+  {
+    "id": 109,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which SQL command is used to modify existing records?",
+    "options": [
+      "ALTER",
+      "UPDATE",
+      "MODIFY",
+      "CHANGE"
+    ],
+    "correct_answer": 1,
+    "explanation": "UPDATE modifies existing rows."
+  },
+  {
+    "id": 110,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which SQL command permanently removes rows from a table?",
+    "options": [
+      "DELETE",
+      "DROP",
+      "REMOVE",
+      "CLEAR"
+    ],
+    "correct_answer": 0,
+    "explanation": "DELETE removes selected rows while keeping the table."
+  },
+  {
+    "id": 111,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which key uniquely identifies each record in a table?",
+    "options": [
+      "Foreign Key",
+      "Composite Key",
+      "Primary Key",
+      "Candidate Key"
+    ],
+    "correct_answer": 2,
+    "explanation": "A Primary Key uniquely identifies each row."
+  },
+  {
+    "id": 112,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which key establishes a relationship between two tables?",
+    "options": [
+      "Primary Key",
+      "Unique Key",
+      "Foreign Key",
+      "Candidate Key"
+    ],
+    "correct_answer": 2,
+    "explanation": "A Foreign Key references the Primary Key of another table."
+  },
+  {
+    "id": 113,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "System Query Logic",
+      "Standard Question Language"
+    ],
+    "correct_answer": 0,
+    "explanation": "SQL stands for Structured Query Language."
+  },
+  {
+    "id": 114,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which normal form removes partial dependency?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_answer": 1,
+    "explanation": "Second Normal Form removes partial dependency."
+  },
+  {
+    "id": 115,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which component of an operating system manages memory allocation?",
+    "options": [
+      "Compiler",
+      "Kernel",
+      "Assembler",
+      "Loader"
+    ],
+    "correct_answer": 1,
+    "explanation": "The kernel manages memory, CPU scheduling, and processes."
+  },
+  {
+    "id": 116,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which scheduling algorithm gives equal CPU time to all processes?",
+    "options": [
+      "FCFS",
+      "SJF",
+      "Round Robin",
+      "Priority Scheduling"
+    ],
+    "correct_answer": 2,
+    "explanation": "Round Robin allocates equal time slices to each process."
+  },
+  {
+    "id": 117,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "A process currently waiting for I/O is generally in which state?",
+    "options": [
+      "Running",
+      "Ready",
+      "Waiting",
+      "Terminated"
+    ],
+    "correct_answer": 2,
+    "explanation": "A process waiting for an event such as I/O is in the Waiting (Blocked) state."
+  },
+    {
+    "id": 118,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which of the following is the smallest unit of execution within a process?",
+    "options": [
+      "Program",
+      "Thread",
+      "Job",
+      "Task"
+    ],
+    "correct_answer": 1,
+    "explanation": "A thread is the smallest unit of CPU execution within a process."
+  },
+  {
+    "id": 119,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which memory management technique divides memory into fixed-size blocks?",
+    "options": [
+      "Segmentation",
+      "Paging",
+      "Swapping",
+      "Fragmentation"
+    ],
+    "correct_answer": 1,
+    "explanation": "Paging divides logical and physical memory into fixed-size pages and frames."
+  },
+  {
+    "id": 120,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Virtual memory allows:",
+    "options": [
+      "Execution of programs larger than physical memory",
+      "Only one process to execute",
+      "Permanent storage of RAM",
+      "Increasing CPU speed"
+    ],
+    "correct_answer": 0,
+    "explanation": "Virtual memory extends usable memory using secondary storage."
+  },
+  {
+    "id": 121,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT one of Coffman's deadlock conditions?",
+    "options": [
+      "Mutual Exclusion",
+      "Hold and Wait",
+      "Process Synchronization",
+      "Circular Wait"
+    ],
+    "correct_answer": 2,
+    "explanation": "The four Coffman conditions are Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait."
+  },
+  {
+    "id": 122,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which scheduling algorithm always selects the process with the smallest execution time?",
+    "options": [
+      "FCFS",
+      "Priority",
+      "Shortest Job First (SJF)",
+      "Round Robin"
+    ],
+    "correct_answer": 2,
+    "explanation": "SJF selects the process with the shortest CPU burst."
+  },
+  {
+    "id": 123,
+    "topic": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "What does HTTP stand for?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Transfer Text Protocol",
+      "Hyper Transfer Text Process",
+      "Host Transfer Protocol"
+    ],
+    "correct_answer": 0,
+    "explanation": "HTTP stands for HyperText Transfer Protocol."
+  },
+  {
+    "id": 124,
+    "topic": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "HTTPS differs from HTTP because it:",
+    "options": [
+      "Uses UDP",
+      "Provides encryption using SSL/TLS",
+      "Uses IPv6 only",
+      "Transfers files faster"
+    ],
+    "correct_answer": 1,
+    "explanation": "HTTPS secures communication using SSL/TLS encryption."
+  },
+  {
+    "id": 125,
+    "topic": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "Which protocol is responsible for reliable data delivery?",
+    "options": [
+      "UDP",
+      "TCP",
+      "IP",
+      "ARP"
+    ],
+    "correct_answer": 1,
+    "explanation": "TCP provides reliable, ordered and error-checked delivery."
+  },
+  {
+    "id": 126,
+    "topic": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "Which protocol translates domain names into IP addresses?",
+    "options": [
+      "DHCP",
+      "SMTP",
+      "DNS",
+      "FTP"
+    ],
+    "correct_answer": 2,
+    "explanation": "DNS resolves domain names into IP addresses."
+  },
+  {
+    "id": 127,
+    "topic": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "Which layer of the OSI model is responsible for routing packets?",
+    "options": [
+      "Transport Layer",
+      "Data Link Layer",
+      "Network Layer",
+      "Session Layer"
+    ],
+    "correct_answer": 2,
+    "explanation": "The Network Layer handles logical addressing and routing."
+  },
+  {
+    "id": 128,
+    "topic": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "Which device primarily forwards packets between different networks?",
+    "options": [
+      "Hub",
+      "Switch",
+      "Router",
+      "Repeater"
+    ],
+    "correct_answer": 2,
+    "explanation": "Routers connect and forward packets between different networks."
+  },
+  {
+    "id": 129,
+    "topic": "Software Engineering",
+    "difficulty": "Medium",
+    "question": "What does SDLC stand for?",
+    "options": [
+      "Software Development Life Cycle",
+      "System Design Level Cycle",
+      "Software Data Logic Cycle",
+      "System Development Logic Code"
+    ],
+    "correct_answer": 0,
+    "explanation": "SDLC stands for Software Development Life Cycle."
+  },
+  {
+    "id": 130,
+    "topic": "Software Engineering",
+    "difficulty": "Medium",
+    "question": "Which SDLC model follows a sequential development approach?",
+    "options": [
+      "Agile",
+      "Spiral",
+      "Waterfall",
+      "RAD"
+    ],
+    "correct_answer": 2,
+    "explanation": "The Waterfall model follows a linear sequential approach."
+  },
+  {
+    "id": 131,
+    "topic": "Software Testing",
+    "difficulty": "Medium",
+    "question": "Testing performed without knowledge of the internal code is called:",
+    "options": [
+      "White Box Testing",
+      "Black Box Testing",
+      "Grey Box Testing",
+      "Unit Testing"
+    ],
+    "correct_answer": 1,
+    "explanation": "Black Box Testing validates functionality without examining internal implementation."
+  },
+  {
+    "id": 132,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which property of ACID ensures that a transaction is completed entirely or not at all?",
+    "options": [
+      "Consistency",
+      "Isolation",
+      "Atomicity",
+      "Durability"
+    ],
+    "correct_answer": 2,
+    "explanation": "Atomicity guarantees all-or-nothing execution of a transaction."
+  },
+  {
+    "id": 133,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which SQL JOIN returns only the matching rows from both tables?",
+    "options": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "FULL OUTER JOIN"
+    ],
+    "correct_answer": 2,
+    "explanation": "INNER JOIN returns only rows with matching values in both tables."
+  },
+  {
+    "id": 134,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which SQL function returns the total number of rows in a table?",
+    "options": [
+      "SUM()",
+      "COUNT()",
+      "AVG()",
+      "TOTAL()"
+    ],
+    "correct_answer": 1,
+    "explanation": "COUNT() returns the number of rows matching the specified condition."
+  },
+    {
+    "id": 135,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which SQL clause is used to sort the result set?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "SORT BY",
+      "HAVING"
+    ],
+    "correct_answer": 1,
+    "explanation": "ORDER BY sorts the result set in ascending or descending order."
+  },
+  {
+    "id": 136,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which SQL aggregate function returns the average value of a numeric column?",
+    "options": [
+      "SUM()",
+      "COUNT()",
+      "AVG()",
+      "MEAN()"
+    ],
+    "correct_answer": 2,
+    "explanation": "AVG() calculates the average of numeric values."
+  },
+  {
+    "id": 137,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which ACID property ensures that committed transactions remain permanent even after a system failure?",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability"
+    ],
+    "correct_answer": 3,
+    "explanation": "Durability guarantees that committed transactions survive system failures."
+  },
+  {
+    "id": 138,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which synchronization mechanism is commonly used to control access to shared resources?",
+    "options": [
+      "Semaphore",
+      "Compiler",
+      "Loader",
+      "Scheduler"
+    ],
+    "correct_answer": 0,
+    "explanation": "Semaphores are synchronization primitives used to coordinate concurrent processes and threads."
+  },
+  {
+    "id": 139,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which scheduling algorithm may cause starvation of long processes?",
+    "options": [
+      "Round Robin",
+      "FCFS",
+      "Shortest Job First (SJF)",
+      "FIFO"
+    ],
+    "correct_answer": 2,
+    "explanation": "SJF may continuously favor short jobs, causing long jobs to starve."
+  },
+  {
+    "id": 140,
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT a valid process state?",
+    "options": [
+      "Ready",
+      "Running",
+      "Waiting",
+      "Compiled"
+    ],
+    "correct_answer": 3,
+    "explanation": "Compiled is not a process state. Common states include Ready, Running, Waiting, and Terminated."
+  },
+  {
+    "id": 141,
+    "topic": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "Which protocol is connectionless?",
+    "options": [
+      "TCP",
+      "UDP",
+      "HTTP",
+      "HTTPS"
+    ],
+    "correct_answer": 1,
+    "explanation": "UDP is a connectionless transport protocol."
+  },
+  {
+    "id": 142,
+    "topic": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "Which IP version uses 128-bit addresses?",
+    "options": [
+      "IPv4",
+      "IPv5",
+      "IPv6",
+      "IPv8"
+    ],
+    "correct_answer": 2,
+    "explanation": "IPv6 uses 128-bit addresses, providing a much larger address space."
+  },
+  {
+    "id": 143,
+    "topic": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "Which device operates primarily at the Data Link layer of the OSI model?",
+    "options": [
+      "Router",
+      "Switch",
+      "Gateway",
+      "Repeater"
+    ],
+    "correct_answer": 1,
+    "explanation": "A network switch forwards frames using MAC addresses at the Data Link layer."
+  },
+  {
+    "id": 144,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "Medium",
+    "question": "Which OOP principle hides implementation details while exposing only essential functionality?",
+    "options": [
+      "Inheritance",
+      "Encapsulation",
+      "Abstraction",
+      "Polymorphism"
+    ],
+    "correct_answer": 2,
+    "explanation": "Abstraction hides implementation details and exposes only necessary features."
+  },
+  {
+    "id": 145,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "Medium",
+    "question": "Method overloading is an example of:",
+    "options": [
+      "Runtime Polymorphism",
+      "Compile-time Polymorphism",
+      "Inheritance",
+      "Encapsulation"
+    ],
+    "correct_answer": 1,
+    "explanation": "Method overloading is resolved during compilation."
+  },
+  {
+    "id": 146,
+    "topic": "Software Engineering",
+    "difficulty": "Medium",
+    "question": "Which testing level verifies individual functions or methods independently?",
+    "options": [
+      "Integration Testing",
+      "System Testing",
+      "Acceptance Testing",
+      "Unit Testing"
+    ],
+    "correct_answer": 3,
+    "explanation": "Unit Testing focuses on individual program units."
+  },
+  {
+    "id": 147,
+    "topic": "Software Engineering",
+    "difficulty": "Medium",
+    "question": "Which Agile framework organizes work into short iterations called sprints?",
+    "options": [
+      "Waterfall",
+      "Scrum",
+      "V-Model",
+      "Prototype Model"
+    ],
+    "correct_answer": 1,
+    "explanation": "Scrum is an Agile framework that uses time-boxed sprints."
+  },
+  {
+    "id": 148,
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which normal form removes transitive dependency?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_answer": 2,
+    "explanation": "Third Normal Form (3NF) removes transitive dependencies."
+  },
+  {
+    "id": 149,
+    "topic": "Mixed CS Fundamentals",
+    "difficulty": "Medium",
+    "question": "Which component acts as an interface between computer hardware and application software?",
+    "options": [
+      "Compiler",
+      "Operating System",
+      "Database",
+      "Router"
+    ],
+    "correct_answer": 1,
+    "explanation": "The operating system manages hardware resources and provides services to applications."
+  },
+  {
+    "id": 150,
+    "topic": "Mixed CS Fundamentals",
+    "difficulty": "Medium",
+    "question": "Which of the following combinations is correct?",
+    "options": [
+      "TCP - Connectionless, UDP - Connection-oriented",
+      "TCP - Reliable, UDP - Unreliable",
+      "TCP - Uses IP addresses only, UDP - Uses MAC addresses only",
+      "TCP - Layer 2 protocol, UDP - Layer 1 protocol"
+    ],
+    "correct_answer": 1,
+    "explanation": "TCP provides reliable, connection-oriented communication, while UDP is connectionless and does not guarantee delivery."
+  }
+]

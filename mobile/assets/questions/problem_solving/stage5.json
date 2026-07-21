@@ -1,0 +1,702 @@
+[
+  {
+    "id": 201,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next number in the series: 6, 11, 21, 41, 81, ?",
+    "options": [
+      "121",
+      "151",
+      "161",
+      "171"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is multiplied by 2 and then reduced by 1."
+  },
+  {
+    "id": 202,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: C1, F2, I3, L4, ?",
+    "options": [
+      "O5",
+      "P5",
+      "Q5",
+      "R5"
+    ],
+    "correct_answer": 0,
+    "explanation": "Letters advance by three positions while numbers increase by one."
+  },
+  {
+    "id": 203,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If 'BOOK' is coded as 'CPPL', then 'PEN' is coded as:",
+    "options": [
+      "QFO",
+      "QFN",
+      "RFO",
+      "QGO"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted forward by one position."
+  },
+  {
+    "id": 204,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "A is B's son. B is C's daughter. C is D's mother. How is D related to A?",
+    "options": [
+      "Mother",
+      "Grandmother",
+      "Aunt",
+      "Sister"
+    ],
+    "correct_answer": 1,
+    "explanation": "D is C's mother, C is B's parent, and B is A's parent. Therefore, D is A's grandmother."
+  },
+  {
+    "id": 205,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 20 m North and then 21 m East. What is the shortest distance from the starting point?",
+    "options": [
+      "27 m",
+      "28 m",
+      "29 m",
+      "30 m"
+    ],
+    "correct_answer": 2,
+    "explanation": "Using Pythagoras: √(20² + 21²) = √841 = 29 m."
+  },
+  {
+    "id": 206,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Teacher : School :: Doctor : ?",
+    "options": [
+      "Clinic",
+      "Hospital",
+      "Medicine",
+      "Patient"
+    ],
+    "correct_answer": 1,
+    "explanation": "A teacher works in a school just as a doctor works in a hospital."
+  },
+  {
+    "id": 207,
+    "topic": "Classification",
+    "difficulty": "Hard",
+    "question": "Which one is different?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "Python"
+    ],
+    "correct_answer": 3,
+    "explanation": "Python is a programming language, while the others are operating systems."
+  },
+  {
+    "id": 208,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 2, 5, 10, 17, 26, 37, ?",
+    "options": [
+      "48",
+      "49",
+      "50",
+      "51"
+    ],
+    "correct_answer": 2,
+    "explanation": "The terms follow n² + 1: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37, so the next term is 7²+1=50."
+  },
+  {
+    "id": 209,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "A train travels at 108 km/h. How far does it travel in 20 seconds?",
+    "options": [
+      "500 m",
+      "550 m",
+      "600 m",
+      "650 m"
+    ],
+    "correct_answer": 2,
+    "explanation": "108 km/h = 30 m/s. Distance = 30 × 20 = 600 m."
+  },
+  {
+    "id": 210,
+    "topic": "Critical Thinking",
+    "difficulty": "Hard",
+    "question": "During debugging, what should be done before attempting a fix?",
+    "options": [
+      "Rewrite the entire module",
+      "Identify and reproduce the root cause",
+      "Deploy immediately",
+      "Ignore logs"
+    ],
+    "correct_answer": 1,
+    "explanation": "A reliable fix begins with understanding and reproducing the root cause."
+  },
+  {
+    "id": 211,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "A high-priority bug and a low-priority feature request arrive together. What should typically be addressed first?",
+    "options": [
+      "Feature request",
+      "High-priority bug",
+      "Whichever is easier",
+      "Neither"
+    ],
+    "correct_answer": 1,
+    "explanation": "High-priority bugs generally have greater impact and should be resolved first."
+  },
+  {
+    "id": 212,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If all routers are devices and all devices are equipment, then all routers are:",
+    "options": [
+      "Equipment",
+      "Networks",
+      "Servers",
+      "Applications"
+    ],
+    "correct_answer": 0,
+    "explanation": "This conclusion follows directly from the given statements."
+  },
+  {
+    "id": 213,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "The length of a rectangle is 18 cm and the width is 14 cm. What is its area?",
+    "options": [
+      "242 cm²",
+      "252 cm²",
+      "262 cm²",
+      "272 cm²"
+    ],
+    "correct_answer": 1,
+    "explanation": "Area = Length × Width = 18 × 14 = 252 cm²."
+  },
+  {
+    "id": 214,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: AZ, BY, CX, DW, ?",
+    "options": [
+      "EV",
+      "EW",
+      "FV",
+      "FW"
+    ],
+    "correct_answer": 0,
+    "explanation": "The first letter moves forward while the second moves backward."
+  },
+  {
+    "id": 215,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "How many sides does a decagon have?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct_answer": 2,
+    "explanation": "A decagon has 10 sides."
+  },
+  {
+    "id": 216,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Which algorithmic technique is commonly used to explore all possible solutions while pruning invalid paths?",
+    "options": [
+      "Backtracking",
+      "Bubble Sort",
+      "Linear Search",
+      "Hashing"
+    ],
+    "correct_answer": 0,
+    "explanation": "Backtracking systematically explores solution spaces while abandoning invalid partial solutions."
+  },
+  {
+    "id": 217,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "When solving a complex software problem, what should be done after implementing the solution?",
+    "options": [
+      "Immediately release without testing",
+      "Test, validate, and optimize if necessary",
+      "Delete the source code",
+      "Ignore edge cases"
+    ],
+    "correct_answer": 1,
+    "explanation": "Testing and validation ensure correctness before optimization or release."
+  },
+    {
+    "id": 218,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next number in the series: 8, 17, 35, 71, 143, ?",
+    "options": [
+      "285",
+      "286",
+      "287",
+      "288"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is multiplied by 2 and then increased by 1."
+  },
+  {
+    "id": 219,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: D2, G4, J6, M8, ?",
+    "options": [
+      "P10",
+      "Q10",
+      "R10",
+      "S10"
+    ],
+    "correct_answer": 0,
+    "explanation": "Letters increase by three positions (D, G, J, M, P) while numbers increase by 2."
+  },
+  {
+    "id": 220,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If 'CLOUD' is coded as 'DMPVE', then 'SERVER' is coded as:",
+    "options": [
+      "TFSWFS",
+      "TFSWFR",
+      "UESWFS",
+      "TGRWFS"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 221,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "A is B's daughter. B is C's son. C is D's father. How is D related to A?",
+    "options": [
+      "Grandfather",
+      "Father",
+      "Uncle",
+      "Brother"
+    ],
+    "correct_answer": 0,
+    "explanation": "D is the father of C, C is the parent of B, and B is the parent of A. Hence, D is A's grandfather."
+  },
+  {
+    "id": 222,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 12 m North and then 35 m East. What is the shortest distance from the starting point?",
+    "options": [
+      "35 m",
+      "36 m",
+      "37 m",
+      "38 m"
+    ],
+    "correct_answer": 2,
+    "explanation": "Using Pythagoras: √(12² + 35²) = √1369 = 37 m."
+  },
+  {
+    "id": 223,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Compiler : Program :: Translator : ?",
+    "options": [
+      "Language",
+      "Book",
+      "Sentence",
+      "Dictionary"
+    ],
+    "correct_answer": 0,
+    "explanation": "A compiler translates programs just as a translator translates languages."
+  },
+  {
+    "id": 224,
+    "topic": "Classification",
+    "difficulty": "Hard",
+    "question": "Which one is different?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "MySQL"
+    ],
+    "correct_answer": 3,
+    "explanation": "MySQL is a database system, while the others are communication protocols."
+  },
+  {
+    "id": 225,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 3, 7, 15, 31, 63, ?",
+    "options": [
+      "95",
+      "111",
+      "127",
+      "129"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is multiplied by 2 and increased by 1."
+  },
+  {
+    "id": 226,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "If 24 workers complete a task in 15 days, how many days will 18 workers take?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correct_answer": 1,
+    "explanation": "Workers × Days = Constant. 24 × 15 = 18 × x ⇒ x = 20 days."
+  },
+  {
+    "id": 227,
+    "topic": "Critical Thinking",
+    "difficulty": "Hard",
+    "question": "What is the primary purpose of a root cause analysis after a production incident?",
+    "options": [
+      "Assign blame",
+      "Prevent similar incidents in the future",
+      "Increase deployment speed",
+      "Reduce documentation"
+    ],
+    "correct_answer": 1,
+    "explanation": "Root cause analysis focuses on preventing recurrence rather than assigning blame."
+  },
+  {
+    "id": 228,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "A feature improves usability but introduces security risks. What should be done?",
+    "options": [
+      "Release immediately",
+      "Balance usability with security and mitigate the risks",
+      "Ignore security",
+      "Reject all usability improvements"
+    ],
+    "correct_answer": 1,
+    "explanation": "Good engineering decisions balance usability and security while reducing risk."
+  },
+  {
+    "id": 229,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If all clouds store data and all data is information, then all clouds store:",
+    "options": [
+      "Information",
+      "Networks",
+      "Programs",
+      "Algorithms"
+    ],
+    "correct_answer": 0,
+    "explanation": "The conclusion follows directly from the given statements."
+  },
+  {
+    "id": 230,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "A cube has a side length of 5 cm. What is its volume?",
+    "options": [
+      "100 cm³",
+      "125 cm³",
+      "150 cm³",
+      "175 cm³"
+    ],
+    "correct_answer": 1,
+    "explanation": "Volume of a cube = side³ = 5³ = 125 cm³."
+  },
+  {
+    "id": 231,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: ZA, YB, XC, WD, ?",
+    "options": [
+      "VE",
+      "UF",
+      "VF",
+      "UE"
+    ],
+    "correct_answer": 0,
+    "explanation": "The first letter moves backward while the second moves forward."
+  },
+  {
+    "id": 232,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "How many diagonals does an octagon have?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correct_answer": 1,
+    "explanation": "Number of diagonals = n(n−3)/2 = 8×5/2 = 20."
+  },
+  {
+    "id": 233,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Which algorithmic paradigm explores the most promising solution first using a heuristic?",
+    "options": [
+      "Greedy Best-First Search",
+      "Bubble Sort",
+      "Insertion Sort",
+      "Linear Search"
+    ],
+    "correct_answer": 0,
+    "explanation": "Greedy Best-First Search uses a heuristic function to expand the most promising node first."
+  },
+  {
+    "id": 234,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Which habit most improves performance in technical interviews?",
+    "options": [
+      "Only reading theory",
+      "Practicing timed coding and analyzing mistakes",
+      "Memorizing solutions without understanding",
+      "Avoiding difficult problems"
+    ],
+    "correct_answer": 1,
+    "explanation": "Timed practice combined with reviewing mistakes builds speed, confidence, and problem-solving ability."
+  },
+    {
+    "id": 235,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next number in the series: 9, 19, 39, 79, 159, ?",
+    "options": [
+      "299",
+      "319",
+      "321",
+      "339"
+    ],
+    "correct_answer": 1,
+    "explanation": "Each term is multiplied by 2 and then increased by 1."
+  },
+  {
+    "id": 236,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: E3, H6, K9, N12, ?",
+    "options": [
+      "Q15",
+      "R15",
+      "S15",
+      "P15"
+    ],
+    "correct_answer": 0,
+    "explanation": "Letters advance by three positions (E, H, K, N, Q) while numbers increase by 3."
+  },
+  {
+    "id": 237,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If 'HOUSE' is coded as 'IPVTF', then 'TRAIN' is coded as:",
+    "options": [
+      "USBJO",
+      "TRBJO",
+      "VTBJO",
+      "USBJN"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 238,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "A is B's father. B is C's son. C is D's brother. How is A related to D?",
+    "options": [
+      "Father",
+      "Grandfather",
+      "Uncle",
+      "Brother"
+    ],
+    "correct_answer": 0,
+    "explanation": "A is the father of B. C is B's son, making A C's father. Since D is C's sibling, A is also D's father."
+  },
+  {
+    "id": 239,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 16 m West and then 30 m North. What is the shortest distance from the starting point?",
+    "options": [
+      "32 m",
+      "34 m",
+      "36 m",
+      "38 m"
+    ],
+    "correct_answer": 1,
+    "explanation": "Using Pythagoras: √(16² + 30²) = √1156 = 34 m."
+  },
+  {
+    "id": 240,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Battery : Electricity :: Heart : ?",
+    "options": [
+      "Blood",
+      "Oxygen",
+      "Energy",
+      "Pulse"
+    ],
+    "correct_answer": 0,
+    "explanation": "A battery supplies electricity, while the heart pumps blood."
+  },
+  {
+    "id": 241,
+    "topic": "Classification",
+    "difficulty": "Hard",
+    "question": "Which one is different?",
+    "options": [
+      "DFS",
+      "BFS",
+      "Dijkstra",
+      "Monitor"
+    ],
+    "correct_answer": 3,
+    "explanation": "Monitor is a hardware device, while the others are graph algorithms."
+  },
+  {
+    "id": 242,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 5, 10, 20, 40, 80, ?",
+    "options": [
+      "120",
+      "140",
+      "160",
+      "180"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is doubled."
+  },
+  {
+    "id": 243,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "If 30 workers complete a task in 18 days, how many days will 45 workers take?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct_answer": 2,
+    "explanation": "Workers × Days = Constant. 30 × 18 = 45 × x ⇒ x = 12 days."
+  },
+  {
+    "id": 244,
+    "topic": "Critical Thinking",
+    "difficulty": "Hard",
+    "question": "What is the primary purpose of regression testing?",
+    "options": [
+      "Improve UI design",
+      "Verify that existing functionality still works after changes",
+      "Increase CPU speed",
+      "Reduce file size"
+    ],
+    "correct_answer": 1,
+    "explanation": "Regression testing ensures that new changes have not broken previously working functionality."
+  },
+  {
+    "id": 245,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "A deadline is approaching and two important features remain incomplete. What is the best approach?",
+    "options": [
+      "Release everything unfinished",
+      "Prioritize based on business value and risk",
+      "Cancel the project",
+      "Ignore stakeholder input"
+    ],
+    "correct_answer": 1,
+    "explanation": "Prioritizing by business value and risk leads to the most effective delivery."
+  },
+  {
+    "id": 246,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If all APIs are interfaces and all interfaces are software components, then all APIs are:",
+    "options": [
+      "Software components",
+      "Databases",
+      "Networks",
+      "Operating systems"
+    ],
+    "correct_answer": 0,
+    "explanation": "This follows directly from the given statements."
+  },
+  {
+    "id": 247,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "The diameter of a circle is 14 cm. Using π = 22/7, what is its circumference?",
+    "options": [
+      "22 cm",
+      "33 cm",
+      "44 cm",
+      "56 cm"
+    ],
+    "correct_answer": 2,
+    "explanation": "Circumference = π × diameter = (22/7) × 14 = 44 cm."
+  },
+  {
+    "id": 248,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: AB, DE, GH, JK, ?",
+    "options": [
+      "MN",
+      "LM",
+      "NO",
+      "PQ"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each pair advances by three alphabet positions: AB, DE, GH, JK, MN."
+  },
+  {
+    "id": 249,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "How many faces does a triangular prism have?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": 1,
+    "explanation": "A triangular prism has 5 faces: 2 triangular and 3 rectangular."
+  },
+  {
+    "id": 250,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "During a technical interview, what is the best overall strategy when solving a new problem?",
+    "options": [
+      "Start coding immediately without discussion",
+      "Clarify requirements, analyze constraints, explain your approach, implement incrementally, and test with examples",
+      "Memorize every possible solution beforehand",
+      "Wait for hints before attempting anything"
+    ],
+    "correct_answer": 1,
+    "explanation": "Top interview performance comes from structured thinking: clarify the problem, identify constraints, communicate your reasoning, implement carefully, and verify the solution with test cases."
+  }
+]

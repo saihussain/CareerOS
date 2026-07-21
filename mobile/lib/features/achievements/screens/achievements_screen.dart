@@ -124,7 +124,7 @@ class _AchievementsScreenState
 
                     DropdownButtonFormField<
                         String>(
-                      value: achievementType,
+                      initialValue: achievementType,
                       decoration:
                           const InputDecoration(
                         labelText:

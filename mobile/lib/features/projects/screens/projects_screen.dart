@@ -175,7 +175,7 @@ class _ProjectsScreenState
 
                     DropdownButtonFormField<
                         String>(
-                      value: status,
+                      initialValue: status,
                       decoration:
                           const InputDecoration(
                         labelText:

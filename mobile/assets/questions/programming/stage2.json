@@ -1,0 +1,702 @@
+[
+  {
+    "id": 51,
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "question": "Which data structure follows the Last In, First Out (LIFO) principle?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Linked List",
+      "Tree"
+    ],
+    "correct_answer": 1,
+    "explanation": "A stack follows the Last In, First Out (LIFO) principle."
+  },
+  {
+    "id": 52,
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "question": "Which data structure follows the First In, First Out (FIFO) principle?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Graph"
+    ],
+    "correct_answer": 1,
+    "explanation": "A queue processes elements in the order they are inserted."
+  },
+  {
+    "id": 53,
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "question": "What is the index of the first element in an array in C, C++, Java and Python?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "Depends on the compiler"
+    ],
+    "correct_answer": 0,
+    "explanation": "Arrays are zero-indexed in these languages."
+  },
+  {
+    "id": 54,
+    "topic": "Searching",
+    "difficulty": "Medium",
+    "question": "Which searching algorithm requires the input array to be sorted?",
+    "options": [
+      "Linear Search",
+      "Binary Search",
+      "Depth First Search",
+      "Breadth First Search"
+    ],
+    "correct_answer": 1,
+    "explanation": "Binary Search works only on sorted collections."
+  },
+  {
+    "id": 55,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "question": "Which sorting algorithm repeatedly swaps adjacent elements if they are in the wrong order?",
+    "options": [
+      "Merge Sort",
+      "Quick Sort",
+      "Bubble Sort",
+      "Selection Sort"
+    ],
+    "correct_answer": 2,
+    "explanation": "Bubble Sort compares and swaps adjacent elements."
+  },
+  {
+    "id": 56,
+    "topic": "Time Complexity",
+    "difficulty": "Medium",
+    "question": "What is the time complexity of Binary Search?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "correct_answer": 1,
+    "explanation": "Binary Search halves the search space in every iteration."
+  },
+  {
+    "id": 57,
+    "topic": "Time Complexity",
+    "difficulty": "Medium",
+    "question": "What is the worst-case time complexity of Linear Search?",
+    "options": [
+      "O(log n)",
+      "O(1)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correct_answer": 2,
+    "explanation": "Linear Search may examine every element."
+  },
+  {
+    "id": 58,
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "question": "What will be the output?\n\nint[] arr = {5,10,15};\nSystem.out.print(arr.length);",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "Compilation Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "The array contains three elements."
+  },
+  {
+    "id": 59,
+    "topic": "Stack",
+    "difficulty": "Medium",
+    "question": "Which operation removes the top element from a stack?",
+    "options": [
+      "push",
+      "enqueue",
+      "pop",
+      "peek"
+    ],
+    "correct_answer": 2,
+    "explanation": "pop() removes the top element."
+  },
+  {
+    "id": 60,
+    "topic": "Queue",
+    "difficulty": "Medium",
+    "question": "Which operation inserts an element into a queue?",
+    "options": [
+      "push",
+      "enqueue",
+      "pop",
+      "delete"
+    ],
+    "correct_answer": 1,
+    "explanation": "enqueue() inserts an element at the rear."
+  },
+  {
+    "id": 61,
+    "topic": "Linked List",
+    "difficulty": "Medium",
+    "question": "Which data structure allows efficient insertion and deletion at arbitrary positions without shifting elements?",
+    "options": [
+      "Array",
+      "Linked List",
+      "Stack",
+      "Heap"
+    ],
+    "correct_answer": 1,
+    "explanation": "Linked lists adjust pointers instead of shifting elements."
+  },
+  {
+    "id": 62,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "question": "Which tree traversal visits Root, Left, Right?",
+    "options": [
+      "Inorder",
+      "Postorder",
+      "Preorder",
+      "Level Order"
+    ],
+    "correct_answer": 2,
+    "explanation": "Preorder traversal follows Root → Left → Right."
+  },
+  {
+    "id": 63,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "question": "Which tree traversal of a Binary Search Tree produces sorted output?",
+    "options": [
+      "Preorder",
+      "Postorder",
+      "Level Order",
+      "Inorder"
+    ],
+    "correct_answer": 3,
+    "explanation": "Inorder traversal of a BST returns elements in sorted order."
+  },
+  {
+    "id": 64,
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "question": "Every recursive function must have:",
+    "options": [
+      "A loop",
+      "A class",
+      "A base condition",
+      "A switch statement"
+    ],
+    "correct_answer": 2,
+    "explanation": "Without a base condition recursion will continue indefinitely."
+  },
+  {
+    "id": 65,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "question": "Which sorting algorithm selects the smallest element and places it in the correct position during each pass?",
+    "options": [
+      "Bubble Sort",
+      "Selection Sort",
+      "Quick Sort",
+      "Heap Sort"
+    ],
+    "correct_answer": 1,
+    "explanation": "Selection Sort repeatedly selects the minimum element."
+  },
+  {
+    "id": 66,
+    "topic": "Time Complexity",
+    "difficulty": "Medium",
+    "question": "What is the time complexity of accessing an element by index in an array?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n²)"
+    ],
+    "correct_answer": 0,
+    "explanation": "Arrays provide constant-time random access."
+  },
+  {
+    "id": 67,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "question": "Which data structure is commonly used to implement Breadth First Search (BFS)?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Linked List"
+    ],
+    "correct_answer": 1,
+    "explanation": "BFS explores nodes level by level using a queue."
+  },
+    {
+    "id": 68,
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "question": "What will be the output?\n\nint fun(int n){\n if(n==0) return 0;\n return n + fun(n-1);\n}\nfun(3);",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "9"
+    ],
+    "correct_answer": 2,
+    "explanation": "fun(3) = 3 + 2 + 1 + 0 = 6."
+  },
+  {
+    "id": 69,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "question": "Which sorting algorithm has the best average-case time complexity?",
+    "options": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Merge Sort",
+      "Selection Sort"
+    ],
+    "correct_answer": 2,
+    "explanation": "Merge Sort runs in O(n log n) in the average and worst cases."
+  },
+  {
+    "id": 70,
+    "topic": "Stack",
+    "difficulty": "Medium",
+    "question": "Which application commonly uses a stack?",
+    "options": [
+      "CPU Scheduling",
+      "Function Call Management",
+      "Binary Search",
+      "Hashing"
+    ],
+    "correct_answer": 1,
+    "explanation": "Function calls are managed using the call stack."
+  },
+  {
+    "id": 71,
+    "topic": "Queue",
+    "difficulty": "Medium",
+    "question": "Which scheduling algorithm is naturally implemented using a queue?",
+    "options": [
+      "Round Robin",
+      "Binary Search",
+      "Merge Sort",
+      "DFS"
+    ],
+    "correct_answer": 0,
+    "explanation": "Round Robin scheduling uses a queue to rotate processes."
+  },
+  {
+    "id": 72,
+    "topic": "Linked List",
+    "difficulty": "Medium",
+    "question": "Which pointer of the last node in a singly linked list contains NULL?",
+    "options": [
+      "prev",
+      "next",
+      "head",
+      "tail"
+    ],
+    "correct_answer": 1,
+    "explanation": "The next pointer of the last node is NULL."
+  },
+  {
+    "id": 73,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "question": "What is the maximum number of children a binary tree node can have?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Unlimited"
+    ],
+    "correct_answer": 1,
+    "explanation": "A binary tree node can have at most two children."
+  },
+  {
+    "id": 74,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "question": "Which traversal technique generally uses recursion?",
+    "options": [
+      "BFS",
+      "DFS",
+      "Level Order",
+      "Topological Sort"
+    ],
+    "correct_answer": 1,
+    "explanation": "Depth First Search is commonly implemented recursively."
+  },
+  {
+    "id": 75,
+    "topic": "Hashing",
+    "difficulty": "Medium",
+    "question": "The primary purpose of a hash table is:",
+    "options": [
+      "Sorting data",
+      "Fast searching",
+      "Graph traversal",
+      "Tree balancing"
+    ],
+    "correct_answer": 1,
+    "explanation": "Hash tables provide fast average-case lookup, insertion and deletion."
+  },
+  {
+    "id": 76,
+    "topic": "Time Complexity",
+    "difficulty": "Medium",
+    "question": "Which time complexity grows the fastest as n becomes very large?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(n log n)",
+      "O(n²)"
+    ],
+    "correct_answer": 3,
+    "explanation": "Among the given options, O(n²) grows the fastest."
+  },
+  {
+    "id": 77,
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "question": "What will be the output?\n\nint[] a={1,2,3};\nSystem.out.print(a[a.length-1]);",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": 2,
+    "explanation": "a.length-1 is the index of the last element."
+  },
+  {
+    "id": 78,
+    "topic": "Searching",
+    "difficulty": "Medium",
+    "question": "How many comparisons are needed in the worst case for Linear Search on an array of n elements?",
+    "options": [
+      "1",
+      "log₂n",
+      "n",
+      "n log n"
+    ],
+    "correct_answer": 2,
+    "explanation": "Linear Search may examine every element."
+  },
+  {
+    "id": 79,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "question": "Which sorting algorithm repeatedly inserts each element into its correct position in the sorted portion of the array?",
+    "options": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Quick Sort",
+      "Heap Sort"
+    ],
+    "correct_answer": 1,
+    "explanation": "Insertion Sort builds the sorted array one element at a time."
+  },
+  {
+    "id": 80,
+    "topic": "Big-O",
+    "difficulty": "Medium",
+    "question": "Ignoring constants and lower-order terms, the complexity 4n² + 3n + 2 is:",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n²)",
+      "O(1)"
+    ],
+    "correct_answer": 2,
+    "explanation": "The highest-order term n² dominates."
+  },
+  {
+    "id": 81,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "question": "Which traversal visits Left, Root, Right?",
+    "options": [
+      "Preorder",
+      "Postorder",
+      "Level Order",
+      "Inorder"
+    ],
+    "correct_answer": 3,
+    "explanation": "Inorder traversal follows Left → Root → Right."
+  },
+  {
+    "id": 82,
+    "topic": "Queue",
+    "difficulty": "Medium",
+    "question": "Which data structure is used internally by Breadth First Search?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Array",
+      "Hash Table"
+    ],
+    "correct_answer": 0,
+    "explanation": "BFS processes nodes level by level using a queue."
+  },
+  {
+    "id": 83,
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "question": "Infinite recursion occurs when:",
+    "options": [
+      "A function calls another function",
+      "The recursive function has no base condition",
+      "The recursion depth is one",
+      "The function returns immediately"
+    ],
+    "correct_answer": 1,
+    "explanation": "Without a terminating condition, recursive calls never stop."
+  },
+  {
+    "id": 84,
+    "topic": "Complexity Analysis",
+    "difficulty": "Medium",
+    "question": "Which algorithm generally has an average-case time complexity of O(n log n)?",
+    "options": [
+      "Merge Sort",
+      "Linear Search",
+      "Bubble Sort",
+      "Selection Sort"
+    ],
+    "correct_answer": 0,
+    "explanation": "Merge Sort runs in O(n log n) average and worst case."
+  },
+    {
+    "id": 85,
+    "topic": "Binary Search",
+    "difficulty": "Medium",
+    "question": "Binary Search can be applied only when the array is:",
+    "options": [
+      "Sorted",
+      "Unsorted",
+      "Circular",
+      "Duplicate-free"
+    ],
+    "correct_answer": 0,
+    "explanation": "Binary Search requires the elements to be sorted."
+  },
+  {
+    "id": 86,
+    "topic": "Binary Search",
+    "difficulty": "Medium",
+    "question": "What is the maximum number of comparisons required to search an element in a sorted array of 16 elements using Binary Search?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "5"
+    ],
+    "correct_answer": 3,
+    "explanation": "Worst-case comparisons = log₂(16) + 1 = 5."
+  },
+  {
+    "id": 87,
+    "topic": "Binary Search Tree",
+    "difficulty": "Medium",
+    "question": "In a Binary Search Tree, where is a value smaller than the root stored?",
+    "options": [
+      "Left Subtree",
+      "Right Subtree",
+      "Anywhere",
+      "Root Only"
+    ],
+    "correct_answer": 0,
+    "explanation": "Values smaller than the root are stored in the left subtree."
+  },
+  {
+    "id": 88,
+    "topic": "Stack",
+    "difficulty": "Medium",
+    "question": "What will be the top element after performing Push(10), Push(20), Pop(), Push(30)?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "None"
+    ],
+    "correct_answer": 2,
+    "explanation": "20 is popped, then 30 is pushed. Top element is 30."
+  },
+  {
+    "id": 89,
+    "topic": "Queue",
+    "difficulty": "Medium",
+    "question": "A queue contains: 10, 20, 30. After one dequeue and one enqueue(40), what is the front element?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct_answer": 1,
+    "explanation": "10 is removed. Queue becomes 20, 30, 40."
+  },
+  {
+    "id": 90,
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "question": "What is the output?\n\nint f(int n){\n if(n==1) return 1;\n return n*f(n-1);\n}\nf(4);",
+    "options": [
+      "10",
+      "16",
+      "24",
+      "32"
+    ],
+    "correct_answer": 2,
+    "explanation": "f(4)=4×3×2×1=24."
+  },
+  {
+    "id": 91,
+    "topic": "Time Complexity",
+    "difficulty": "Medium",
+    "question": "Which notation represents the upper bound of an algorithm's running time?",
+    "options": [
+      "Big-O",
+      "Big-Ω",
+      "Big-Θ",
+      "Little-o"
+    ],
+    "correct_answer": 0,
+    "explanation": "Big-O notation describes the upper bound (worst-case growth)."
+  },
+  {
+    "id": 92,
+    "topic": "Hashing",
+    "difficulty": "Medium",
+    "question": "A hash collision occurs when:",
+    "options": [
+      "The hash table becomes full",
+      "Two different keys map to the same index",
+      "A key is deleted",
+      "The table is sorted"
+    ],
+    "correct_answer": 1,
+    "explanation": "A collision occurs when different keys produce the same hash index."
+  },
+  {
+    "id": 93,
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "question": "Which traversal is generally preferred to find the shortest path in an unweighted graph?",
+    "options": [
+      "DFS",
+      "BFS",
+      "Inorder",
+      "Preorder"
+    ],
+    "correct_answer": 1,
+    "explanation": "Breadth First Search finds the shortest path in an unweighted graph."
+  },
+  {
+    "id": 94,
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "question": "What is the time complexity of inserting an element at the beginning of an array of size n?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n²)"
+    ],
+    "correct_answer": 2,
+    "explanation": "All existing elements must be shifted one position."
+  },
+  {
+    "id": 95,
+    "topic": "Linked List",
+    "difficulty": "Medium",
+    "question": "Which operation is generally faster in a linked list than in an array?",
+    "options": [
+      "Random Access",
+      "Insertion at the beginning",
+      "Binary Search",
+      "Indexing"
+    ],
+    "correct_answer": 1,
+    "explanation": "Insertion at the head of a linked list is O(1)."
+  },
+  {
+    "id": 96,
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "question": "Which sorting algorithm follows the Divide and Conquer technique?",
+    "options": [
+      "Bubble Sort",
+      "Selection Sort",
+      "Merge Sort",
+      "Insertion Sort"
+    ],
+    "correct_answer": 2,
+    "explanation": "Merge Sort recursively divides and merges the array."
+  },
+  {
+    "id": 97,
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "question": "Which traversal visits Left, Right, Root?",
+    "options": [
+      "Preorder",
+      "Inorder",
+      "Postorder",
+      "Level Order"
+    ],
+    "correct_answer": 2,
+    "explanation": "Postorder traversal follows Left → Right → Root."
+  },
+  {
+    "id": 98,
+    "topic": "Complexity Analysis",
+    "difficulty": "Medium",
+    "question": "Which complexity is considered more efficient for very large inputs?",
+    "options": [
+      "O(n²)",
+      "O(n log n)",
+      "O(2ⁿ)",
+      "O(n³)"
+    ],
+    "correct_answer": 1,
+    "explanation": "O(n log n) grows much slower than O(n²), O(n³), or O(2ⁿ)."
+  },
+  {
+    "id": 99,
+    "topic": "Searching",
+    "difficulty": "Medium",
+    "question": "Which searching algorithm checks each element one by one until the target is found?",
+    "options": [
+      "Binary Search",
+      "Jump Search",
+      "Linear Search",
+      "Interpolation Search"
+    ],
+    "correct_answer": 2,
+    "explanation": "Linear Search examines elements sequentially."
+  },
+  {
+    "id": 100,
+    "topic": "Data Structures & Algorithms",
+    "difficulty": "Medium",
+    "question": "Which data structure is most suitable for implementing recursion internally?",
+    "options": [
+      "Queue",
+      "Heap",
+      "Stack",
+      "Linked List"
+    ],
+    "correct_answer": 2,
+    "explanation": "Recursive function calls are managed using the call stack."
+  }
+]

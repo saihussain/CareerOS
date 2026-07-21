@@ -1,0 +1,702 @@
+[
+  {
+    "id": 151,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next term: A, C, F, J, O, ?",
+    "options": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ],
+    "correct_answer": 2,
+    "explanation": "Alphabet positions: 1,3,6,10,15 (+2,+3,+4,+5). Next +6 = 21 = U."
+  },
+  {
+    "id": 152,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If COMPUTER is coded as RFUVQNPC, how is KEYBOARD coded using the same rule?",
+    "options": [
+      "ESPCBFZL",
+      "ESBPCFZL",
+      "ESPCBFYL",
+      "ESQCBFZL"
+    ],
+    "correct_answer": 0,
+    "explanation": "The coding reverses the word. COMPUTER → RETUPMOC, then each letter is shifted +1."
+  },
+  {
+    "id": 153,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "A is the brother of B. B is the mother of C. C is the sister of D. How is A related to D?",
+    "options": [
+      "Grandfather",
+      "Father",
+      "Uncle",
+      "Brother"
+    ],
+    "correct_answer": 2,
+    "explanation": "A is the brother of D's mother, so A is D's uncle."
+  },
+  {
+    "id": 154,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 8 km north, then 6 km east, then 8 km south. How far is the person from the starting point?",
+    "options": [
+      "4 km",
+      "6 km",
+      "8 km",
+      "10 km"
+    ],
+    "correct_answer": 1,
+    "explanation": "North and south movements cancel. Only 6 km east remains."
+  },
+  {
+    "id": 155,
+    "topic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements: All doctors are educated. Some educated are teachers. Conclusions: I. Some teachers are doctors. II. All doctors are educated.",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "correct_answer": 1,
+    "explanation": "The statement directly guarantees II. I cannot be concluded."
+  },
+  {
+    "id": 156,
+    "topic": "Seating Arrangement",
+    "difficulty": "Hard",
+    "question": "Five friends A, B, C, D and E sit in a row. A is immediately left of B. C is at one end. D is immediately right of E. If B is not at an end, who sits in the middle?",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "Cannot be determined"
+    ],
+    "correct_answer": 3,
+    "explanation": "The given conditions allow more than one valid arrangement."
+  },
+  {
+    "id": 157,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Book : Library :: Fish : ?",
+    "options": [
+      "Water",
+      "River",
+      "Aquarium",
+      "Sea"
+    ],
+    "correct_answer": 2,
+    "explanation": "A library stores books. An aquarium stores fish."
+  },
+  {
+    "id": 158,
+    "topic": "Odd One Out",
+    "difficulty": "Hard",
+    "question": "Choose the odd one out.",
+    "options": [
+      "Square",
+      "Rectangle",
+      "Triangle",
+      "Rhombus"
+    ],
+    "correct_answer": 2,
+    "explanation": "Triangle has three sides; the others are quadrilaterals."
+  },
+  {
+    "id": 159,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 2, 5, 11, 23, 47, ?",
+    "options": [
+      "91",
+      "93",
+      "95",
+      "97"
+    ],
+    "correct_answer": 2,
+    "explanation": "Pattern: ×2 +1. Next = 47×2+1 = 95."
+  },
+  {
+    "id": 160,
+    "topic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The company has introduced mandatory cybersecurity training for all employees. Assumption: Employees may lack adequate cybersecurity awareness.",
+    "options": [
+      "Assumption is implicit",
+      "Assumption is not implicit",
+      "Both",
+      "Neither"
+    ],
+    "correct_answer": 0,
+    "explanation": "Mandatory training suggests the company assumes awareness needs improvement."
+  },
+  {
+    "id": 161,
+    "topic": "Mirror Image",
+    "difficulty": "Hard",
+    "question": "Which letter remains unchanged in a vertical mirror?",
+    "options": [
+      "F",
+      "G",
+      "H",
+      "R"
+    ],
+    "correct_answer": 2,
+    "explanation": "Capital H has vertical line symmetry."
+  },
+  {
+    "id": 162,
+    "topic": "Embedded Figure",
+    "difficulty": "Hard",
+    "question": "Which basic shape is always present in a cube?",
+    "options": [
+      "Triangle",
+      "Square",
+      "Pentagon",
+      "Hexagon"
+    ],
+    "correct_answer": 1,
+    "explanation": "Every face of a cube is a square."
+  },
+  {
+    "id": 163,
+    "topic": "Ranking",
+    "difficulty": "Hard",
+    "question": "A ranks 9th from the top and 28th from the bottom in a class. How many students are there in the class?",
+    "options": [
+      "35",
+      "36",
+      "37",
+      "38"
+    ],
+    "correct_answer": 1,
+    "explanation": "Total = 9 + 28 − 1 = 36."
+  },
+  {
+    "id": 164,
+    "topic": "Alphabet Test",
+    "difficulty": "Hard",
+    "question": "If every second letter of the English alphabet is written, which letter is the 8th?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "correct_answer": 0,
+    "explanation": "Sequence: B, D, F, H, J, L, N, P."
+  },
+  {
+    "id": 165,
+    "topic": "Number Analogy",
+    "difficulty": "Hard",
+    "question": "9 : 81 :: 12 : ?",
+    "options": [
+      "124",
+      "132",
+      "144",
+      "156"
+    ],
+    "correct_answer": 2,
+    "explanation": "81 = 9², therefore 12² = 144."
+  },
+  {
+    "id": 166,
+    "topic": "Data Sufficiency",
+    "difficulty": "Hard",
+    "question": "Is x greater than y? (I) x = 20 (II) y = 15",
+    "options": [
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Both statements together are sufficient",
+      "Each statement alone is sufficient"
+    ],
+    "correct_answer": 2,
+    "explanation": "Together, x = 20 and y = 15, so x > y."
+  },
+  {
+    "id": 167,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If all roses are flowers and some flowers are red, which conclusion is definitely true?",
+    "options": [
+      "All roses are red",
+      "Some roses are red",
+      "All roses are flowers",
+      "Some flowers are roses"
+    ],
+    "correct_answer": 2,
+    "explanation": "The first statement directly implies that all roses are flowers."
+  },
+    {
+    "id": 168,
+    "topic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements: All pens are stationery. Some stationery are books. Conclusions: I. Some books are pens. II. Some stationery are books.",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "correct_answer": 1,
+    "explanation": "Only Statement II directly follows. There is no definite relation between books and pens."
+  },
+  {
+    "id": 169,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 10 km south, turns left and walks 6 km, then turns left and walks 10 km. How far and in which direction is the person from the starting point?",
+    "options": [
+      "6 km East",
+      "6 km West",
+      "10 km East",
+      "10 km West"
+    ],
+    "correct_answer": 0,
+    "explanation": "After returning north by 10 km, the person is 6 km east of the starting point."
+  },
+  {
+    "id": 170,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "Pointing to a man, Riya said, 'His mother's only son is my father.' How is the man related to Riya?",
+    "options": [
+      "Father",
+      "Grandfather",
+      "Brother",
+      "Uncle"
+    ],
+    "correct_answer": 3,
+    "explanation": "The man's mother's only son is Riya's father, so the man is Riya's father's sibling."
+  },
+  {
+    "id": 171,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If CAT is coded as DBU, then DOG is coded as:",
+    "options": [
+      "EPH",
+      "EPG",
+      "FPH",
+      "FQI"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward: D→E, O→P, G→H."
+  },
+  {
+    "id": 172,
+    "topic": "Seating Arrangement",
+    "difficulty": "Hard",
+    "question": "Five friends P, Q, R, S and T sit in a row. Q is to the immediate right of P. T is at the extreme left. R is not at an end. Who sits in the middle?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "Cannot be determined"
+    ],
+    "correct_answer": 3,
+    "explanation": "Multiple arrangements satisfy the conditions, so the middle person cannot be uniquely determined."
+  },
+  {
+    "id": 173,
+    "topic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: All employees must wear ID cards inside the office. Conclusion: Employees without ID cards are not following office rules.",
+    "options": [
+      "Conclusion follows",
+      "Conclusion does not follow",
+      "Both follow",
+      "Neither"
+    ],
+    "correct_answer": 0,
+    "explanation": "The statement makes wearing ID cards mandatory."
+  },
+  {
+    "id": 174,
+    "topic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement: Heavy rainfall occurred throughout the night. Which of the following is the most likely effect?",
+    "options": [
+      "Roads may be waterlogged",
+      "Electricity demand decreases",
+      "Schools introduce new syllabus",
+      "Stock market rises"
+    ],
+    "correct_answer": 0,
+    "explanation": "Heavy rainfall commonly causes waterlogging."
+  },
+  {
+    "id": 175,
+    "topic": "Logical Sequence",
+    "difficulty": "Hard",
+    "question": "Arrange the following in logical order: Seed, Flower, Plant, Fruit.",
+    "options": [
+      "Seed → Plant → Flower → Fruit",
+      "Plant → Seed → Flower → Fruit",
+      "Seed → Flower → Plant → Fruit",
+      "Flower → Plant → Fruit → Seed"
+    ],
+    "correct_answer": 0,
+    "explanation": "A seed grows into a plant, which produces flowers and then fruits."
+  },
+  {
+    "id": 176,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Keyboard : Typing :: Brush : ?",
+    "options": [
+      "Painting",
+      "Drawing",
+      "Cleaning",
+      "Writing"
+    ],
+    "correct_answer": 0,
+    "explanation": "A keyboard is used for typing, just as a brush is used for painting."
+  },
+  {
+    "id": 177,
+    "topic": "Odd One Out",
+    "difficulty": "Hard",
+    "question": "Choose the odd one out.",
+    "options": [
+      "Mercury",
+      "Venus",
+      "Earth",
+      "Moon"
+    ],
+    "correct_answer": 3,
+    "explanation": "The Moon is Earth's natural satellite, while the others are planets."
+  },
+  {
+    "id": 178,
+    "topic": "Number Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 5, 10, 20, 40, 80, ?",
+    "options": [
+      "120",
+      "140",
+      "160",
+      "180"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each number is doubled."
+  },
+  {
+    "id": 179,
+    "topic": "Alphabet Series",
+    "difficulty": "Hard",
+    "question": "Find the next letters: AZ, BY, CX, DW, ?",
+    "options": [
+      "EV",
+      "EU",
+      "FV",
+      "FW"
+    ],
+    "correct_answer": 0,
+    "explanation": "First letters increase (A,B,C,D,E), second letters decrease (Z,Y,X,W,V)."
+  },
+  {
+    "id": 180,
+    "topic": "Ranking",
+    "difficulty": "Hard",
+    "question": "In a class, Neha ranks 12th from the top and 19th from the bottom. How many students are there?",
+    "options": [
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "correct_answer": 1,
+    "explanation": "Total students = 12 + 19 − 1 = 30."
+  },
+  {
+    "id": 181,
+    "topic": "Data Sufficiency",
+    "difficulty": "Hard",
+    "question": "What is the value of x? (I) x + 5 = 15 (II) x − 2 = 8",
+    "options": [
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Either statement alone is sufficient",
+      "Both together are required"
+    ],
+    "correct_answer": 2,
+    "explanation": "Statement I gives x = 10. Statement II also gives x = 10. Either statement alone is sufficient."
+  },
+  {
+    "id": 182,
+    "topic": "Cube and Dice",
+    "difficulty": "Hard",
+    "question": "A cube has all six faces painted. It is cut into 27 equal smaller cubes. How many small cubes have exactly two painted faces?",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "correct_answer": 1,
+    "explanation": "For a 3×3×3 cube, each of the 12 edge cubes (excluding corners) has exactly two painted faces."
+  },
+  {
+    "id": 183,
+    "topic": "Mirror Image",
+    "difficulty": "Hard",
+    "question": "Which English capital letter has both horizontal and vertical symmetry?",
+    "options": [
+      "A",
+      "H",
+      "M",
+      "T"
+    ],
+    "correct_answer": 1,
+    "explanation": "Capital H has both horizontal and vertical lines of symmetry."
+  },
+  {
+    "id": 184,
+    "topic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "Statement: The company introduced flexible working hours, and employee satisfaction increased significantly. Which conclusion is most reasonable?",
+    "options": [
+      "Flexible hours may have contributed to higher employee satisfaction.",
+      "Flexible hours always improve productivity.",
+      "Employee satisfaction depends only on work hours.",
+      "All companies should permanently remove fixed working hours."
+    ],
+    "correct_answer": 0,
+    "explanation": "The statement supports a possible contribution, but not universal conclusions."
+  },
+    {
+    "id": 185,
+    "topic": "Statement and Argument",
+    "difficulty": "Hard",
+    "question": "Statement: Should mobile phones be allowed in examination halls? Arguments: I. No, they can be used for malpractice. II. Yes, students may need them in emergencies.",
+    "options": [
+      "Only Argument I is strong",
+      "Only Argument II is strong",
+      "Both arguments are strong",
+      "Neither argument is strong"
+    ],
+    "correct_answer": 0,
+    "explanation": "Preventing malpractice directly relates to examination integrity, making Argument I stronger."
+  },
+  {
+    "id": 186,
+    "topic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: Road accidents have increased significantly in the city. What is the most appropriate course of action?",
+    "options": [
+      "Increase traffic enforcement and awareness campaigns",
+      "Close all roads permanently",
+      "Ban all private vehicles",
+      "Ignore the trend"
+    ],
+    "correct_answer": 0,
+    "explanation": "Improving enforcement and awareness directly addresses the problem."
+  },
+  {
+    "id": 187,
+    "topic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion: Cloud computing reduces infrastructure costs. Reason: Cloud providers allow organizations to pay only for the resources they use.",
+    "options": [
+      "Both are true and Reason correctly explains Assertion",
+      "Both are true but Reason does not explain Assertion",
+      "Assertion is true but Reason is false",
+      "Assertion is false but Reason is true"
+    ],
+    "correct_answer": 0,
+    "explanation": "Pay-as-you-go pricing is one of the main reasons cloud computing reduces infrastructure costs."
+  },
+  {
+    "id": 188,
+    "topic": "Venn Diagram",
+    "difficulty": "Hard",
+    "question": "All engineers are graduates. Some graduates are programmers. Which conclusion definitely follows?",
+    "options": [
+      "Some engineers are programmers",
+      "All programmers are engineers",
+      "All engineers are graduates",
+      "No graduate is a programmer"
+    ],
+    "correct_answer": 2,
+    "explanation": "The statement directly establishes that all engineers are graduates."
+  },
+  {
+    "id": 189,
+    "topic": "Input-Output",
+    "difficulty": "Hard",
+    "question": "A machine arranges numbers in ascending order at each step. Input: 15, 9, 20, 7. What is the final output?",
+    "options": [
+      "7 9 15 20",
+      "20 15 9 7",
+      "9 7 15 20",
+      "7 15 9 20"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ascending order is 7, 9, 15, 20."
+  },
+  {
+    "id": 190,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "A project deadline is approaching and a critical bug is discovered. What is the best immediate action?",
+    "options": [
+      "Ignore the bug until after release",
+      "Inform stakeholders and prioritize fixing the critical bug",
+      "Cancel the project",
+      "Assign the bug to an unrelated team"
+    ],
+    "correct_answer": 1,
+    "explanation": "Communicating the risk and fixing a critical issue is the most responsible decision."
+  },
+  {
+    "id": 191,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "Five people A, B, C, D and E are standing in a line. A is before B, C is after D and E is at the end. Which person cannot be first?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_answer": 1,
+    "explanation": "Since A must be before B, B can never be the first person."
+  },
+  {
+    "id": 192,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If DELHI is coded as EFMIJ, then MUMBAI is coded as:",
+    "options": [
+      "NVNCBJ",
+      "NVNCBJ",
+      "NVNDBJ",
+      "OVNCBJ"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward in the alphabet."
+  },
+  {
+    "id": 193,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 12 m east, turns right and walks 5 m, then turns right and walks 12 m. Where is the person now relative to the starting point?",
+    "options": [
+      "5 m North",
+      "5 m South",
+      "12 m East",
+      "12 m West"
+    ],
+    "correct_answer": 1,
+    "explanation": "The east-west movement cancels out, leaving the person 5 m south of the starting point."
+  },
+  {
+    "id": 194,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "P is the father of Q. Q is the sister of R. R is the father of S. How is P related to S?",
+    "options": [
+      "Grandfather",
+      "Father",
+      "Uncle",
+      "Brother"
+    ],
+    "correct_answer": 0,
+    "explanation": "P is the father of R, and R is the father of S. Therefore, P is S's grandfather."
+  },
+  {
+    "id": 195,
+    "topic": "Alphabet Series",
+    "difficulty": "Hard",
+    "question": "Find the next term: AB, DE, GH, JK, ?",
+    "options": [
+      "LM",
+      "MN",
+      "NO",
+      "PQ"
+    ],
+    "correct_answer": 1,
+    "explanation": "Starting letters progress A, D, G, J, M (+3). Hence the next pair is MN."
+  },
+  {
+    "id": 196,
+    "topic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: Every software engineer in the company knows Python. Ravi is a software engineer in the company. Conclusion: Ravi knows Python.",
+    "options": [
+      "Conclusion follows",
+      "Conclusion does not follow",
+      "Data inadequate",
+      "None of these"
+    ],
+    "correct_answer": 0,
+    "explanation": "The conclusion directly follows from the statement."
+  },
+  {
+    "id": 197,
+    "topic": "Data Sufficiency",
+    "difficulty": "Hard",
+    "question": "Is n divisible by 6? (I) n is divisible by 2. (II) n is divisible by 3.",
+    "options": [
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Both statements together are sufficient",
+      "Neither statement is sufficient"
+    ],
+    "correct_answer": 2,
+    "explanation": "A number divisible by both 2 and 3 is divisible by 6."
+  },
+  {
+    "id": 198,
+    "topic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A survey of 500 employees found that remote workers reported higher job satisfaction than office workers. Which statement weakens the conclusion that remote work alone caused the increase?",
+    "options": [
+      "Remote workers also received higher salaries on average.",
+      "The survey included employees from multiple departments.",
+      "Most employees preferred flexible work schedules.",
+      "The survey was conducted online."
+    ],
+    "correct_answer": 0,
+    "explanation": "Higher salaries are a confounding factor that could explain the increased satisfaction."
+  },
+  {
+    "id": 199,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Which number replaces the question mark? 3, 6, 12, 24, ?, 96",
+    "options": [
+      "36",
+      "42",
+      "48",
+      "54"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each number is multiplied by 2. Therefore, 24 × 2 = 48."
+  },
+  {
+    "id": 200,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If all rectangles are quadrilaterals and all squares are rectangles, which conclusion is definitely true?",
+    "options": [
+      "All quadrilaterals are squares",
+      "All squares are quadrilaterals",
+      "Some rectangles are not quadrilaterals",
+      "No square is a quadrilateral"
+    ],
+    "correct_answer": 1,
+    "explanation": "Since all squares are rectangles and all rectangles are quadrilaterals, all squares are quadrilaterals."
+  }
+]

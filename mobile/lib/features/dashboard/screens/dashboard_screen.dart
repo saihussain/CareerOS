@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../../analytics/screens/analytics_screen.dart';
+import '../../interview/screens/interview_setup_screen.dart';
+import '../../test/screens/test_setup_screen.dart';
 import '../../profile/screens/profile_screen.dart';
 import '../../resume/screens/resume_screen.dart';
 
@@ -378,33 +381,45 @@ class _DashboardScreenState extends State<DashboardScreen> {
             currentIndex = index;
           });
 
-          if (index == 1) {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (_) => const ResumeScreen(),
-              ),
-            );
-          } else if (index == 2) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text("Analytics module coming soon"),
-              ),
-            );
-          } else if (index == 3) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text("Interview module coming soon"),
-              ),
-            );
-          } else if (index == 4) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text("Test module coming soon"),
-              ),
-            );
+          switch (index) {
+            case 1:
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                 builder: (_) => const ResumeScreen(),
+                ),
+              );
+              break;
+
+            case 2:
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => const AnalyticsScreen(),
+                ),
+              );
+              break;
+
+            case 3:
+              Navigator.push(
+                context,
+                  MaterialPageRoute(
+                    builder: (_) => const InterviewSetupScreen(),
+                  ),
+              );
+              break;
+
+            case 4:
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => const TestSetupScreen(),
+                ),
+              );
+              break;
           }
         },
+        
         destinations: const [
           NavigationDestination(
             icon: Icon(Icons.home_outlined),

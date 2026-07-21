@@ -110,7 +110,7 @@ class _SkillsScreenState
 
                     DropdownButtonFormField<
                         String>(
-                      value: proficiency,
+                      initialValue: proficiency,
                       decoration:
                           const InputDecoration(
                         labelText:

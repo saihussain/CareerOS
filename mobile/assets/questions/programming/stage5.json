@@ -1,0 +1,702 @@
+[
+  {
+    "id": 201,
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "question": "Dynamic Programming is most useful when a problem has:",
+    "options": [
+      "Only recursion",
+      "Overlapping subproblems and optimal substructure",
+      "Only sorting",
+      "Only graph traversal"
+    ],
+    "correct_answer": 1,
+    "explanation": "Dynamic Programming solves problems with overlapping subproblems and optimal substructure efficiently."
+  },
+  {
+    "id": 202,
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "question": "Which technique stores already computed results to avoid repeated calculations?",
+    "options": [
+      "Backtracking",
+      "Memoization",
+      "Greedy",
+      "Branch Prediction"
+    ],
+    "correct_answer": 1,
+    "explanation": "Memoization stores computed results for future reuse."
+  },
+  {
+    "id": 203,
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "question": "Which algorithm finds the shortest path from a single source in a graph with non-negative edge weights?",
+    "options": [
+      "Prim's Algorithm",
+      "Kruskal's Algorithm",
+      "Dijkstra's Algorithm",
+      "DFS"
+    ],
+    "correct_answer": 2,
+    "explanation": "Dijkstra's algorithm computes shortest paths from a source to all other vertices with non-negative edge weights."
+  },
+  {
+    "id": 204,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "question": "Which algorithm is commonly used to find the Minimum Spanning Tree?",
+    "options": [
+      "Binary Search",
+      "Merge Sort",
+      "Prim's Algorithm",
+      "Linear Search"
+    ],
+    "correct_answer": 2,
+    "explanation": "Prim's algorithm constructs a Minimum Spanning Tree."
+  },
+  {
+    "id": 205,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "question": "Which graph traversal is generally implemented using a queue?",
+    "options": [
+      "DFS",
+      "BFS",
+      "Topological Sort",
+      "Dijkstra"
+    ],
+    "correct_answer": 1,
+    "explanation": "Breadth First Search uses a queue."
+  },
+  {
+    "id": 206,
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "question": "Topological Sorting is applicable only for:",
+    "options": [
+      "Undirected Graphs",
+      "Directed Acyclic Graphs",
+      "Weighted Graphs",
+      "Binary Trees"
+    ],
+    "correct_answer": 1,
+    "explanation": "Topological ordering exists only for Directed Acyclic Graphs (DAGs)."
+  },
+  {
+    "id": 207,
+    "topic": "Heaps",
+    "difficulty": "Hard",
+    "question": "Which data structure is commonly used to implement a Priority Queue?",
+    "options": [
+      "Array",
+      "Linked List",
+      "Binary Heap",
+      "Stack"
+    ],
+    "correct_answer": 2,
+    "explanation": "Binary Heaps efficiently support priority queue operations."
+  },
+  {
+    "id": 208,
+    "topic": "Heaps",
+    "difficulty": "Hard",
+    "question": "In a Max Heap, the value stored at the root is:",
+    "options": [
+      "Smallest Element",
+      "Median Element",
+      "Largest Element",
+      "Random Element"
+    ],
+    "correct_answer": 2,
+    "explanation": "The root of a Max Heap always contains the largest element."
+  },
+  {
+    "id": 209,
+    "topic": "Bit Manipulation",
+    "difficulty": "Hard",
+    "question": "Which bitwise operator is commonly used to toggle specific bits?",
+    "options": [
+      "&",
+      "|",
+      "^",
+      "~"
+    ],
+    "correct_answer": 2,
+    "explanation": "XOR (^) toggles bits where the mask contains 1."
+  },
+  {
+    "id": 210,
+    "topic": "Bit Manipulation",
+    "difficulty": "Hard",
+    "question": "What is the value of 10 & 6?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct_answer": 0,
+    "explanation": "10 = 1010₂ and 6 = 0110₂. Performing bitwise AND gives 0010₂, which equals 2."
+  },
+  {
+    "id": 211,
+    "topic": "Bit Manipulation",
+    "difficulty": "Hard",
+    "question": "Which operator performs bitwise left shift?",
+    "options": [
+      "<<",
+      ">>",
+      ">>>",
+      "^"
+    ],
+    "correct_answer": 0,
+    "explanation": "<< shifts bits toward the left."
+  },
+  {
+    "id": 212,
+    "topic": "Trie",
+    "difficulty": "Hard",
+    "question": "A Trie is primarily used for:",
+    "options": [
+      "Sorting numbers",
+      "Efficient string searching",
+      "Matrix multiplication",
+      "Graph coloring"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tries efficiently store and search strings sharing common prefixes."
+  },
+  {
+    "id": 213,
+    "topic": "Greedy Algorithms",
+    "difficulty": "Hard",
+    "question": "Which algorithm is based on repeatedly selecting the locally optimal choice?",
+    "options": [
+      "Dynamic Programming",
+      "Backtracking",
+      "Greedy Algorithm",
+      "Divide and Conquer"
+    ],
+    "correct_answer": 2,
+    "explanation": "Greedy algorithms make the best immediate decision at every step."
+  },
+  {
+    "id": 214,
+    "topic": "System Design",
+    "difficulty": "Hard",
+    "question": "Which technique distributes incoming requests across multiple servers?",
+    "options": [
+      "Caching",
+      "Load Balancing",
+      "Virtualization",
+      "Compression"
+    ],
+    "correct_answer": 1,
+    "explanation": "Load balancers distribute traffic among multiple servers."
+  },
+  {
+    "id": 215,
+    "topic": "Databases",
+    "difficulty": "Hard",
+    "question": "What is the primary purpose of a database index?",
+    "options": [
+      "Reduce storage",
+      "Improve query performance",
+      "Encrypt records",
+      "Prevent backups"
+    ],
+    "correct_answer": 1,
+    "explanation": "Indexes speed up data retrieval operations."
+  },
+  {
+    "id": 216,
+    "topic": "Operating Systems",
+    "difficulty": "Hard",
+    "question": "Which scheduling algorithm attempts to minimize the average waiting time?",
+    "options": [
+      "FCFS",
+      "Round Robin",
+      "Shortest Job First",
+      "Priority Scheduling"
+    ],
+    "correct_answer": 2,
+    "explanation": "Shortest Job First minimizes average waiting time under ideal conditions."
+  },
+  {
+    "id": 217,
+    "topic": "Computer Networks",
+    "difficulty": "Hard",
+    "question": "Which protocol is commonly used to securely transfer files over SSH?",
+    "options": [
+      "FTP",
+      "TFTP",
+      "SFTP",
+      "SMTP"
+    ],
+    "correct_answer": 2,
+    "explanation": "SFTP (SSH File Transfer Protocol) securely transfers files over SSH."
+  },
+    {
+    "id": 218,
+    "topic": "Graph Algorithms",
+    "difficulty": "Hard",
+    "question": "Which algorithm is commonly used to find the Minimum Spanning Tree of a graph?",
+    "options": [
+      "Kruskal's Algorithm",
+      "Bellman-Ford Algorithm",
+      "Floyd-Warshall Algorithm",
+      "Binary Search"
+    ],
+    "correct_answer": 0,
+    "explanation": "Kruskal's algorithm constructs a Minimum Spanning Tree by selecting the smallest edges without forming cycles."
+  },
+  {
+    "id": 219,
+    "topic": "Graph Algorithms",
+    "difficulty": "Hard",
+    "question": "Which shortest path algorithm can handle negative edge weights (without negative cycles)?",
+    "options": [
+      "Dijkstra's Algorithm",
+      "Bellman-Ford Algorithm",
+      "Prim's Algorithm",
+      "DFS"
+    ],
+    "correct_answer": 1,
+    "explanation": "Bellman-Ford correctly computes shortest paths even when negative edge weights are present."
+  },
+  {
+    "id": 220,
+    "topic": "Bit Manipulation",
+    "difficulty": "Hard",
+    "question": "What is the value of 5 ^ 3 (bitwise XOR)?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "2"
+    ],
+    "correct_answer": 0,
+    "explanation": "5 = 0101, 3 = 0011, XOR = 0110 = 6."
+  },
+  {
+    "id": 221,
+    "topic": "Bit Manipulation",
+    "difficulty": "Hard",
+    "question": "Which expression checks whether a number is even using bitwise operations?",
+    "options": [
+      "(n & 1) == 1",
+      "(n | 1) == 0",
+      "(n & 1) == 0",
+      "(n ^ 1) == 0"
+    ],
+    "correct_answer": 2,
+    "explanation": "An even number always has its least significant bit equal to 0."
+  },
+  {
+    "id": 222,
+    "topic": "Priority Queue",
+    "difficulty": "Hard",
+    "question": "What is the time complexity of inserting an element into a Binary Heap?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correct_answer": 1,
+    "explanation": "Insertion requires heapifying upward, which takes O(log n)."
+  },
+  {
+    "id": 223,
+    "topic": "Priority Queue",
+    "difficulty": "Hard",
+    "question": "Removing the root element from a Binary Heap takes:",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n²)"
+    ],
+    "correct_answer": 1,
+    "explanation": "After removing the root, heapify-down takes O(log n)."
+  },
+  {
+    "id": 224,
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "question": "Which famous Dynamic Programming problem finds the maximum value that can be carried within a weight limit?",
+    "options": [
+      "Travelling Salesman",
+      "Knapsack Problem",
+      "N-Queens",
+      "Tower of Hanoi"
+    ],
+    "correct_answer": 1,
+    "explanation": "The 0/1 Knapsack problem is a classic Dynamic Programming problem."
+  },
+  {
+    "id": 225,
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "question": "The Longest Common Subsequence (LCS) problem is typically solved using:",
+    "options": [
+      "Greedy Algorithm",
+      "Binary Search",
+      "Dynamic Programming",
+      "Heap"
+    ],
+    "correct_answer": 2,
+    "explanation": "LCS is efficiently solved using Dynamic Programming."
+  },
+  {
+    "id": 226,
+    "topic": "Greedy Algorithms",
+    "difficulty": "Hard",
+    "question": "Which problem is optimally solved using the Greedy approach?",
+    "options": [
+      "Fractional Knapsack",
+      "0/1 Knapsack",
+      "Longest Common Subsequence",
+      "Matrix Chain Multiplication"
+    ],
+    "correct_answer": 0,
+    "explanation": "Fractional Knapsack has an optimal greedy solution."
+  },
+  {
+    "id": 227,
+    "topic": "System Design",
+    "difficulty": "Hard",
+    "question": "What is the primary purpose of caching?",
+    "options": [
+      "Increase database size",
+      "Reduce latency by storing frequently accessed data",
+      "Encrypt user data",
+      "Reduce CPU frequency"
+    ],
+    "correct_answer": 1,
+    "explanation": "Caching stores frequently used data for faster access."
+  },
+  {
+    "id": 228,
+    "topic": "System Design",
+    "difficulty": "Hard",
+    "question": "Which database is generally categorized as NoSQL?",
+    "options": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Oracle Database"
+    ],
+    "correct_answer": 2,
+    "explanation": "MongoDB is a popular document-oriented NoSQL database."
+  },
+  {
+    "id": 229,
+    "topic": "Operating Systems",
+    "difficulty": "Hard",
+    "question": "Which page replacement algorithm replaces the page that has not been used for the longest time in the past?",
+    "options": [
+      "FIFO",
+      "LRU",
+      "Optimal",
+      "Random"
+    ],
+    "correct_answer": 1,
+    "explanation": "Least Recently Used (LRU) replaces the least recently accessed page."
+  },
+  {
+    "id": 230,
+    "topic": "Computer Networks",
+    "difficulty": "Hard",
+    "question": "Which protocol is used to automatically assign IP addresses to devices in a network?",
+    "options": [
+      "DNS",
+      "DHCP",
+      "SMTP",
+      "HTTP"
+    ],
+    "correct_answer": 1,
+    "explanation": "DHCP dynamically assigns IP addresses to clients."
+  },
+  {
+    "id": 231,
+    "topic": "Computer Networks",
+    "difficulty": "Hard",
+    "question": "Which layer of the TCP/IP model is responsible for routing packets?",
+    "options": [
+      "Application Layer",
+      "Transport Layer",
+      "Internet Layer",
+      "Network Access Layer"
+    ],
+    "correct_answer": 2,
+    "explanation": "The Internet Layer handles logical addressing and routing."
+  },
+  {
+    "id": 232,
+    "topic": "Databases",
+    "difficulty": "Hard",
+    "question": "Which SQL command permanently removes both the table structure and its data?",
+    "options": [
+      "DELETE",
+      "REMOVE",
+      "TRUNCATE",
+      "DROP"
+    ],
+    "correct_answer": 3,
+    "explanation": "DROP completely removes the table and all associated data."
+  },
+  {
+    "id": 233,
+    "topic": "Databases",
+    "difficulty": "Hard",
+    "question": "Which SQL command removes all rows but keeps the table structure?",
+    "options": [
+      "DROP",
+      "TRUNCATE",
+      "DELETE DATABASE",
+      "REMOVE"
+    ],
+    "correct_answer": 1,
+    "explanation": "TRUNCATE removes all records while preserving the table definition."
+  },
+  {
+    "id": 234,
+    "topic": "Programming",
+    "difficulty": "Hard",
+    "question": "Which data structure is commonly used to implement Undo functionality in text editors?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Heap",
+      "Trie"
+    ],
+    "correct_answer": 1,
+    "explanation": "Undo operations follow Last-In, First-Out (LIFO), making a stack the ideal choice."
+  },
+    {
+    "id": 235,
+    "topic": "Graph Algorithms",
+    "difficulty": "Hard",
+    "question": "Which algorithm is commonly used to find Strongly Connected Components (SCCs) in a directed graph?",
+    "options": [
+      "Kruskal's Algorithm",
+      "Kosaraju's Algorithm",
+      "Prim's Algorithm",
+      "Dijkstra's Algorithm"
+    ],
+    "correct_answer": 1,
+    "explanation": "Kosaraju's Algorithm efficiently finds strongly connected components using two DFS traversals."
+  },
+  {
+    "id": 236,
+    "topic": "Advanced Data Structures",
+    "difficulty": "Hard",
+    "question": "Which data structure efficiently answers range sum queries with point updates in O(log n)?",
+    "options": [
+      "Stack",
+      "Fenwick Tree (Binary Indexed Tree)",
+      "Trie",
+      "Queue"
+    ],
+    "correct_answer": 1,
+    "explanation": "A Fenwick Tree supports prefix sums and updates efficiently in O(log n)."
+  },
+  {
+    "id": 237,
+    "topic": "Advanced Data Structures",
+    "difficulty": "Hard",
+    "question": "Which data structure is commonly used for range queries such as minimum, maximum, or sum over intervals?",
+    "options": [
+      "Segment Tree",
+      "Linked List",
+      "Heap",
+      "Hash Table"
+    ],
+    "correct_answer": 0,
+    "explanation": "Segment Trees efficiently process range queries and updates."
+  },
+  {
+    "id": 238,
+    "topic": "Disjoint Set Union",
+    "difficulty": "Hard",
+    "question": "The Union-Find (Disjoint Set Union) data structure is primarily used to:",
+    "options": [
+      "Sort arrays",
+      "Maintain disjoint sets efficiently",
+      "Implement recursion",
+      "Store key-value pairs"
+    ],
+    "correct_answer": 1,
+    "explanation": "Disjoint Set Union efficiently performs union and find operations on disjoint sets."
+  },
+  {
+    "id": 239,
+    "topic": "Disjoint Set Union",
+    "difficulty": "Hard",
+    "question": "Which optimization techniques make Union-Find operations nearly constant time?",
+    "options": [
+      "Memoization and BFS",
+      "Path Compression and Union by Rank",
+      "DFS and Heapify",
+      "Binary Search and Sorting"
+    ],
+    "correct_answer": 1,
+    "explanation": "Path Compression and Union by Rank optimize Union-Find to almost O(1) amortized time."
+  },
+  {
+    "id": 240,
+    "topic": "Complexity Analysis",
+    "difficulty": "Hard",
+    "question": "Which complexity is generally considered infeasible for large values of n?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(n log n)",
+      "O(2ⁿ)"
+    ],
+    "correct_answer": 3,
+    "explanation": "Exponential algorithms become impractical as input size increases."
+  },
+  {
+    "id": 241,
+    "topic": "Concurrency",
+    "difficulty": "Hard",
+    "question": "What is a race condition?",
+    "options": [
+      "Two programs executing sequentially",
+      "Multiple threads accessing shared data without proper synchronization",
+      "A database indexing technique",
+      "A network routing issue"
+    ],
+    "correct_answer": 1,
+    "explanation": "Race conditions occur when concurrent threads access shared data without synchronization."
+  },
+  {
+    "id": 242,
+    "topic": "Concurrency",
+    "difficulty": "Hard",
+    "question": "Which synchronization primitive ensures that only one thread executes a critical section at a time?",
+    "options": [
+      "Semaphore",
+      "Mutex",
+      "Queue",
+      "Stack"
+    ],
+    "correct_answer": 1,
+    "explanation": "A mutex provides mutual exclusion for shared resources."
+  },
+  {
+    "id": 243,
+    "topic": "Databases",
+    "difficulty": "Hard",
+    "question": "Which indexing technique is most commonly used by relational database management systems?",
+    "options": [
+      "Binary Tree",
+      "B-Tree",
+      "Trie",
+      "Heap"
+    ],
+    "correct_answer": 1,
+    "explanation": "Most relational databases use B-Tree indexes for efficient searching."
+  },
+  {
+    "id": 244,
+    "topic": "REST APIs",
+    "difficulty": "Hard",
+    "question": "Which HTTP method is typically used to create a new resource in a REST API?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correct_answer": 1,
+    "explanation": "POST is generally used to create new resources."
+  },
+  {
+    "id": 245,
+    "topic": "REST APIs",
+    "difficulty": "Hard",
+    "question": "Which HTTP status code indicates that a request was completed successfully?",
+    "options": [
+      "200 OK",
+      "301 Moved Permanently",
+      "404 Not Found",
+      "500 Internal Server Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "HTTP 200 OK indicates that the request was successfully processed."
+  },
+  {
+    "id": 246,
+    "topic": "Cloud Computing",
+    "difficulty": "Hard",
+    "question": "Which cloud service model provides virtual machines, storage, and networking infrastructure?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "FaaS"
+    ],
+    "correct_answer": 2,
+    "explanation": "Infrastructure as a Service (IaaS) provides virtualized computing resources."
+  },
+  {
+    "id": 247,
+    "topic": "Microservices",
+    "difficulty": "Hard",
+    "question": "A major advantage of microservices architecture is:",
+    "options": [
+      "Entire application must be deployed together",
+      "Independent deployment of services",
+      "Single programming language requirement",
+      "No network communication"
+    ],
+    "correct_answer": 1,
+    "explanation": "Microservices allow individual services to be developed and deployed independently."
+  },
+  {
+    "id": 248,
+    "topic": "Software Engineering",
+    "difficulty": "Hard",
+    "question": "Which design principle encourages software entities to be open for extension but closed for modification?",
+    "options": [
+      "DRY Principle",
+      "KISS Principle",
+      "Open-Closed Principle",
+      "YAGNI Principle"
+    ],
+    "correct_answer": 2,
+    "explanation": "The Open-Closed Principle is one of the SOLID principles."
+  },
+  {
+    "id": 249,
+    "topic": "Mixed Placement",
+    "difficulty": "Hard",
+    "question": "Which data structure is most suitable for implementing an autocomplete feature in a search engine?",
+    "options": [
+      "Trie",
+      "Queue",
+      "Stack",
+      "Heap"
+    ],
+    "correct_answer": 0,
+    "explanation": "A Trie efficiently stores strings with common prefixes, making autocomplete fast."
+  },
+  {
+    "id": 250,
+    "topic": "Mixed Placement",
+    "difficulty": "Hard",
+    "question": "Which statement best describes an efficient software engineer?",
+    "options": [
+      "Writes the longest possible code",
+      "Focuses only on execution speed",
+      "Builds readable, maintainable, efficient, and well-tested software",
+      "Avoids documentation and testing"
+    ],
+    "correct_answer": 2,
+    "explanation": "Professional software engineering emphasizes correctness, readability, maintainability, testing, and efficiency."
+  }
+]

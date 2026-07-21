@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  provider: ^6.1.2
   intl: ^0.20.2
   cupertino_icons: ^1.0.8
   file_picker: ^10.3.2
@@ -44,6 +46,10 @@ dependencies:
   flutter_dotenv: ^6.0.0
   path_provider: ^2.1.5
   open_filex: ^4.7.0
+  
+
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -67,6 +73,23 @@ flutter:
   uses-material-design: true
   assets:
     - .env
+    - assets/questions/aptitude/stage1.json
+    - assets/questions/aptitude/stage2.json
+    - assets/questions/aptitude/stage3.json
+    - assets/questions/aptitude/stage4.json
+    - assets/questions/aptitude/stage5.json
+
+    - assets/questions/programming/stage1.json
+    - assets/questions/programming/stage2.json
+    - assets/questions/programming/stage3.json
+    - assets/questions/programming/stage4.json
+    - assets/questions/programming/stage5.json
+
+    - assets/questions/problem_solving/stage1.json
+    - assets/questions/problem_solving/stage2.json
+    - assets/questions/problem_solving/stage3.json
+    - assets/questions/problem_solving/stage4.json
+    - assets/questions/problem_solving/stage5.json
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

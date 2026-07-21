@@ -1,0 +1,702 @@
+[
+  {
+    "id": 51,
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "40",
+      "42",
+      "44",
+      "48"
+    ],
+    "correct_answer": 1,
+    "explanation": "Pattern: n(n+1). 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42."
+  },
+  {
+    "id": 52,
+    "topic": "Pattern Recognition",
+    "difficulty": "Medium",
+    "question": "Which number replaces the question mark? 3, 7, 15, 31, ?",
+    "options": [
+      "47",
+      "55",
+      "63",
+      "65"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is previous ×2 +1."
+  },
+  {
+    "id": 53,
+    "topic": "Coding-Decoding",
+    "difficulty": "Medium",
+    "question": "If COMPUTER is coded as RFUVQNPC, then the coding method is:",
+    "options": [
+      "Reverse only",
+      "Reverse + shift",
+      "Reverse the letters",
+      "Shift every letter by 2"
+    ],
+    "correct_answer": 2,
+    "explanation": "COMPUTER reversed becomes RETUPMOC."
+  },
+  {
+    "id": 54,
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "Pointing to a woman, Raj said, 'She is the daughter of my grandfather's only son.' Who is the woman to Raj?",
+    "options": [
+      "Mother",
+      "Sister",
+      "Daughter",
+      "Cousin"
+    ],
+    "correct_answer": 1,
+    "explanation": "Grandfather's only son is Raj's father. Father's daughter is Raj's sister."
+  },
+  {
+    "id": 55,
+    "topic": "Direction Sense",
+    "difficulty": "Medium",
+    "question": "A person walks 10 m North, 5 m East, 10 m South and 5 m West. Where is the person now?",
+    "options": [
+      "5 m North",
+      "Starting Point",
+      "5 m South",
+      "10 m East"
+    ],
+    "correct_answer": 1,
+    "explanation": "The movements cancel each other completely."
+  },
+  {
+    "id": 56,
+    "topic": "Analogy",
+    "difficulty": "Medium",
+    "question": "Engine : Car :: Heart : ?",
+    "options": [
+      "Human Body",
+      "Blood",
+      "Doctor",
+      "Lungs"
+    ],
+    "correct_answer": 0,
+    "explanation": "An engine powers a car just as the heart powers the human body."
+  },
+  {
+    "id": 57,
+    "topic": "Classification",
+    "difficulty": "Medium",
+    "question": "Find the odd one out.",
+    "options": [
+      "Java",
+      "Python",
+      "HTML",
+      "C++"
+    ],
+    "correct_answer": 2,
+    "explanation": "HTML is a markup language, while the others are programming languages."
+  },
+  {
+    "id": 58,
+    "topic": "Logical Puzzle",
+    "difficulty": "Medium",
+    "question": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+    "options": [
+      "0°",
+      "7.5°",
+      "15°",
+      "22.5°"
+    ],
+    "correct_answer": 1,
+    "explanation": "Hour hand = 97.5°, minute hand = 90°. Difference = 7.5°."
+  },
+  {
+    "id": 59,
+    "topic": "Critical Thinking",
+    "difficulty": "Medium",
+    "question": "When debugging software, what should be done before changing multiple sections of code?",
+    "options": [
+      "Rewrite everything",
+      "Identify the root cause",
+      "Restart the computer",
+      "Ignore compiler warnings"
+    ],
+    "correct_answer": 1,
+    "explanation": "Understanding the root cause prevents unnecessary changes."
+  },
+  {
+    "id": 60,
+    "topic": "Decision Making",
+    "difficulty": "Medium",
+    "question": "Your solution works but has poor performance. What should you do?",
+    "options": [
+      "Release immediately",
+      "Optimize after identifying bottlenecks",
+      "Ignore performance",
+      "Rewrite randomly"
+    ],
+    "correct_answer": 1,
+    "explanation": "Performance optimization should target measured bottlenecks."
+  },
+  {
+    "id": 61,
+    "topic": "Series",
+    "difficulty": "Medium",
+    "question": "Find the next number: 1, 4, 10, 19, 31, ?",
+    "options": [
+      "44",
+      "46",
+      "47",
+      "49"
+    ],
+    "correct_answer": 1,
+    "explanation": "Differences are +3, +6, +9, +12, +15."
+  },
+  {
+    "id": 62,
+    "topic": "Pattern Recognition",
+    "difficulty": "Medium",
+    "question": "Which number comes next? 81, 27, 9, 3, ?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "9"
+    ],
+    "correct_answer": 1,
+    "explanation": "Each term is divided by 3."
+  },
+  {
+    "id": 63,
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "If every square is a rectangle and every rectangle is a quadrilateral, then every square is:",
+    "options": [
+      "A triangle",
+      "A quadrilateral",
+      "A circle",
+      "A polygon only"
+    ],
+    "correct_answer": 1,
+    "explanation": "The conclusion follows logically."
+  },
+  {
+    "id": 64,
+    "topic": "Puzzle",
+    "difficulty": "Medium",
+    "question": "A basket contains 5 apples. You take away 2 apples. How many apples do you have?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "7"
+    ],
+    "correct_answer": 0,
+    "explanation": "You have the two apples you took."
+  },
+  {
+    "id": 65,
+    "topic": "Logical Puzzle",
+    "difficulty": "Medium",
+    "question": "If there are 7 people in a room and each shakes hands with every other person exactly once, how many handshakes occur?",
+    "options": [
+      "14",
+      "18",
+      "21",
+      "42"
+    ],
+    "correct_answer": 2,
+    "explanation": "Number of handshakes = n(n−1)/2 = 7×6/2 = 21."
+  },
+  {
+    "id": 66,
+    "topic": "Problem Solving",
+    "difficulty": "Medium",
+    "question": "When solving a large software project, the best strategy is to:",
+    "options": [
+      "Develop everything at once",
+      "Break the project into modules",
+      "Skip planning",
+      "Avoid testing"
+    ],
+    "correct_answer": 1,
+    "explanation": "Modular development improves maintainability and testing."
+  },
+  {
+    "id": 67,
+    "topic": "Problem Solving",
+    "difficulty": "Medium",
+    "question": "Which approach usually results in better software quality?",
+    "options": [
+      "Trial and error only",
+      "Design, implement, test, and iterate",
+      "Write code without requirements",
+      "Avoid code reviews"
+    ],
+    "correct_answer": 1,
+    "explanation": "A structured development process produces higher-quality software."
+  },
+    {
+    "id": 68,
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Find the next number in the series: 4, 9, 16, 25, ?",
+    "options": [
+      "30",
+      "34",
+      "36",
+      "49"
+    ],
+    "correct_answer": 2,
+    "explanation": "These are perfect squares: 2², 3², 4², 5², 6²."
+  },
+  {
+    "id": 69,
+    "topic": "Pattern Recognition",
+    "difficulty": "Medium",
+    "question": "Find the missing term: B, E, H, K, ?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correct_answer": 1,
+    "explanation": "Each letter advances by 3 positions: B, E, H, K, N."
+  },
+  {
+    "id": 70,
+    "topic": "Coding-Decoding",
+    "difficulty": "Medium",
+    "question": "If TABLE is coded as UBCMF, then CHAIR is coded as:",
+    "options": [
+      "DIBJS",
+      "DIAJS",
+      "DJBIS",
+      "DHBJS"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted forward by one position."
+  },
+  {
+    "id": 71,
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "A is the father of B. C is the wife of B. D is the son of C. How is A related to D?",
+    "options": [
+      "Father",
+      "Grandfather",
+      "Uncle",
+      "Brother"
+    ],
+    "correct_answer": 1,
+    "explanation": "A is the father of B, and D is B's son, making A the grandfather."
+  },
+  {
+    "id": 72,
+    "topic": "Direction Sense",
+    "difficulty": "Medium",
+    "question": "A man walks 12 m East, then 5 m North. How far is he from the starting point?",
+    "options": [
+      "13 m",
+      "15 m",
+      "17 m",
+      "19 m"
+    ],
+    "correct_answer": 0,
+    "explanation": "Using Pythagoras: √(12² + 5²) = √169 = 13 m."
+  },
+  {
+    "id": 73,
+    "topic": "Analogy",
+    "difficulty": "Medium",
+    "question": "Keyboard : Typing :: Brush : ?",
+    "options": [
+      "Painting",
+      "Drawing",
+      "Cleaning",
+      "Writing"
+    ],
+    "correct_answer": 0,
+    "explanation": "A keyboard is used for typing, while a brush is commonly used for painting."
+  },
+  {
+    "id": 74,
+    "topic": "Classification",
+    "difficulty": "Medium",
+    "question": "Which one is different?",
+    "options": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Moon"
+    ],
+    "correct_answer": 3,
+    "explanation": "The Moon is Earth's natural satellite, while the others are planets."
+  },
+  {
+    "id": 75,
+    "topic": "Series",
+    "difficulty": "Medium",
+    "question": "Find the next number: 5, 11, 23, 47, ?",
+    "options": [
+      "91",
+      "93",
+      "95",
+      "97"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is multiplied by 2 and then increased by 1."
+  },
+  {
+    "id": 76,
+    "topic": "Logical Puzzle",
+    "difficulty": "Medium",
+    "question": "A train 150 m long crosses a pole in 10 seconds. What is its speed?",
+    "options": [
+      "10 m/s",
+      "12 m/s",
+      "15 m/s",
+      "18 m/s"
+    ],
+    "correct_answer": 2,
+    "explanation": "Speed = Distance / Time = 150 / 10 = 15 m/s."
+  },
+  {
+    "id": 77,
+    "topic": "Critical Thinking",
+    "difficulty": "Medium",
+    "question": "A test case fails after a recent code change. What should you check first?",
+    "options": [
+      "Delete the test",
+      "Review the recent changes",
+      "Ignore the failure",
+      "Reinstall the IDE"
+    ],
+    "correct_answer": 1,
+    "explanation": "Recent code changes are the most likely cause of new failures."
+  },
+  {
+    "id": 78,
+    "topic": "Decision Making",
+    "difficulty": "Medium",
+    "question": "Your team disagrees on the implementation approach. What is the best action?",
+    "options": [
+      "Vote without discussion",
+      "Compare alternatives using technical evidence",
+      "Ignore everyone's opinion",
+      "Choose the longest solution"
+    ],
+    "correct_answer": 1,
+    "explanation": "Technical decisions should be based on objective evaluation."
+  },
+  {
+    "id": 79,
+    "topic": "Pattern Recognition",
+    "difficulty": "Medium",
+    "question": "Find the next number: 1, 8, 27, 64, ?",
+    "options": [
+      "81",
+      "100",
+      "125",
+      "216"
+    ],
+    "correct_answer": 2,
+    "explanation": "These are cubes: 1³, 2³, 3³, 4³, 5³."
+  },
+  {
+    "id": 80,
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Which number is the odd one out? 16, 25, 36, 48, 49",
+    "options": [
+      "25",
+      "36",
+      "48",
+      "49"
+    ],
+    "correct_answer": 2,
+    "explanation": "48 is not a perfect square."
+  },
+  {
+    "id": 81,
+    "topic": "Puzzle",
+    "difficulty": "Medium",
+    "question": "How many sides do three triangles have in total?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each triangle has 3 sides. Three triangles have 9 sides."
+  },
+  {
+    "id": 82,
+    "topic": "Logical Puzzle",
+    "difficulty": "Medium",
+    "question": "A cube has 6 faces. If all faces are painted and then cut into 27 equal cubes, how many small cubes have exactly three painted faces?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correct_answer": 2,
+    "explanation": "Only the 8 corner cubes have exactly three painted faces."
+  },
+  {
+    "id": 83,
+    "topic": "Problem Solving",
+    "difficulty": "Medium",
+    "question": "Which strategy is most effective for solving a difficult algorithmic problem?",
+    "options": [
+      "Guess repeatedly",
+      "Break the problem into smaller subproblems",
+      "Ignore constraints",
+      "Use the first algorithm you remember"
+    ],
+    "correct_answer": 1,
+    "explanation": "Breaking a problem into smaller parts simplifies analysis and implementation."
+  },
+  {
+    "id": 84,
+    "topic": "Problem Solving",
+    "difficulty": "Medium",
+    "question": "When optimizing software, what should be measured before making improvements?",
+    "options": [
+      "Coding speed",
+      "Memory leaks only",
+      "Performance bottlenecks",
+      "Number of comments"
+    ],
+    "correct_answer": 2,
+    "explanation": "Measure actual bottlenecks before optimizing to avoid unnecessary changes."
+  },
+    {
+    "id": 85,
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Find the next number in the series: 2, 5, 10, 17, 26, ?",
+    "options": [
+      "35",
+      "36",
+      "37",
+      "38"
+    ],
+    "correct_answer": 2,
+    "explanation": "The pattern is n² + 1: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37."
+  },
+  {
+    "id": 86,
+    "topic": "Pattern Recognition",
+    "difficulty": "Medium",
+    "question": "Find the missing term: AZ, BY, CX, ?",
+    "options": [
+      "DW",
+      "DX",
+      "EV",
+      "FV"
+    ],
+    "correct_answer": 0,
+    "explanation": "The first letter moves forward while the second moves backward: A-Z, B-Y, C-X, D-W."
+  },
+  {
+    "id": 87,
+    "topic": "Coding-Decoding",
+    "difficulty": "Medium",
+    "question": "If LIGHT is coded as MJHIU, then HOUSE is coded as:",
+    "options": [
+      "IPVTF",
+      "IPUTF",
+      "JQWUG",
+      "IPVUF"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 88,
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "A woman introduces a boy as 'He is the son of the daughter of my mother.' How is the boy related to the woman?",
+    "options": [
+      "Son",
+      "Nephew",
+      "Brother",
+      "Grandson"
+    ],
+    "correct_answer": 0,
+    "explanation": "The daughter's son is the woman's son."
+  },
+  {
+    "id": 89,
+    "topic": "Direction Sense",
+    "difficulty": "Medium",
+    "question": "A person walks 6 km East, then 8 km North. What is the shortest distance from the starting point?",
+    "options": [
+      "8 km",
+      "10 km",
+      "12 km",
+      "14 km"
+    ],
+    "correct_answer": 1,
+    "explanation": "Using Pythagoras: √(6² + 8²) = √100 = 10 km."
+  },
+  {
+    "id": 90,
+    "topic": "Analogy",
+    "difficulty": "Medium",
+    "question": "CPU : Computer :: Brain : ?",
+    "options": [
+      "Body",
+      "Heart",
+      "Head",
+      "Memory"
+    ],
+    "correct_answer": 0,
+    "explanation": "A CPU controls a computer just as the brain controls the body."
+  },
+  {
+    "id": 91,
+    "topic": "Classification",
+    "difficulty": "Medium",
+    "question": "Which one is different?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Linked List",
+      "Compiler"
+    ],
+    "correct_answer": 3,
+    "explanation": "Compiler is software, while the others are data structures."
+  },
+  {
+    "id": 92,
+    "topic": "Series",
+    "difficulty": "Medium",
+    "question": "Find the next number: 13, 21, 34, 55, ?",
+    "options": [
+      "76",
+      "81",
+      "89",
+      "90"
+    ],
+    "correct_answer": 2,
+    "explanation": "This is the Fibonacci sequence."
+  },
+  {
+    "id": 93,
+    "topic": "Logical Puzzle",
+    "difficulty": "Medium",
+    "question": "If 8 workers complete a task in 15 days, how many days will 12 workers take, assuming equal efficiency?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correct_answer": 1,
+    "explanation": "Workers × Days = Constant. 8×15 = 12×x ⇒ x = 10 days."
+  },
+  {
+    "id": 94,
+    "topic": "Critical Thinking",
+    "difficulty": "Medium",
+    "question": "Which practice helps reduce software defects before deployment?",
+    "options": [
+      "Skipping testing",
+      "Code Reviews",
+      "Ignoring warnings",
+      "Removing comments"
+    ],
+    "correct_answer": 1,
+    "explanation": "Code reviews help identify defects and improve code quality."
+  },
+  {
+    "id": 95,
+    "topic": "Decision Making",
+    "difficulty": "Medium",
+    "question": "A customer reports a bug that cannot be reproduced. What should you do first?",
+    "options": [
+      "Close the issue",
+      "Collect logs and reproduction steps",
+      "Ignore the report",
+      "Rewrite the application"
+    ],
+    "correct_answer": 1,
+    "explanation": "Gathering information is the first step toward reproducing and fixing the issue."
+  },
+  {
+    "id": 96,
+    "topic": "Pattern Recognition",
+    "difficulty": "Medium",
+    "question": "Find the next number: 1, 2, 6, 24, ?",
+    "options": [
+      "48",
+      "72",
+      "96",
+      "120"
+    ],
+    "correct_answer": 3,
+    "explanation": "The sequence represents factorials: 1!, 2!, 3!, 4!, 5! = 120."
+  },
+  {
+    "id": 97,
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Which number is the odd one out? 8, 27, 64, 100, 125",
+    "options": [
+      "27",
+      "64",
+      "100",
+      "125"
+    ],
+    "correct_answer": 2,
+    "explanation": "100 is not a perfect cube; the others are 2³, 3³, 4³, and 5³."
+  },
+  {
+    "id": 98,
+    "topic": "Puzzle",
+    "difficulty": "Medium",
+    "question": "How many months in a year have exactly 30 days?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "11"
+    ],
+    "correct_answer": 0,
+    "explanation": "April, June, September, and November have exactly 30 days."
+  },
+  {
+    "id": 99,
+    "topic": "Problem Solving",
+    "difficulty": "Medium",
+    "question": "When solving a complex algorithmic problem, what should be identified before choosing an approach?",
+    "options": [
+      "Programming language",
+      "Input size and constraints",
+      "Variable names",
+      "IDE theme"
+    ],
+    "correct_answer": 1,
+    "explanation": "Constraints determine which algorithm and data structure are appropriate."
+  },
+  {
+    "id": 100,
+    "topic": "Problem Solving",
+    "difficulty": "Medium",
+    "question": "Which quality is most important for becoming an effective problem solver in software engineering?",
+    "options": [
+      "Memorizing every algorithm",
+      "Logical thinking, practice, and continuous learning",
+      "Writing the longest code",
+      "Avoiding difficult problems"
+    ],
+    "correct_answer": 1,
+    "explanation": "Strong analytical thinking combined with regular practice and learning leads to effective problem-solving skills."
+  }
+]

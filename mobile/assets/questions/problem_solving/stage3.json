@@ -1,0 +1,702 @@
+[
+  {
+    "id": 101,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next number in the series: 3, 7, 13, 21, 31, ?",
+    "options": [
+      "41",
+      "43",
+      "45",
+      "47"
+    ],
+    "correct_answer": 1,
+    "explanation": "Differences are +4, +6, +8, +10, so the next difference is +12. 31 + 12 = 43."
+  },
+  {
+    "id": 102,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Which number replaces the question mark? 2, 5, 11, 23, 47, ?",
+    "options": [
+      "91",
+      "93",
+      "95",
+      "97"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is previous ×2 +1."
+  },
+  {
+    "id": 103,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If 'ENGINE' is coded as 'FOHJOF', then 'SYSTEM' is coded as:",
+    "options": [
+      "TZTUFN",
+      "TZTUGN",
+      "TZSUFN",
+      "TZUVFN"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 104,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "A is B's mother. C is B's brother. D is C's son. How is A related to D?",
+    "options": [
+      "Mother",
+      "Grandmother",
+      "Aunt",
+      "Sister"
+    ],
+    "correct_answer": 1,
+    "explanation": "A is the mother of C, and D is C's son. Therefore, A is D's grandmother."
+  },
+  {
+    "id": 105,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 15 m North, 20 m East, 15 m South. How far is the person from the starting point?",
+    "options": [
+      "15 m",
+      "20 m",
+      "25 m",
+      "30 m"
+    ],
+    "correct_answer": 1,
+    "explanation": "The north and south movements cancel each other, leaving the person 20 m east."
+  },
+  {
+    "id": 106,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Algorithm : Program :: Blueprint : ?",
+    "options": [
+      "Engineer",
+      "Building",
+      "Brick",
+      "Drawing"
+    ],
+    "correct_answer": 1,
+    "explanation": "A blueprint is used to construct a building, just as an algorithm is used to create a program."
+  },
+  {
+    "id": 107,
+    "topic": "Classification",
+    "difficulty": "Hard",
+    "question": "Which one is different?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Tree",
+      "Keyboard"
+    ],
+    "correct_answer": 3,
+    "explanation": "Keyboard is a hardware device, while the others are data structures."
+  },
+  {
+    "id": 108,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 1, 2, 4, 7, 11, 16, ?",
+    "options": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "correct_answer": 2,
+    "explanation": "Differences are +1, +2, +3, +4, +5, so the next difference is +6."
+  },
+  {
+    "id": 109,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "A train travels at 72 km/h. How far does it travel in 25 seconds?",
+    "options": [
+      "400 m",
+      "500 m",
+      "600 m",
+      "700 m"
+    ],
+    "correct_answer": 1,
+    "explanation": "72 km/h = 20 m/s. Distance = 20 × 25 = 500 m."
+  },
+  {
+    "id": 110,
+    "topic": "Critical Thinking",
+    "difficulty": "Hard",
+    "question": "When two solutions have similar performance, the better choice is usually the one that is:",
+    "options": [
+      "Longer",
+      "More maintainable",
+      "More complex",
+      "Harder to understand"
+    ],
+    "correct_answer": 1,
+    "explanation": "Maintainability is an important software engineering principle."
+  },
+  {
+    "id": 111,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "A feature request conflicts with existing security policies. What should be prioritized?",
+    "options": [
+      "Feature implementation",
+      "Security requirements",
+      "Developer convenience",
+      "Ignoring the request"
+    ],
+    "correct_answer": 1,
+    "explanation": "Security should never be compromised for convenience."
+  },
+  {
+    "id": 112,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If all programmers are logical thinkers and some logical thinkers are musicians, which conclusion is definitely true?",
+    "options": [
+      "All programmers are musicians",
+      "Some programmers are musicians",
+      "All programmers are logical thinkers",
+      "No musician is a programmer"
+    ],
+    "correct_answer": 2,
+    "explanation": "Only the first statement is guaranteed."
+  },
+  {
+    "id": 113,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "A father is four times as old as his son. In 20 years, he will be twice as old. If the son's present age is x, what is x?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct_answer": 0,
+    "explanation": "4x + 20 = 2(x + 20). Solving gives x = 10."
+  },
+  {
+    "id": 114,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: ACE, BDF, CEG, ?",
+    "options": [
+      "DFH",
+      "DFI",
+      "EFH",
+      "FGI"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter advances by one position in the alphabet."
+  },
+  {
+    "id": 115,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "How many diagonals does a hexagon have?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "correct_answer": 2,
+    "explanation": "A polygon with n sides has n(n−3)/2 diagonals. For n = 6, diagonals = 9."
+  },
+  {
+    "id": 116,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Which approach is generally best when solving optimization problems?",
+    "options": [
+      "Random guessing",
+      "Analyze constraints and choose an appropriate algorithm",
+      "Always use recursion",
+      "Always use brute force"
+    ],
+    "correct_answer": 1,
+    "explanation": "The constraints determine the most suitable algorithm."
+  },
+  {
+    "id": 117,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Before implementing a solution, what should an engineer do first?",
+    "options": [
+      "Optimize immediately",
+      "Understand the problem and constraints",
+      "Write test cases after deployment",
+      "Skip planning"
+    ],
+    "correct_answer": 1,
+    "explanation": "A clear understanding of the problem and constraints is essential before implementation."
+  },
+    {
+    "id": 118,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next number in the series: 1, 3, 6, 10, 15, ?",
+    "options": [
+      "18",
+      "20",
+      "21",
+      "24"
+    ],
+    "correct_answer": 2,
+    "explanation": "These are triangular numbers. Differences are +2, +3, +4, +5, so the next difference is +6."
+  },
+  {
+    "id": 119,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the missing term: 2, 6, 18, 54, ?",
+    "options": [
+      "108",
+      "152",
+      "162",
+      "180"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is multiplied by 3."
+  },
+  {
+    "id": 120,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If 'CODE' is written as 'DPEF', then 'DEBUG' is written as:",
+    "options": [
+      "EFCVH",
+      "EFCVH",
+      "EFCVI",
+      "EFCVH"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward: D→E, E→F, B→C, U→V, G→H."
+  },
+  {
+    "id": 121,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "Pointing to a man, Riya said, 'He is the husband of my mother's daughter.' How is the man related to Riya?",
+    "options": [
+      "Brother",
+      "Father",
+      "Husband",
+      "Uncle"
+    ],
+    "correct_answer": 2,
+    "explanation": "Riya's mother's daughter is Riya herself, so the man is her husband."
+  },
+  {
+    "id": 122,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 8 m North, 15 m East, then 8 m South. How far is the person from the starting point?",
+    "options": [
+      "8 m",
+      "15 m",
+      "17 m",
+      "23 m"
+    ],
+    "correct_answer": 1,
+    "explanation": "North and South movements cancel each other, leaving the person 15 m East."
+  },
+  {
+    "id": 123,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Compiler : Source Code :: Chef : ?",
+    "options": [
+      "Kitchen",
+      "Recipe",
+      "Food",
+      "Customer"
+    ],
+    "correct_answer": 1,
+    "explanation": "A compiler processes source code, just as a chef follows a recipe."
+  },
+  {
+    "id": 124,
+    "topic": "Classification",
+    "difficulty": "Hard",
+    "question": "Which one is different?",
+    "options": [
+      "Array",
+      "Stack",
+      "Queue",
+      "Monitor"
+    ],
+    "correct_answer": 3,
+    "explanation": "Monitor is a hardware output device, while the others are data structures."
+  },
+  {
+    "id": 125,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 4, 7, 13, 25, 49, ?",
+    "options": [
+      "97",
+      "98",
+      "99",
+      "100"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each term is multiplied by 2 and then decreased by 1."
+  },
+  {
+    "id": 126,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "A car travels 180 km in 3 hours. What is its average speed?",
+    "options": [
+      "50 km/h",
+      "55 km/h",
+      "60 km/h",
+      "65 km/h"
+    ],
+    "correct_answer": 2,
+    "explanation": "Average speed = Distance ÷ Time = 180 ÷ 3 = 60 km/h."
+  },
+  {
+    "id": 127,
+    "topic": "Critical Thinking",
+    "difficulty": "Hard",
+    "question": "Which practice helps detect bugs early in software development?",
+    "options": [
+      "Skipping testing",
+      "Code reviews and unit testing",
+      "Ignoring warnings",
+      "Deploying immediately"
+    ],
+    "correct_answer": 1,
+    "explanation": "Code reviews and unit tests catch defects before deployment."
+  },
+  {
+    "id": 128,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "A project is behind schedule. What should the team do first?",
+    "options": [
+      "Skip testing",
+      "Analyze the cause and reprioritize tasks",
+      "Ignore deadlines",
+      "Add random features"
+    ],
+    "correct_answer": 1,
+    "explanation": "Understanding the cause helps create an effective recovery plan."
+  },
+  {
+    "id": 129,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If all laptops are computers and some computers are expensive, which statement is definitely true?",
+    "options": [
+      "All laptops are expensive",
+      "Some laptops are expensive",
+      "All laptops are computers",
+      "No laptops are expensive"
+    ],
+    "correct_answer": 2,
+    "explanation": "Only the first statement logically follows."
+  },
+  {
+    "id": 130,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "A rectangle has length 12 cm and width 8 cm. What is its perimeter?",
+    "options": [
+      "20 cm",
+      "32 cm",
+      "40 cm",
+      "96 cm"
+    ],
+    "correct_answer": 2,
+    "explanation": "Perimeter = 2 × (12 + 8) = 40 cm."
+  },
+  {
+    "id": 131,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: AA, BC, CE, DG, ?",
+    "options": [
+      "EI",
+      "FH",
+      "EI",
+      "FI"
+    ],
+    "correct_answer": 0,
+    "explanation": "The first letters increase by one (A, B, C, D, E) while the second letters increase by two (A, C, E, G, I)."
+  },
+  {
+    "id": 132,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "How many edges does a cube have?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correct_answer": 2,
+    "explanation": "A cube has 12 edges."
+  },
+  {
+    "id": 133,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "The first step in solving any optimization problem is to:",
+    "options": [
+      "Write code",
+      "Understand the objective and constraints",
+      "Choose Dynamic Programming",
+      "Choose Greedy Algorithm"
+    ],
+    "correct_answer": 1,
+    "explanation": "Before selecting an algorithm, clearly identify the objective and constraints."
+  },
+  {
+    "id": 134,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Which habit most improves problem-solving ability over time?",
+    "options": [
+      "Avoiding difficult questions",
+      "Regular practice with increasing difficulty",
+      "Memorizing answers only",
+      "Depending entirely on AI"
+    ],
+    "correct_answer": 1,
+    "explanation": "Consistent practice across progressively harder problems develops strong analytical skills."
+  },
+    {
+    "id": 135,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next number in the series: 5, 9, 17, 33, 65, ?",
+    "options": [
+      "97",
+      "113",
+      "129",
+      "131"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is multiplied by 2 and then reduced by 1: (5×2)-1=9, (9×2)-1=17, ..., (65×2)-1=129."
+  },
+  {
+    "id": 136,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the missing term: A2, C4, E6, G8, ?",
+    "options": [
+      "H10",
+      "I10",
+      "J12",
+      "K10"
+    ],
+    "correct_answer": 1,
+    "explanation": "Letters skip one alphabet (A,C,E,G,I) while numbers increase by 2."
+  },
+  {
+    "id": 137,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If 'SMART' is coded as 'TNBSU', then 'LOGIC' is coded as:",
+    "options": [
+      "MPHJD",
+      "MPHJE",
+      "NPHJD",
+      "MPGJD"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward: L→M, O→P, G→H, I→J, C→D."
+  },
+  {
+    "id": 138,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?",
+    "options": [
+      "Grandfather",
+      "Father",
+      "Uncle",
+      "Brother"
+    ],
+    "correct_answer": 2,
+    "explanation": "A is the brother of D's father, making A the uncle."
+  },
+  {
+    "id": 139,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 9 m West, 12 m North. What is the shortest distance from the starting point?",
+    "options": [
+      "12 m",
+      "13 m",
+      "15 m",
+      "18 m"
+    ],
+    "correct_answer": 2,
+    "explanation": "Using Pythagoras: √(9² + 12²) = √225 = 15 m."
+  },
+  {
+    "id": 140,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Seed : Plant :: Egg : ?",
+    "options": [
+      "Nest",
+      "Bird",
+      "Feather",
+      "Wing"
+    ],
+    "correct_answer": 1,
+    "explanation": "A seed grows into a plant just as an egg develops into a bird."
+  },
+  {
+    "id": 141,
+    "topic": "Classification",
+    "difficulty": "Hard",
+    "question": "Which one is different?",
+    "options": [
+      "TCP",
+      "UDP",
+      "HTTP",
+      "SSD"
+    ],
+    "correct_answer": 3,
+    "explanation": "SSD is a storage device, while the others are networking protocols."
+  },
+  {
+    "id": 142,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 2, 3, 5, 8, 13, 21, ?",
+    "options": [
+      "29",
+      "31",
+      "34",
+      "35"
+    ],
+    "correct_answer": 2,
+    "explanation": "This is the Fibonacci sequence."
+  },
+  {
+    "id": 143,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "If 15 workers complete a task in 12 days, how many days will 20 workers take?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correct_answer": 1,
+    "explanation": "Workers × Days = Constant. 15×12 = 20×x ⇒ x = 9 days."
+  },
+  {
+    "id": 144,
+    "topic": "Critical Thinking",
+    "difficulty": "Hard",
+    "question": "A production server crashes after deployment. What should the team do first?",
+    "options": [
+      "Blame the developer",
+      "Collect logs and stabilize the system",
+      "Delete the project",
+      "Ignore customer reports"
+    ],
+    "correct_answer": 1,
+    "explanation": "The first priority is restoring service and collecting diagnostic information."
+  },
+  {
+    "id": 145,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "A software project is over budget. What is the best initial action?",
+    "options": [
+      "Stop the project immediately",
+      "Analyze costs and reprioritize requirements",
+      "Fire team members",
+      "Ignore the budget"
+    ],
+    "correct_answer": 1,
+    "explanation": "Good project management begins with understanding the reasons for cost overruns."
+  },
+  {
+    "id": 146,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If every engineer is a graduate and some graduates are researchers, which statement is definitely true?",
+    "options": [
+      "All researchers are engineers",
+      "Some engineers are researchers",
+      "Every engineer is a graduate",
+      "No graduate is a researcher"
+    ],
+    "correct_answer": 2,
+    "explanation": "Only the statement 'Every engineer is a graduate' necessarily follows."
+  },
+  {
+    "id": 147,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "A square has a perimeter of 40 cm. What is its area?",
+    "options": [
+      "64 cm²",
+      "81 cm²",
+      "100 cm²",
+      "121 cm²"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each side = 40/4 = 10 cm. Area = 10 × 10 = 100 cm²."
+  },
+  {
+    "id": 148,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: AB, BC, CD, DE, ?",
+    "options": [
+      "EF",
+      "FG",
+      "EG",
+      "GH"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each pair advances one letter: AB, BC, CD, DE, EF."
+  },
+  {
+    "id": 149,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "How many vertices does a cube have?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correct_answer": 1,
+    "explanation": "A cube has 8 vertices, 12 edges, and 6 faces."
+  },
+  {
+    "id": 150,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Which mindset is most valuable for solving challenging technical interview problems?",
+    "options": [
+      "Memorize every solution",
+      "Practice pattern recognition, analyze constraints, and think systematically",
+      "Always use brute force",
+      "Skip difficult questions"
+    ],
+    "correct_answer": 1,
+    "explanation": "Successful problem solvers combine logical reasoning, pattern recognition, constraint analysis, and consistent practice rather than relying solely on memorization."
+  }
+]

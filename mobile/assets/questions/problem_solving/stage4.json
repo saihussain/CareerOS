@@ -1,0 +1,702 @@
+[
+  {
+    "id": 151,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next number in the series: 2, 3, 5, 9, 17, ?",
+    "options": [
+      "31",
+      "32",
+      "33",
+      "34"
+    ],
+    "correct_answer": 2,
+    "explanation": "Pattern: Previous ×2 -1. 2→3, 3→5, 5→9, 9→17, 17→33."
+  },
+  {
+    "id": 152,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the missing number: 1, 4, 9, 16, 25, ?",
+    "options": [
+      "30",
+      "35",
+      "36",
+      "49"
+    ],
+    "correct_answer": 2,
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5², 6²."
+  },
+  {
+    "id": 153,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If 'APPLE' is coded as 'BQQMF', then 'MANGO' is coded as:",
+    "options": [
+      "NBOHP",
+      "NBNHP",
+      "NCOHP",
+      "OBOHP"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 154,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "A is B's father. B is C's mother. C is D's brother. How is A related to D?",
+    "options": [
+      "Grandfather",
+      "Father",
+      "Uncle",
+      "Brother"
+    ],
+    "correct_answer": 0,
+    "explanation": "A is the father of B, and B is the mother of D, making A the grandfather."
+  },
+  {
+    "id": 155,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 24 m East, then 7 m North. What is the shortest distance from the starting point?",
+    "options": [
+      "24 m",
+      "25 m",
+      "26 m",
+      "27 m"
+    ],
+    "correct_answer": 1,
+    "explanation": "Using Pythagoras: √(24² + 7²) = √625 = 25 m."
+  },
+  {
+    "id": 156,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Key : Lock :: Password : ?",
+    "options": [
+      "User",
+      "Login",
+      "Authentication",
+      "Security"
+    ],
+    "correct_answer": 2,
+    "explanation": "A key opens a lock just as a password enables authentication."
+  },
+  {
+    "id": 157,
+    "topic": "Classification",
+    "difficulty": "Hard",
+    "question": "Which one is different?",
+    "options": [
+      "Array",
+      "Stack",
+      "Queue",
+      "Monitor"
+    ],
+    "correct_answer": 3,
+    "explanation": "Monitor is hardware, while the others are data structures."
+  },
+  {
+    "id": 158,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 1, 8, 27, 64, 125, ?",
+    "options": [
+      "144",
+      "196",
+      "216",
+      "225"
+    ],
+    "correct_answer": 2,
+    "explanation": "These are cubes: 1³, 2³, 3³, 4³, 5³, 6³."
+  },
+  {
+    "id": 159,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "A car travels 360 km in 6 hours. What is its average speed?",
+    "options": [
+      "50 km/h",
+      "55 km/h",
+      "60 km/h",
+      "65 km/h"
+    ],
+    "correct_answer": 2,
+    "explanation": "Average speed = Distance ÷ Time = 360 ÷ 6 = 60 km/h."
+  },
+  {
+    "id": 160,
+    "topic": "Critical Thinking",
+    "difficulty": "Hard",
+    "question": "A bug is reported but cannot be reproduced. What is the most appropriate first step?",
+    "options": [
+      "Close the issue",
+      "Collect logs and environment details",
+      "Rewrite the module",
+      "Ignore the report"
+    ],
+    "correct_answer": 1,
+    "explanation": "Gathering information is essential before debugging."
+  },
+  {
+    "id": 161,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "A critical production issue affects thousands of users. What should be prioritized?",
+    "options": [
+      "Adding new features",
+      "Restoring service quickly",
+      "Code refactoring",
+      "Updating documentation"
+    ],
+    "correct_answer": 1,
+    "explanation": "Production incidents should focus first on restoring service."
+  },
+  {
+    "id": 162,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If every API is software and every software is technology, then every API is:",
+    "options": [
+      "Technology",
+      "Hardware",
+      "Database",
+      "Application"
+    ],
+    "correct_answer": 0,
+    "explanation": "The conclusion follows logically."
+  },
+  {
+    "id": 163,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "A rectangle has length 15 cm and width 9 cm. What is its area?",
+    "options": [
+      "120 cm²",
+      "125 cm²",
+      "135 cm²",
+      "150 cm²"
+    ],
+    "correct_answer": 2,
+    "explanation": "Area = Length × Width = 15 × 9 = 135 cm²."
+  },
+  {
+    "id": 164,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: ZY, XW, VU, TS, ?",
+    "options": [
+      "RQ",
+      "SR",
+      "QP",
+      "PO"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each pair moves backward by two letters."
+  },
+  {
+    "id": 165,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "How many faces does a cube have?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct_answer": 2,
+    "explanation": "A cube has 6 faces."
+  },
+  {
+    "id": 166,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Which technique helps solve complex problems by dividing them into smaller independent parts?",
+    "options": [
+      "Brute Force",
+      "Divide and Conquer",
+      "Random Search",
+      "Trial and Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Divide and Conquer recursively splits a problem into manageable subproblems."
+  },
+  {
+    "id": 167,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "What is the primary benefit of writing pseudocode before coding?",
+    "options": [
+      "Improves internet speed",
+      "Clarifies logic before implementation",
+      "Reduces RAM usage",
+      "Compiles faster"
+    ],
+    "correct_answer": 1,
+    "explanation": "Pseudocode helps organize the solution logically before writing actual code."
+  },
+    {
+    "id": 168,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next number in the series: 7, 14, 28, 56, ?",
+    "options": [
+      "98",
+      "112",
+      "120",
+      "124"
+    ],
+    "correct_answer": 1,
+    "explanation": "Each term is multiplied by 2."
+  },
+  {
+    "id": 169,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the missing term: B2, D4, F6, H8, ?",
+    "options": [
+      "I10",
+      "J10",
+      "K12",
+      "L10"
+    ],
+    "correct_answer": 1,
+    "explanation": "Letters increase by two positions (B, D, F, H, J) while numbers increase by 2."
+  },
+  {
+    "id": 170,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If 'TRAIN' is coded as 'USBJO', then 'PLANE' is coded as:",
+    "options": [
+      "QMBOF",
+      "QMBOE",
+      "PMBOF",
+      "QNBOF"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 171,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "A is the mother of B. B is the father of C. How is A related to C?",
+    "options": [
+      "Mother",
+      "Grandmother",
+      "Aunt",
+      "Sister"
+    ],
+    "correct_answer": 1,
+    "explanation": "A is the mother of B, who is the father of C. Therefore, A is C's grandmother."
+  },
+  {
+    "id": 172,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 5 km South, then 12 km East. What is the shortest distance from the starting point?",
+    "options": [
+      "12 km",
+      "13 km",
+      "15 km",
+      "17 km"
+    ],
+    "correct_answer": 1,
+    "explanation": "Using Pythagoras: √(5² + 12²) = √169 = 13 km."
+  },
+  {
+    "id": 173,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Keyboard : Typing :: Mouse : ?",
+    "options": [
+      "Printing",
+      "Clicking",
+      "Compiling",
+      "Scanning"
+    ],
+    "correct_answer": 1,
+    "explanation": "A keyboard is used for typing, while a mouse is used for clicking."
+  },
+  {
+    "id": 174,
+    "topic": "Classification",
+    "difficulty": "Hard",
+    "question": "Which one is different?",
+    "options": [
+      "Java",
+      "Python",
+      "Linux",
+      "C++"
+    ],
+    "correct_answer": 2,
+    "explanation": "Linux is an operating system, while the others are programming languages."
+  },
+  {
+    "id": 175,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "correct_answer": 1,
+    "explanation": "The pattern follows n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7=42."
+  },
+  {
+    "id": 176,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "A train travels 90 km in 1.5 hours. What is its average speed?",
+    "options": [
+      "50 km/h",
+      "60 km/h",
+      "70 km/h",
+      "80 km/h"
+    ],
+    "correct_answer": 1,
+    "explanation": "Average speed = 90 ÷ 1.5 = 60 km/h."
+  },
+  {
+    "id": 177,
+    "topic": "Critical Thinking",
+    "difficulty": "Hard",
+    "question": "Which practice best improves long-term software quality?",
+    "options": [
+      "Skipping documentation",
+      "Regular refactoring and testing",
+      "Writing longer functions",
+      "Ignoring code reviews"
+    ],
+    "correct_answer": 1,
+    "explanation": "Regular refactoring and automated testing improve maintainability and reliability."
+  },
+  {
+    "id": 178,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "A customer requests a feature that conflicts with business goals. What should be done first?",
+    "options": [
+      "Reject immediately",
+      "Evaluate business value and stakeholder impact",
+      "Implement without discussion",
+      "Ignore the request"
+    ],
+    "correct_answer": 1,
+    "explanation": "Decisions should consider business objectives and stakeholder priorities."
+  },
+  {
+    "id": 179,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If every database is software and every software is technology, then every database is:",
+    "options": [
+      "Technology",
+      "Hardware",
+      "Application",
+      "Network"
+    ],
+    "correct_answer": 0,
+    "explanation": "The conclusion logically follows."
+  },
+  {
+    "id": 180,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "The perimeter of a square is 48 cm. What is its area?",
+    "options": [
+      "121 cm²",
+      "132 cm²",
+      "144 cm²",
+      "169 cm²"
+    ],
+    "correct_answer": 2,
+    "explanation": "Side = 48 ÷ 4 = 12 cm. Area = 12 × 12 = 144 cm²."
+  },
+  {
+    "id": 181,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: AC, CE, EG, GI, ?",
+    "options": [
+      "IK",
+      "JL",
+      "KM",
+      "IL"
+    ],
+    "correct_answer": 0,
+    "explanation": "Both letters advance by two positions each time."
+  },
+  {
+    "id": 182,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "How many diagonals does a pentagon have?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": 1,
+    "explanation": "A polygon with n sides has n(n−3)/2 diagonals. For n=5, diagonals = 5."
+  },
+  {
+    "id": 183,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Which algorithmic paradigm solves problems by combining optimal solutions to overlapping subproblems?",
+    "options": [
+      "Greedy",
+      "Dynamic Programming",
+      "Backtracking",
+      "Brute Force"
+    ],
+    "correct_answer": 1,
+    "explanation": "Dynamic Programming stores solutions to overlapping subproblems to avoid repeated computation."
+  },
+  {
+    "id": 184,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "Before optimizing an algorithm, what should you verify first?",
+    "options": [
+      "Its color theme",
+      "That the solution is correct",
+      "Variable names",
+      "Editor settings"
+    ],
+    "correct_answer": 1,
+    "explanation": "Correctness comes before optimization. An incorrect fast algorithm is still incorrect."
+  },
+    {
+    "id": 185,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "Find the next number in the series: 4, 9, 19, 39, 79, ?",
+    "options": [
+      "119",
+      "149",
+      "159",
+      "169"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is multiplied by 2 and then increased by 1."
+  },
+  {
+    "id": 186,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the missing term: A1, C3, E5, G7, ?",
+    "options": [
+      "I9",
+      "H9",
+      "J11",
+      "K9"
+    ],
+    "correct_answer": 0,
+    "explanation": "Letters skip one position (A, C, E, G, I) while numbers increase by 2."
+  },
+  {
+    "id": 187,
+    "topic": "Coding-Decoding",
+    "difficulty": "Hard",
+    "question": "If 'TABLE' is coded as 'UBCMF', then 'CHAIR' is coded as:",
+    "options": [
+      "DIBJS",
+      "DIAJS",
+      "DHBJS",
+      "EIBJS"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each letter is shifted one position forward."
+  },
+  {
+    "id": 188,
+    "topic": "Blood Relations",
+    "difficulty": "Hard",
+    "question": "A is the sister of B. B is the father of C. How is A related to C?",
+    "options": [
+      "Mother",
+      "Aunt",
+      "Grandmother",
+      "Sister"
+    ],
+    "correct_answer": 1,
+    "explanation": "A is the sister of C's father, so A is C's aunt."
+  },
+  {
+    "id": 189,
+    "topic": "Direction Sense",
+    "difficulty": "Hard",
+    "question": "A person walks 8 m East, 15 m South. What is the shortest distance from the starting point?",
+    "options": [
+      "15 m",
+      "16 m",
+      "17 m",
+      "18 m"
+    ],
+    "correct_answer": 2,
+    "explanation": "Using Pythagoras: √(8² + 15²) = √289 = 17 m."
+  },
+  {
+    "id": 190,
+    "topic": "Analogy",
+    "difficulty": "Hard",
+    "question": "Heart : Blood :: Pump : ?",
+    "options": [
+      "Machine",
+      "Water",
+      "Pipe",
+      "Motor"
+    ],
+    "correct_answer": 1,
+    "explanation": "The heart pumps blood just as a pump moves water."
+  },
+  {
+    "id": 191,
+    "topic": "Classification",
+    "difficulty": "Hard",
+    "question": "Which one is different?",
+    "options": [
+      "Binary Search",
+      "Merge Sort",
+      "Quick Sort",
+      "Keyboard"
+    ],
+    "correct_answer": 3,
+    "explanation": "Keyboard is hardware, while the others are algorithms."
+  },
+  {
+    "id": 192,
+    "topic": "Series",
+    "difficulty": "Hard",
+    "question": "Find the next number: 3, 6, 12, 24, 48, ?",
+    "options": [
+      "72",
+      "84",
+      "96",
+      "97"
+    ],
+    "correct_answer": 2,
+    "explanation": "Each term is doubled."
+  },
+  {
+    "id": 193,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "If 18 workers finish a task in 10 days, how many days will 15 workers take?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct_answer": 2,
+    "explanation": "Workers × Days = Constant. 18 × 10 = 15 × x ⇒ x = 12 days."
+  },
+  {
+    "id": 194,
+    "topic": "Critical Thinking",
+    "difficulty": "Hard",
+    "question": "Which metric best reflects customer experience after a software release?",
+    "options": [
+      "Lines of code",
+      "User satisfaction and defect reports",
+      "File size",
+      "Number of developers"
+    ],
+    "correct_answer": 1,
+    "explanation": "Customer feedback and production defects provide meaningful quality indicators."
+  },
+  {
+    "id": 195,
+    "topic": "Decision Making",
+    "difficulty": "Hard",
+    "question": "Two tasks have equal priority, but only one can be completed today. What is the best approach?",
+    "options": [
+      "Choose randomly",
+      "Select the task with greater business impact",
+      "Skip both",
+      "Delay indefinitely"
+    ],
+    "correct_answer": 1,
+    "explanation": "Business impact is an appropriate tie-breaker when priorities are otherwise equal."
+  },
+  {
+    "id": 196,
+    "topic": "Logical Reasoning",
+    "difficulty": "Hard",
+    "question": "If all servers are computers and all computers are machines, then all servers are:",
+    "options": [
+      "Machines",
+      "Networks",
+      "Programs",
+      "Databases"
+    ],
+    "correct_answer": 0,
+    "explanation": "This follows directly from the given statements."
+  },
+  {
+    "id": 197,
+    "topic": "Puzzle",
+    "difficulty": "Hard",
+    "question": "The radius of a circle is 7 cm. Using π = 22/7, what is the area?",
+    "options": [
+      "144 cm²",
+      "154 cm²",
+      "164 cm²",
+      "176 cm²"
+    ],
+    "correct_answer": 1,
+    "explanation": "Area = πr² = (22/7) × 7 × 7 = 154 cm²."
+  },
+  {
+    "id": 198,
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term: BA, DC, FE, HG, ?",
+    "options": [
+      "JI",
+      "IJ",
+      "KL",
+      "LK"
+    ],
+    "correct_answer": 0,
+    "explanation": "Each pair advances by two letters while maintaining reverse order."
+  },
+  {
+    "id": 199,
+    "topic": "Logical Puzzle",
+    "difficulty": "Hard",
+    "question": "How many edges does a rectangular cuboid have?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correct_answer": 2,
+    "explanation": "A cuboid has 12 edges, 8 vertices, and 6 faces."
+  },
+  {
+    "id": 200,
+    "topic": "Problem Solving",
+    "difficulty": "Hard",
+    "question": "When faced with a difficult interview problem, what is the most effective strategy?",
+    "options": [
+      "Start coding immediately",
+      "Understand the problem, identify constraints, develop an approach, then implement and test",
+      "Memorize the expected answer",
+      "Skip the question"
+    ],
+    "correct_answer": 1,
+    "explanation": "A structured approach—understanding the problem, analyzing constraints, planning, implementing, and testing—is the most effective way to solve complex technical problems."
+  }
+]

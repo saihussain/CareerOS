@@ -1,0 +1,702 @@
+[
+  {
+    "id": 151,
+    "topic": "Java Collections",
+    "difficulty": "Hard",
+    "question": "Which Java Collection does NOT allow duplicate elements?",
+    "options": [
+      "ArrayList",
+      "LinkedList",
+      "HashSet",
+      "Vector"
+    ],
+    "correct_answer": 2,
+    "explanation": "HashSet stores only unique elements."
+  },
+  {
+    "id": 152,
+    "topic": "Java Collections",
+    "difficulty": "Hard",
+    "question": "Which Java Collection maintains insertion order while allowing duplicates?",
+    "options": [
+      "HashSet",
+      "TreeSet",
+      "ArrayList",
+      "HashMap"
+    ],
+    "correct_answer": 2,
+    "explanation": "ArrayList preserves insertion order and allows duplicate elements."
+  },
+  {
+    "id": 153,
+    "topic": "Java Collections",
+    "difficulty": "Hard",
+    "question": "Which interface is implemented by both ArrayList and LinkedList?",
+    "options": [
+      "Set",
+      "Queue",
+      "Map",
+      "List"
+    ],
+    "correct_answer": 3,
+    "explanation": "Both ArrayList and LinkedList implement the List interface."
+  },
+  {
+    "id": 154,
+    "topic": "Java Collections",
+    "difficulty": "Hard",
+    "question": "Which collection stores data as key-value pairs?",
+    "options": [
+      "List",
+      "Set",
+      "Map",
+      "Queue"
+    ],
+    "correct_answer": 2,
+    "explanation": "Map stores data in key-value pairs."
+  },
+  {
+    "id": 155,
+    "topic": "Exception Handling",
+    "difficulty": "Hard",
+    "question": "Which keyword is used to throw an exception explicitly in Java?",
+    "options": [
+      "throws",
+      "throw",
+      "catch",
+      "finally"
+    ],
+    "correct_answer": 1,
+    "explanation": "The 'throw' keyword explicitly throws an exception object."
+  },
+  {
+    "id": 156,
+    "topic": "Exception Handling",
+    "difficulty": "Hard",
+    "question": "Which block executes whether an exception occurs or not?",
+    "options": [
+      "catch",
+      "throw",
+      "finally",
+      "try"
+    ],
+    "correct_answer": 2,
+    "explanation": "The finally block executes regardless of whether an exception is thrown."
+  },
+  {
+    "id": 157,
+    "topic": "Exception Handling",
+    "difficulty": "Hard",
+    "question": "Which exception occurs when dividing an integer by zero in Java?",
+    "options": [
+      "IOException",
+      "ArithmeticException",
+      "NullPointerException",
+      "IndexOutOfBoundsException"
+    ],
+    "correct_answer": 1,
+    "explanation": "Division by zero with integers throws ArithmeticException."
+  },
+  {
+    "id": 158,
+    "topic": "Generics",
+    "difficulty": "Hard",
+    "question": "Why are Generics used in Java?",
+    "options": [
+      "To improve graphics",
+      "To provide compile-time type safety",
+      "To increase CPU speed",
+      "To reduce memory usage"
+    ],
+    "correct_answer": 1,
+    "explanation": "Generics provide type safety and eliminate many casting errors."
+  },
+  {
+    "id": 159,
+    "topic": "File Handling",
+    "difficulty": "Hard",
+    "question": "Which Java class is commonly used to read text from a file efficiently?",
+    "options": [
+      "BufferedReader",
+      "Thread",
+      "ScannerBuilder",
+      "Math"
+    ],
+    "correct_answer": 0,
+    "explanation": "BufferedReader efficiently reads character input from files."
+  },
+  {
+    "id": 160,
+    "topic": "Multithreading",
+    "difficulty": "Hard",
+    "question": "Which method starts a new thread in Java?",
+    "options": [
+      "execute()",
+      "run()",
+      "start()",
+      "begin()"
+    ],
+    "correct_answer": 2,
+    "explanation": "Calling start() creates a new thread and invokes run()."
+  },
+  {
+    "id": 161,
+    "topic": "Multithreading",
+    "difficulty": "Hard",
+    "question": "Which method causes the currently executing thread to sleep for a specified time?",
+    "options": [
+      "wait()",
+      "sleep()",
+      "pause()",
+      "yieldNow()"
+    ],
+    "correct_answer": 1,
+    "explanation": "Thread.sleep() pauses the current thread temporarily."
+  },
+  {
+    "id": 162,
+    "topic": "C Programming",
+    "difficulty": "Hard",
+    "question": "Which function is used to dynamically allocate memory in C?",
+    "options": [
+      "printf()",
+      "malloc()",
+      "strlen()",
+      "scanf()"
+    ],
+    "correct_answer": 1,
+    "explanation": "malloc() allocates memory dynamically from the heap."
+  },
+  {
+    "id": 163,
+    "topic": "C Programming",
+    "difficulty": "Hard",
+    "question": "Which function releases dynamically allocated memory in C?",
+    "options": [
+      "release()",
+      "delete()",
+      "free()",
+      "remove()"
+    ],
+    "correct_answer": 2,
+    "explanation": "free() deallocates memory allocated using malloc(), calloc(), or realloc()."
+  },
+  {
+    "id": 164,
+    "topic": "Python",
+    "difficulty": "Hard",
+    "question": "Which Python collection stores unique unordered elements?",
+    "options": [
+      "List",
+      "Tuple",
+      "Dictionary",
+      "Set"
+    ],
+    "correct_answer": 3,
+    "explanation": "A set stores unique elements without maintaining insertion order."
+  },
+  {
+    "id": 165,
+    "topic": "Python",
+    "difficulty": "Hard",
+    "question": "Which Python data structure stores key-value pairs?",
+    "options": [
+      "Tuple",
+      "Dictionary",
+      "Set",
+      "List"
+    ],
+    "correct_answer": 1,
+    "explanation": "A dictionary stores data as key-value pairs."
+  },
+  {
+    "id": 166,
+    "topic": "C++ STL",
+    "difficulty": "Hard",
+    "question": "Which STL container automatically stores elements in sorted order?",
+    "options": [
+      "vector",
+      "list",
+      "set",
+      "stack"
+    ],
+    "correct_answer": 2,
+    "explanation": "std::set stores unique elements in sorted order."
+  },
+  {
+    "id": 167,
+    "topic": "Competitive Programming",
+    "difficulty": "Hard",
+    "question": "Which technique solves problems by breaking them into overlapping subproblems and storing intermediate results?",
+    "options": [
+      "Greedy Algorithm",
+      "Divide and Conquer",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "correct_answer": 2,
+    "explanation": "Dynamic Programming avoids repeated computation by storing previously computed results."
+  },
+    {
+    "id": 168,
+    "topic": "Java Collections",
+    "difficulty": "Hard",
+    "question": "Which Java Collection maintains elements in their natural sorted order?",
+    "options": [
+      "HashSet",
+      "ArrayList",
+      "TreeSet",
+      "LinkedHashSet"
+    ],
+    "correct_answer": 2,
+    "explanation": "TreeSet stores unique elements in sorted order."
+  },
+  {
+    "id": 169,
+    "topic": "Java Collections",
+    "difficulty": "Hard",
+    "question": "Which interface should a class implement to define its natural ordering in Java?",
+    "options": [
+      "Comparator",
+      "Comparable",
+      "Iterable",
+      "Cloneable"
+    ],
+    "correct_answer": 1,
+    "explanation": "Comparable defines the natural ordering using compareTo()."
+  },
+  {
+    "id": 170,
+    "topic": "Java Collections",
+    "difficulty": "Hard",
+    "question": "Which interface allows defining multiple custom sorting strategies?",
+    "options": [
+      "Comparable",
+      "Comparator",
+      "Serializable",
+      "Collection"
+    ],
+    "correct_answer": 1,
+    "explanation": "Comparator allows custom sorting independent of the class definition."
+  },
+  {
+    "id": 171,
+    "topic": "Multithreading",
+    "difficulty": "Hard",
+    "question": "Which keyword ensures that only one thread can access a critical section at a time in Java?",
+    "options": [
+      "volatile",
+      "synchronized",
+      "final",
+      "static"
+    ],
+    "correct_answer": 1,
+    "explanation": "The synchronized keyword provides mutual exclusion."
+  },
+  {
+    "id": 172,
+    "topic": "Multithreading",
+    "difficulty": "Hard",
+    "question": "A deadlock occurs when:",
+    "options": [
+      "A process finishes execution",
+      "Two or more threads wait indefinitely for each other",
+      "Memory becomes full",
+      "A compiler fails"
+    ],
+    "correct_answer": 1,
+    "explanation": "Deadlock is a situation where threads wait forever for resources held by one another."
+  },
+  {
+    "id": 173,
+    "topic": "Java",
+    "difficulty": "Hard",
+    "question": "Which feature introduced in Java 8 enables functional-style programming?",
+    "options": [
+      "Packages",
+      "Lambda Expressions",
+      "Threads",
+      "Interfaces"
+    ],
+    "correct_answer": 1,
+    "explanation": "Lambda expressions provide concise anonymous function syntax."
+  },
+  {
+    "id": 174,
+    "topic": "Java",
+    "difficulty": "Hard",
+    "question": "Which functional interface represents a function that accepts one argument and returns a value?",
+    "options": [
+      "Consumer",
+      "Supplier",
+      "Function",
+      "Predicate"
+    ],
+    "correct_answer": 2,
+    "explanation": "Function<T,R> accepts one input and produces one output."
+  },
+  {
+    "id": 175,
+    "topic": "Memory Management",
+    "difficulty": "Hard",
+    "question": "Which part of memory stores local variables and function call information?",
+    "options": [
+      "Heap",
+      "Stack",
+      "Cache",
+      "ROM"
+    ],
+    "correct_answer": 1,
+    "explanation": "The stack stores function frames, local variables, and return addresses."
+  },
+  {
+    "id": 176,
+    "topic": "Memory Management",
+    "difficulty": "Hard",
+    "question": "Which memory area is primarily used for dynamically allocated objects in Java?",
+    "options": [
+      "Stack",
+      "Heap",
+      "Registers",
+      "ROM"
+    ],
+    "correct_answer": 1,
+    "explanation": "Objects created using new are allocated on the heap."
+  },
+  {
+    "id": 177,
+    "topic": "Java",
+    "difficulty": "Hard",
+    "question": "What is the primary responsibility of the Java Garbage Collector?",
+    "options": [
+      "Compile source code",
+      "Optimize loops",
+      "Automatically reclaim unused memory",
+      "Schedule threads"
+    ],
+    "correct_answer": 2,
+    "explanation": "Garbage Collection automatically frees memory occupied by unreachable objects."
+  },
+  {
+    "id": 178,
+    "topic": "C++ STL",
+    "difficulty": "Hard",
+    "question": "Which STL algorithm is used to sort elements in ascending order?",
+    "options": [
+      "reverse()",
+      "sort()",
+      "find()",
+      "count()"
+    ],
+    "correct_answer": 1,
+    "explanation": "std::sort() sorts elements in ascending order by default."
+  },
+  {
+    "id": 179,
+    "topic": "C++ STL",
+    "difficulty": "Hard",
+    "question": "Which STL container provides constant-time insertion and deletion at both ends?",
+    "options": [
+      "vector",
+      "deque",
+      "set",
+      "map"
+    ],
+    "correct_answer": 1,
+    "explanation": "Deque supports efficient insertion and deletion at both front and back."
+  },
+  {
+    "id": 180,
+    "topic": "Python",
+    "difficulty": "Hard",
+    "question": "Which Python keyword is used to create a generator function?",
+    "options": [
+      "yield",
+      "return",
+      "generate",
+      "lambda"
+    ],
+    "correct_answer": 0,
+    "explanation": "The yield keyword converts a function into a generator."
+  },
+  {
+    "id": 181,
+    "topic": "Python",
+    "difficulty": "Hard",
+    "question": "Which built-in function returns an iterator from an iterable object?",
+    "options": [
+      "iter()",
+      "next()",
+      "range()",
+      "list()"
+    ],
+    "correct_answer": 0,
+    "explanation": "iter() returns an iterator for an iterable object."
+  },
+  {
+    "id": 182,
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "question": "Dynamic Programming is most effective when a problem exhibits:",
+    "options": [
+      "Overlapping subproblems and optimal substructure",
+      "Only recursion",
+      "Only sorting",
+      "Only graph traversal"
+    ],
+    "correct_answer": 0,
+    "explanation": "Dynamic Programming relies on overlapping subproblems and optimal substructure."
+  },
+  {
+    "id": 183,
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "question": "Greedy algorithms make decisions by:",
+    "options": [
+      "Exploring every possible solution",
+      "Choosing the locally optimal choice at each step",
+      "Using recursion only",
+      "Using dynamic programming tables"
+    ],
+    "correct_answer": 1,
+    "explanation": "Greedy algorithms repeatedly choose the best immediate option."
+  },
+  {
+    "id": 184,
+    "topic": "Programming",
+    "difficulty": "Hard",
+    "question": "Which of the following techniques is commonly used to improve the performance of recursive algorithms by storing previously computed results?",
+    "options": [
+      "Memoization",
+      "Hash Chaining",
+      "Loop Unrolling",
+      "Backtracking"
+    ],
+    "correct_answer": 0,
+    "explanation": "Memoization stores computed results to avoid redundant calculations."
+  },
+    {
+    "id": 185,
+    "topic": "Advanced OOP",
+    "difficulty": "Hard",
+    "question": "Which principle allows the same interface to represent different underlying forms (data types)?",
+    "options": [
+      "Inheritance",
+      "Abstraction",
+      "Polymorphism",
+      "Encapsulation"
+    ],
+    "correct_answer": 2,
+    "explanation": "Polymorphism allows one interface to have multiple implementations."
+  },
+  {
+    "id": 186,
+    "topic": "Java",
+    "difficulty": "Hard",
+    "question": "Which keyword prevents a class from being inherited?",
+    "options": [
+      "const",
+      "final",
+      "static",
+      "sealed"
+    ],
+    "correct_answer": 1,
+    "explanation": "A class declared as final cannot be extended."
+  },
+  {
+    "id": 187,
+    "topic": "Java",
+    "difficulty": "Hard",
+    "question": "Which JVM memory area stores class metadata?",
+    "options": [
+      "Heap",
+      "Stack",
+      "Method Area",
+      "Program Counter"
+    ],
+    "correct_answer": 2,
+    "explanation": "The Method Area stores class metadata, runtime constant pool, and static variables."
+  },
+  {
+    "id": 188,
+    "topic": "Java Streams",
+    "difficulty": "Hard",
+    "question": "Which Stream operation transforms each element into another form?",
+    "options": [
+      "filter()",
+      "sorted()",
+      "map()",
+      "collect()"
+    ],
+    "correct_answer": 2,
+    "explanation": "map() applies a transformation function to each stream element."
+  },
+  {
+    "id": 189,
+    "topic": "Java Streams",
+    "difficulty": "Hard",
+    "question": "Which Stream operation is used to keep only elements satisfying a condition?",
+    "options": [
+      "reduce()",
+      "map()",
+      "filter()",
+      "peek()"
+    ],
+    "correct_answer": 2,
+    "explanation": "filter() removes elements that do not satisfy the predicate."
+  },
+  {
+    "id": 190,
+    "topic": "Java Collections",
+    "difficulty": "Hard",
+    "question": "Which implementation provides average O(1) lookup for key-value pairs?",
+    "options": [
+      "TreeMap",
+      "HashMap",
+      "LinkedList",
+      "PriorityQueue"
+    ],
+    "correct_answer": 1,
+    "explanation": "HashMap provides average constant-time lookup using hashing."
+  },
+  {
+    "id": 191,
+    "topic": "C Programming",
+    "difficulty": "Hard",
+    "question": "What will be the output?\n\nint x = 10;\nint *p = &x;\nprintf(\"%d\", *p);",
+    "options": [
+      "Address of x",
+      "10",
+      "0",
+      "Compilation Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "The dereference operator (*) accesses the value stored at the pointer's address."
+  },
+  {
+    "id": 192,
+    "topic": "C++ STL",
+    "difficulty": "Hard",
+    "question": "Which STL container stores elements in key-value pairs with unique keys sorted by key?",
+    "options": [
+      "unordered_map",
+      "vector",
+      "map",
+      "deque"
+    ],
+    "correct_answer": 2,
+    "explanation": "std::map stores unique keys in sorted order."
+  },
+  {
+    "id": 193,
+    "topic": "Python",
+    "difficulty": "Hard",
+    "question": "Which Python feature provides a concise way to create lists?",
+    "options": [
+      "Lambda",
+      "Generator",
+      "List Comprehension",
+      "Decorator"
+    ],
+    "correct_answer": 2,
+    "explanation": "List comprehensions provide a compact syntax for generating lists."
+  },
+  {
+    "id": 194,
+    "topic": "Python",
+    "difficulty": "Hard",
+    "question": "What will be the output?\n\n[x*x for x in range(3)]",
+    "options": [
+      "[1, 4, 9]",
+      "[0, 1, 4]",
+      "[0, 1, 4, 9]",
+      "[1, 2, 3]"
+    ],
+    "correct_answer": 1,
+    "explanation": "range(3) produces 0, 1, 2. Their squares are 0, 1, and 4."
+  },
+  {
+    "id": 195,
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "question": "Which algorithmic paradigm explores all possible solutions and abandons invalid paths early?",
+    "options": [
+      "Greedy",
+      "Backtracking",
+      "Dynamic Programming",
+      "Divide and Conquer"
+    ],
+    "correct_answer": 1,
+    "explanation": "Backtracking systematically explores possibilities and prunes invalid paths."
+  },
+  {
+    "id": 196,
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "question": "Which technique recursively divides a problem into smaller independent subproblems?",
+    "options": [
+      "Backtracking",
+      "Greedy",
+      "Divide and Conquer",
+      "Memoization"
+    ],
+    "correct_answer": 2,
+    "explanation": "Divide and Conquer recursively divides a problem, solves subproblems, and combines the results."
+  },
+  {
+    "id": 197,
+    "topic": "Complexity Analysis",
+    "difficulty": "Hard",
+    "question": "Which of the following is the most efficient time complexity?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n log n)",
+      "O(n)"
+    ],
+    "correct_answer": 1,
+    "explanation": "Among the given options, O(log n) grows the slowest and is the most efficient."
+  },
+  {
+    "id": 198,
+    "topic": "Optimization",
+    "difficulty": "Hard",
+    "question": "Which optimization technique stores previously computed function results to avoid repeated computation?",
+    "options": [
+      "Loop Unrolling",
+      "Memoization",
+      "Inlining",
+      "Branch Prediction"
+    ],
+    "correct_answer": 1,
+    "explanation": "Memoization caches computed values for reuse."
+  },
+  {
+    "id": 199,
+    "topic": "Programming",
+    "difficulty": "Hard",
+    "question": "Which data structure is generally preferred for implementing an LRU (Least Recently Used) cache with O(1) operations?",
+    "options": [
+      "Array",
+      "Stack",
+      "HashMap + Doubly Linked List",
+      "Binary Search Tree"
+    ],
+    "correct_answer": 2,
+    "explanation": "An LRU cache is typically implemented using a HashMap for O(1) lookup and a Doubly Linked List for O(1) insertion and deletion."
+  },
+  {
+    "id": 200,
+    "topic": "Programming",
+    "difficulty": "Hard",
+    "question": "Which of the following best describes clean code?",
+    "options": [
+      "Code with the fewest lines",
+      "Code that compiles without warnings",
+      "Code that is readable, maintainable, and easy to understand",
+      "Code that uses the maximum number of advanced features"
+    ],
+    "correct_answer": 2,
+    "explanation": "Clean code emphasizes readability, maintainability, simplicity, and good design practices."
+  }
+]
